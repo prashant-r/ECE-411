@@ -1,0 +1,11 @@
+__date__, Define
+__file__, Define
+__line__, Define
+__time__, Define
+__version_3__, Define
+__version__, Define
+codesegment, Label, 4x0, 4x0
+datasegment, Label, 4x42, 4x0
+done, Label, 4x38, 4x38
+res1, Label, 4x42, 4x0
+seven, Label, 4x1A, 4x1A

@@ -1,0 +1,51 @@
+Sun Mar 23 01:49:54 CDT 2014
+Trace back: bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.tmpcolsep2"
+    while executing
+"place $grid.tmpcolsep$num -x $xpos -y 0"
+    (procedure "mtigrid_colsep_motion" line 27)
+    invoked from within
+"mtigrid_colsep_motion  .main_pane.wave.interior.cs.body.pw.wf.grid 3 .main_pane.wave.interior.cs.body.pw.wf.grid.colsep3 2 155"
+    (command bound to event)
+  <2: ::tkerror {bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.tmpcolsep2"}
+  <1: ::bgerror {bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.tmpcolsep2"}
+Wed Mar 26 20:33:37 CDT 2014
+Trace back: bad window path name ""
+    while executing
+"winfo parent $child"
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::IsChildOf" body line 3)
+    invoked from within
+"$::vsimPriv(windowmgr) IsChildOf [$wo GetData wave] [focus]"
+    (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::ActivePane" body line 9)
+    invoked from within
+"ActivePane"
+    (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::Activate" body line 21)
+    invoked from within
+".main_pane.dataflow.interior.cs.body.pw.df.c Activate .main_pane.dataflow"
+    (in namespace inscope "::" script line 1)
+    invoked from within
+"namespace inscope :: {.main_pane.dataflow.interior.cs.body.pw.df.c Activate} .main_pane.dataflow"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-activatecommand) $frame_name"
+    (object "::.main_pane.dataflow" method "::mtiwidgets::WindowObj::Activate" body line 16)
+    invoked from within
+"$windowobj Activate """
+    (object "::.vcop" method "::vsimwidgets::Vcop::ActualActivate" body line 35)
+    invoked from within
+"::.vcop ActualActivate"
+    (in namespace inscope "::vsimwidgets::Vcop" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Vcop {::.vcop ActualActivate}"
+    ("after" script)
+  <2: ::tkerror {bad window path name ""}
+  <1: ::bgerror {bad window path name ""}
+Thu Mar 27 02:01:32 CDT 2014
+Trace back: grab failed: window not viewable
+    while executing
+"grab -global $menu"
+    (procedure "tk::MenuButtonDown" line 35)
+    invoked from within
+"tk::MenuButtonDown .main_pane.structure.interior.cs.body.struct.qstructurepopup_popup"
+    (command bound to event)
+  <2: ::tkerror {grab failed: window not viewable}
+  <1: ::bgerror {grab failed: window not viewable}

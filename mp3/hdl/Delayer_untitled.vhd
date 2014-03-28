@@ -1,0 +1,26 @@
+--
+-- VHDL Architecture ece411.Delayer.untitled
+--
+-- Created:
+--          by - ravi7.ews (linux-a2.ews.illinois.edu)
+--          at - 11:10:29 03/27/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+ENTITY Delayer IS
+   PORT (
+      A : IN     STD_LOGIC;
+      F : OUT    STD_LOGIC
+   );
+END Delayer;
+
+--
+ARCHITECTURE untitled OF Delayer IS
+BEGIN
+  F <= A after 17ns;
+END ARCHITECTURE untitled;
+

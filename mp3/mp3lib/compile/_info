@@ -1,0 +1,840 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/compile
+Ealu
+Z1 w1388176622
+Z2 DPx6 ece411 10 lc3b_types 0 22 f9gFU]OJlB0fDeL?6T@2n2
+Z3 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 d/home/ravi7/ece411/mp3/mp3lib/compile
+Z7 8/home/ravi7/ece411/mp3/mp3lib/hdl/alu_untitled.vhd
+Z8 F/home/ravi7/ece411/mp3/mp3lib/hdl/alu_untitled.vhd
+l0
+L17
+V[Zk^[i?LhnfF;WL@aZcJP1
+Z9 OE;C;10.1d;51
+32
+Z10 !s108 1395900586.520890
+Z11 !s90 -work|mp3lib|-nologo|-f|/tmp/Files3|
+Z12 !s107 /home/ravi7/ece411/mp3/mp3lib/hdl/alu_untitled.vhd|
+Z13 o-work mp3lib -nologo
+Z14 tExplicit 1
+!s100 7oiFPKe4e@HE7CJ:kiObH1
+!i10b 1
+Auntitled
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 [Zk^[i?LhnfF;WL@aZcJP1
+l29
+L28
+VU^i98?Q`L0gliYIe9Cj?73
+R9
+32
+R10
+R11
+R12
+R13
+R14
+!s100 GOPfczlOdQEAU_>197NT@2
+!i10b 1
+Eand2
+Z15 w1392816132
+R2
+R3
+R4
+R5
+R6
+Z16 8/home/ravi7/ece411/mp3/mp3lib/hdl/AND2_untitled.vhd
+Z17 F/home/ravi7/ece411/mp3/mp3lib/hdl/AND2_untitled.vhd
+l0
+L16
+V<[dTMUBLeWAY[>oN=i]jX0
+Z18 !s100 oiDFKIR9nMhLdJ;h_8JK02
+R9
+33
+!i10b 1
+Z19 !s108 1395900594.921770
+Z20 !s90 -work|mp3lib|-nologo|-2008|-f|/tmp/Files23|
+Z21 !s107 /home/ravi7/ece411/mp3/mp3lib/hdl/AND2_untitled.vhd|
+Z22 o-work mp3lib -nologo -2008
+R14
+Auntitled
+R2
+R3
+R4
+R5
+Z23 DEx4 work 4 and2 0 22 <[dTMUBLeWAY[>oN=i]jX0
+l29
+L28
+Z24 V:P;@Vd^d05iRc7znKDl[U2
+Z25 !s100 S:TW^_C]ZdnWNo4@ZZGn00
+R9
+33
+!i10b 1
+R19
+R20
+R21
+R22
+R14
+Eand2_2
+Z26 w1395598085
+Z27 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R4
+R5
+R6
+Z28 8/home/ravi7/ece411/mp3/mp3lib/hdl/AND2_2_untitled.vhd
+Z29 F/home/ravi7/ece411/mp3/mp3lib/hdl/AND2_2_untitled.vhd
+l0
+L14
+V_<32D`Blb6FQzE`NGz7z73
+R9
+33
+Z30 !s108 1395598271.072017
+Z31 !s90 -work|mp3lib|-nologo|-2008|-f|/tmp/Files1|
+Z32 !s107 /home/ravi7/ece411/mp3/mp3lib/hdl/AND2_2_untitled.vhd|
+R22
+R14
+!s100 I9GJo`KO^VjMBoEYnYXCA3
+!i10b 1
+Auntitled
+R27
+R4
+R5
+DEx4 work 6 and2_2 0 22 _<32D`Blb6FQzE`NGz7z73
+l23
+L22
+VkjKBnYk=6I7aaZkGD3<NI2
+R9
+33
+R30
+R31
+R32
+R22
+R14
+!s100 b8:8e]F]Gm4Ng=T2U7WAX3
+!i10b 1
+Eand3
+Z33 w1392816111
+Z34 DPx6 ece411 10 lc3b_types 0 22 Y^MG3gn[4FARO_W4L60_<3
+R3
+R4
+R5
+Z35 d/home/ravi7/ece411/mp2.2/mp3lib/compile
+Z36 8/home/ravi7/ece411/mp2.2/mp3lib/hdl/and3_untitled.vhd
+Z37 F/home/ravi7/ece411/mp2.2/mp3lib/hdl/and3_untitled.vhd
+l0
+L17
+Vc0gg9gng^FzoeF0Ig>1Wd2
+R9
+32
+Z38 !s108 1392816567.640444
+Z39 !s90 -work|mp3lib|-nologo|-f|/tmp/Files0|
+Z40 !s107 /home/ravi7/ece411/mp2.2/mp3lib/hdl/not1_untitled.vhd|/home/ravi7/ece411/mp2.2/mp3lib/hdl/and3_untitled.vhd|
+R13
+R14
+Z41 !s100 z=K_83AWm3<^nW6V`cL_C2
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 4 and3 0 22 c0gg9gng^FzoeF0Ig>1Wd2
+l29
+L28
+Vbm;S]cS`iLVY^NLK;dgM31
+R9
+32
+R38
+R39
+R40
+R13
+R14
+Z42 !s100 A:IaAInl1P:QdZ@aV57o30
+!i10b 1
+Eand4
+Z43 w1392807434
+R34
+R3
+R4
+R5
+R35
+Z44 8/home/ravi7/ece411/mp2.2/mp3lib/hdl/AND4_untitled.vhd
+Z45 F/home/ravi7/ece411/mp2.2/mp3lib/hdl/AND4_untitled.vhd
+l0
+L17
+V1^@dIFfl^I0oQo83Fh5Ib1
+R9
+33
+Z46 !s108 1393566938.233830
+R31
+Z47 !s107 /home/ravi7/ece411/mp2.2/mp3lib/hdl/AND4_untitled.vhd|
+R22
+R14
+!s100 V7]F4[7]3d:Vbe4==m>I11
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 4 and4 0 22 1^@dIFfl^I0oQo83Fh5Ib1
+l32
+L31
+V5W_0R[]a?NkngEh^=Pzzm2
+R9
+33
+R46
+R31
+R47
+R22
+R14
+!s100 gAWI9k7i0GFU0d^2EW9J73
+!i10b 1
+Econtrolrom
+Z48 w1295382395
+Z49 DP ece411 lc3b_types B]@1XTG:<E4JBo42=[EYY3
+Z50 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z51 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z52 F/home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/hdl/ControlRom_Untitled.vhd
+l0
+L16
+V?V_[YIzV`QX7Oh<:[5Onk2
+Z53 OE;C;6.1c;31
+31
+Z54 o-work /home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/compile -nologo -93
+R14
+Z55 d/home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/compile
+Auntitled
+R49
+R50
+R51
+DE work controlrom ?V_[YIzV`QX7Oh<:[5Onk2
+l25
+L24
+V`UL]N^<?gF3eKIBPd8]^Z3
+R53
+31
+Z56 M3 ieee std_logic_1164
+Z57 M2 ieee numeric_std
+Z58 M1 ece411 lc3b_types
+R54
+R14
+Edecode3_8
+Z59 w1388176623
+R34
+R3
+R4
+R5
+R35
+Z60 8/home/ravi7/ece411/mp2.2/mp3lib/hdl/decode3_8_untitled.vhd
+Z61 F/home/ravi7/ece411/mp2.2/mp3lib/hdl/decode3_8_untitled.vhd
+l0
+L17
+V9ZUZ4JPz?nIG3;baI;DM>3
+R9
+32
+Z62 !s108 1393210634.043533
+Z63 !s90 -work|mp3lib|-nologo|-f|/tmp/Files2|
+Z64 !s107 /home/ravi7/ece411/mp2.2/mp3lib/hdl/decode3_8_untitled.vhd|
+R13
+R14
+!s100 A2iR?_7BUoBY2gN7H_KK<3
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 9 decode3_8 0 22 9ZUZ4JPz?nIG3;baI;DM>3
+l27
+L26
+V3Te4@gX@GUINjERaR@Q1@2
+R9
+32
+R62
+R63
+R64
+R13
+R14
+!s100 hf;A=PSF;j_fEH1g]?_;:1
+!i10b 1
+Edram128
+Z65 w1304370359
+Z66 DP ece411 lc3b_types jaoCRKocI^UgTaoDLC:1]1
+R50
+R51
+Z67 d/home/engr/anbrown2/ece411/ece411_given/mp3lib/compile
+Z68 F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram128_untitled.vhd
+l0
+L17
+VOLnS9Tb;cnSD@SNab;Lm<1
+R53
+32
+Z69 o-work /home/engr/anbrown2/ece411/ece411_given/mp3lib/compile -nologo
+R14
+Auntitled
+R66
+R50
+R51
+DE work dram128 OLnS9Tb;cnSD@SNab;Lm<1
+l33
+L30
+Vjf5MT@mjL_cC`L[SaUli]2
+R53
+32
+R56
+R57
+R58
+R69
+R14
+Edram16
+Z70 w1304370365
+R66
+R50
+R51
+R67
+Z71 F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram16_untitled.vhd
+l0
+L17
+V@Y:?<>cE22ieYcMG25E0V0
+R53
+32
+R69
+R14
+Auntitled
+R66
+R50
+R51
+DE work dram16 @Y:?<>cE22ieYcMG25E0V0
+l33
+L30
+V3B]21?3i^Q1m8iQ:lPSmc0
+R53
+32
+R56
+R57
+R58
+R69
+R14
+Edram256
+Z72 w1304369850
+R66
+R50
+R51
+R67
+Z73 F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram256_untitled.vhd
+l0
+L17
+VBh3dWMhVo;=DVb>mZnPH63
+R53
+32
+R69
+R14
+Auntitled
+R66
+R50
+R51
+DE work dram256 Bh3dWMhVo;=DVb>mZnPH63
+l33
+L30
+V5zSGWOoHh8F[i7Bc^L@?X1
+R53
+32
+R56
+R57
+R58
+R69
+R14
+Edram32
+Z74 w1304370401
+R66
+R50
+R51
+R67
+Z75 F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram32_untitled.vhd
+l0
+L17
+VZ0]dO8Vc`hX90oemM:D9D2
+R53
+32
+R69
+R14
+Auntitled
+R66
+R50
+R51
+DE work dram32 Z0]dO8Vc`hX90oemM:D9D2
+l33
+L30
+VYF1OCG2zKlR`ASP>a4IKk2
+R53
+32
+R56
+R57
+R58
+R69
+R14
+Edram64
+Z76 w1304369857
+R66
+R50
+R51
+R67
+Z77 F/home/engr/anbrown2/ece411/ece411_given/mp3lib/hdl/dram64_untitled.vhd
+l0
+L17
+V2AG[zM8[2GjKlVCS8nJn41
+R53
+32
+R69
+R14
+Auntitled
+R66
+R50
+R51
+DE work dram64 2AG[zM8[2GjKlVCS8nJn41
+l33
+L30
+Vh:Xm9MN2RAJfb^T7ajA=82
+R53
+32
+R56
+R57
+R58
+R69
+R14
+Emux2_1
+Z78 w1393208919
+R34
+R3
+R4
+R5
+R35
+Z79 8/home/ravi7/ece411/mp2.2/mp3lib/hdl/mux2_1_untitled.vhd
+Z80 F/home/ravi7/ece411/mp2.2/mp3lib/hdl/mux2_1_untitled.vhd
+l0
+L17
+V4;c@15@B5CSPQi6]eV]BJ2
+R9
+32
+Z81 !s108 1393210874.841475
+R63
+Z82 !s107 /home/ravi7/ece411/mp2.2/mp3lib/hdl/mux2_1_untitled.vhd|
+R13
+R14
+!s100 DUMRkl?4iXAdS80LE4__V0
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 6 mux2_1 0 22 4;c@15@B5CSPQi6]eV]BJ2
+l29
+L28
+V??R9E>cL97T5Ro3Ghi66c2
+R9
+32
+R81
+R63
+R82
+R13
+R14
+!s100 jY;ndS[OWW>WQl`Fb^Y[A3
+!i10b 1
+Emux2_16
+R59
+R34
+R3
+R4
+R5
+Z83 d/home/aikara2/ece411/mp3/mp3lib/compile
+Z84 8/home/aikara2/ece411/mp3/mp3lib/hdl/mux2_16_untitled.vhd
+Z85 F/home/aikara2/ece411/mp3/mp3lib/hdl/mux2_16_untitled.vhd
+l0
+L17
+VoK2P9>Ni[fm820Nk1SL2P3
+R9
+32
+Z86 !s108 1395273112.635797
+R11
+Z87 !s107 /home/aikara2/ece411/mp3/mp3lib/hdl/mux2_16_untitled.vhd|/home/aikara2/ece411/mp3/mp3lib/hdl/reg16_untitled.vhd|
+R13
+R14
+!s100 C;C@O`64Eo3NHez5<MS=^2
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 7 mux2_16 0 22 oK2P9>Ni[fm820Nk1SL2P3
+l29
+L28
+VbcoPWO1@33`AJO2>@Q1Z32
+R9
+32
+R86
+R11
+R87
+R13
+R14
+!s100 E`MDZCKnQ4k1SSLL`9`nm3
+!i10b 1
+Emux2_3
+R59
+R34
+R3
+R4
+R5
+R83
+Z88 8/home/aikara2/ece411/mp3/mp3lib/hdl/mux2_3_untitled.vhd
+Z89 F/home/aikara2/ece411/mp3/mp3lib/hdl/mux2_3_untitled.vhd
+l0
+L17
+VP7][B3NAFHFF39@a`mICZ0
+R9
+32
+Z90 !s108 1395272948.677439
+Z91 !s90 -work|mp3lib|-nologo|-f|/tmp/Files1|
+Z92 !s107 /home/aikara2/ece411/mp3/mp3lib/hdl/reg3_untitled.vhd|/home/aikara2/ece411/mp3/mp3lib/hdl/mux2_3_untitled.vhd|/home/aikara2/ece411/mp3/mp3lib/hdl/regfile_untitled.vhd|
+R13
+R14
+Z93 !s100 7Wd38cAnSd2PfbRTT5caV0
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 6 mux2_3 0 22 P7][B3NAFHFF39@a`mICZ0
+l29
+L28
+VY>ZWGlF3m<^D18UTQnGZi3
+R9
+32
+R90
+R91
+R92
+R13
+R14
+Z94 !s100 O^0QBK6YWn;JKd<DozEMP1
+!i10b 1
+Enand2
+Z95 w1392816800
+R34
+R3
+R4
+R5
+R35
+Z96 8/home/ravi7/ece411/mp2.2/mp3lib/hdl/nand2_untitled.vhd
+Z97 F/home/ravi7/ece411/mp2.2/mp3lib/hdl/nand2_untitled.vhd
+l0
+L17
+VW3bXHGfh]d[M5XQf^hL[73
+R9
+32
+Z98 !s108 1392816951.916262
+R39
+Z99 !s107 /home/ravi7/ece411/mp2.2/mp3lib/hdl/nand2_untitled.vhd|/home/ravi7/ece411/mp2.2/mp3lib/hdl/nand3_untitled.vhd|
+R13
+R14
+!s100 hd0JWGM;bU@Qf?=8f0Nd;0
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 5 nand2 0 22 W3bXHGfh]d[M5XQf^hL[73
+l28
+L27
+Vd@>@k1NRAb[3<k2`?]W7F1
+R9
+32
+R98
+R39
+R99
+R13
+R14
+!s100 kJW4CS8Y;8LiXib;dIR`L0
+!i10b 1
+Enand3
+Z100 w1392816788
+R34
+R3
+R4
+R5
+R35
+Z101 8/home/ravi7/ece411/mp2.2/mp3lib/hdl/nand3_untitled.vhd
+Z102 F/home/ravi7/ece411/mp2.2/mp3lib/hdl/nand3_untitled.vhd
+l0
+L17
+Voz<Raik]>Hl]gndIZn@>T2
+R9
+32
+R98
+R39
+R99
+R13
+R14
+!s100 3i:GgR:j9fSl;kEAD:7SM1
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 5 nand3 0 22 oz<Raik]>Hl]gndIZn@>T2
+l29
+L28
+VfAY`DHTJWY0IU9oZn?;R12
+R9
+32
+R98
+R39
+R99
+R13
+R14
+!s100 [Col]@f3K<bfRMR_zL2CM0
+!i10b 1
+Enor2
+Z103 w1393210484
+R34
+R3
+R4
+R5
+R35
+Z104 8/home/ravi7/ece411/mp2.2/mp3lib/hdl/nor2_untitled.vhd
+Z105 F/home/ravi7/ece411/mp2.2/mp3lib/hdl/nor2_untitled.vhd
+l0
+L17
+VU2b;366?jjX^6TJhOA>XL2
+R9
+32
+Z106 !s108 1393210633.378467
+R39
+Z107 !s107 /home/ravi7/ece411/mp2.2/mp3lib/hdl/nor2_untitled.vhd|
+R13
+R14
+!s100 GjWXM[la:>DVfll6ihXWI3
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 4 nor2 0 22 U2b;366?jjX^6TJhOA>XL2
+l28
+L27
+V>X5k^O@z@Q6_:M`^`gXdk0
+R9
+32
+R106
+R39
+R107
+R13
+R14
+!s100 F@0dSmRbGbdYGg@mab;KL3
+!i10b 1
+Enot1
+Z108 w1392816539
+R34
+R3
+R4
+R5
+R35
+Z109 8/home/ravi7/ece411/mp2.2/mp3lib/hdl/not1_untitled.vhd
+Z110 F/home/ravi7/ece411/mp2.2/mp3lib/hdl/not1_untitled.vhd
+l0
+L17
+VI]CoP]JP94gOnicG?LBLa3
+R9
+32
+Z111 !s108 1392816692.772672
+R39
+Z112 !s107 /home/ravi7/ece411/mp2.2/mp3lib/hdl/not1_untitled.vhd|
+R13
+R14
+Z113 !s100 RIbEXG;jVb7:mbHzDDnjm3
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 4 not1 0 22 I]CoP]JP94gOnicG?LBLa3
+l27
+L26
+VWRPUC`FV_AXNinXeR3_LZ3
+R9
+32
+R111
+R39
+R112
+R13
+R14
+Z114 !s100 jgFXjmo=TO6R0?3f[2eIb3
+!i10b 1
+Eor2
+Z115 w1392816871
+R34
+R3
+R4
+R5
+R35
+Z116 8/home/ravi7/ece411/mp2.2/mp3lib/hdl/or2_untitled.vhd
+Z117 F/home/ravi7/ece411/mp2.2/mp3lib/hdl/or2_untitled.vhd
+l0
+L17
+V89zggZ=GYSNbceLM[G]_K0
+R9
+32
+Z118 !s108 1392817027.827671
+R39
+Z119 !s107 /home/ravi7/ece411/mp2.2/mp3lib/hdl/or2_untitled.vhd|
+R13
+R14
+Z120 !s100 ZSXM5RA[7@S5`0X<cZO473
+!i10b 1
+Auntitled
+R34
+R3
+R4
+R5
+DEx4 work 3 or2 0 22 89zggZ=GYSNbceLM[G]_K0
+l28
+L27
+VlBZPM50<=8kSoBI]eGbU22
+R9
+32
+R118
+R39
+R119
+R13
+R14
+Z121 !s100 BDde^R21lfMj:J>5RW`_X2
+!i10b 1
+Ereg16
+R1
+R2
+R3
+R4
+R5
+R6
+Z122 8/home/ravi7/ece411/mp3/mp3lib/hdl/reg16_untitled.vhd
+Z123 F/home/ravi7/ece411/mp3/mp3lib/hdl/reg16_untitled.vhd
+l0
+L17
+VY5^D[?8WibZah^Ro<[Gg90
+R9
+32
+Z124 !s108 1395900590.298008
+Z125 !s90 -work|mp3lib|-nologo|-f|/tmp/Files13|
+Z126 !s107 /home/ravi7/ece411/mp3/mp3lib/hdl/reg16_untitled.vhd|
+R13
+R14
+!s100 SP]KfY5Se?e0:zTz2VF<A3
+!i10b 1
+Auntitled
+R2
+R3
+R4
+R5
+DEx4 work 5 reg16 0 22 Y5^D[?8WibZah^Ro<[Gg90
+l30
+L29
+V`H>mD31X`hjzWe?3M:81c0
+!s100 _4M]mj8z5zz22_DUkRb<C0
+R9
+32
+R124
+R125
+R126
+R13
+R14
+!i10b 1
+Ereg3
+R1
+R2
+R3
+R4
+R5
+R6
+Z127 8/home/ravi7/ece411/mp3/mp3lib/hdl/reg3_untitled.vhd
+Z128 F/home/ravi7/ece411/mp3/mp3lib/hdl/reg3_untitled.vhd
+l0
+L17
+VIQPDFa`AQS80[71aF5H8Y2
+Z129 !s100 b0jn^N2O<`A=9ng=::bSL2
+R9
+32
+Z130 !s108 1395900588.788068
+Z131 !s90 -work|mp3lib|-nologo|-f|/tmp/Files9|
+Z132 !s107 /home/ravi7/ece411/mp3/mp3lib/hdl/reg3_untitled.vhd|
+R13
+R14
+!i10b 1
+Auntitled
+R2
+R3
+R4
+R5
+DEx4 work 4 reg3 0 22 IQPDFa`AQS80[71aF5H8Y2
+l30
+L29
+Vi76PY>e<cLS=F9oOQFXUZ2
+Z133 !s100 WVo8_oQ0dh<[<D45=?;bZ1
+R9
+32
+R130
+R131
+R132
+R13
+R14
+!i10b 1
+Eregfile
+R59
+R2
+R3
+R4
+R5
+R6
+Z134 8/home/ravi7/ece411/mp3/mp3lib/hdl/regfile_untitled.vhd
+Z135 F/home/ravi7/ece411/mp3/mp3lib/hdl/regfile_untitled.vhd
+l0
+L17
+Vm5ejle]mg9ifgR`:_97>P3
+R9
+32
+Z136 !s108 1395900588.087995
+Z137 !s90 -work|mp3lib|-nologo|-f|/tmp/Files7|
+Z138 !s107 /home/ravi7/ece411/mp3/mp3lib/hdl/regfile_untitled.vhd|
+R13
+R14
+!s100 8dfD=g_cK13cizOE0Q52R1
+!i10b 1
+Auntitled
+R2
+R3
+R4
+R5
+DEx4 work 7 regfile 0 22 m5ejle]mg9ifgR`:_97>P3
+l36
+L33
+VVIWSKk^RJh:SV28YSR0750
+R9
+32
+R136
+R137
+R138
+R13
+R14
+!s100 XBAWRU>9MjcMo0YDZOBiE3
+!i10b 1

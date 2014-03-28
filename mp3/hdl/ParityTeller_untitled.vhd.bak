@@ -1,0 +1,33 @@
+--
+-- VHDL Architecture ece411.ParityTeller.untitled
+--
+-- Created:
+--          by - ravi7.ews (linux-a1.ews.illinois.edu)
+--          at - 03:07:35 02/06/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY ParityTeller IS
+   PORT( 
+      ADDRESS : IN     LC3b_word;
+      clk     : IN     std_logic;
+      Parity  : OUT    std_logic
+   );
+
+-- Declarations
+
+END ParityTeller ;
+
+--
+ARCHITECTURE untitled OF ParityTeller IS
+BEGIN
+  
+END ARCHITECTURE untitled;
+

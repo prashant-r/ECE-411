@@ -1,0 +1,194 @@
+DESIGN @write@back
+VIEW interface
+NO_GRAPHIC 0
+DESIGN @write@back
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3545,0 17 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3515,0 18 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3520,0 19 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3525,0 20 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3530,0 21 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3535,0 22 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3540,0 23 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3495,0 24 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3485,0 25 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3500,0 26 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3505,0 27 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3490,0 28 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 3510,0 29 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 1,0 32 0 
+DESIGN @write@back
+VIEW interface
+GRAPHIC 1,0 33 0 
+DESIGN @write@back
+VIEW struct.bd
+NO_GRAPHIC 36
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 75,0 45 0 
+DESIGN @write@back
+VIEW struct.bd
+NO_GRAPHIC 51
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 0,0 53 2 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 1019,0 58 0 
+DESIGN @write@back
+VIEW struct.bd
+NO_GRAPHIC 59
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 344,0 61 0 
+DESIGN @write@back
+VIEW struct.bd
+NO_GRAPHIC 63
+LIBRARY ece411
+DESIGN @control_slice
+VIEW untitled
+GRAPHIC 1885,0 65 0 
+DESIGN @write@back
+VIEW struct.bd
+NO_GRAPHIC 79
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 324,0 81 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 33,0 83 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 344,0 84 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 18,0 85 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 393,0 86 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 286,0 89 0 
+DESIGN @word@mux4
+VIEW untitled
+GRAPHIC 137,0 91 0 
+DESIGN @word@mux4
+VIEW untitled
+GRAPHIC 142,0 92 0 
+DESIGN @word@mux4
+VIEW untitled
+GRAPHIC 147,0 93 0 
+DESIGN @word@mux4
+VIEW untitled
+GRAPHIC 152,0 94 0 
+DESIGN @word@mux4
+VIEW untitled
+GRAPHIC 157,0 95 0 
+DESIGN @word@mux4
+VIEW untitled
+GRAPHIC 132,0 96 0 
+LIBRARY ece411
+DESIGN @write@back
+VIEW struct.bd
+NO_GRAPHIC 99
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 1885,0 102 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 324,0 103 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 286,0 104 0 
+DESIGN @write@back
+VIEW struct.bd
+NO_GRAPHIC 107
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 1358,0 110 0 
+DESIGN @write@back
+VIEW struct.bd
+NO_GRAPHIC 113
+DESIGN @write@back
+VIEW struct.bd
+NO_GRAPHIC 114
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 1885,0 116 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 957,0 118 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 776,0 119 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 784,0 120 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 1021,0 122 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 486,0 123 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 929,0 124 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 324,0 131 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 286,0 138 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 1013,0 140 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 1654,0 141 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 1646,0 142 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 943,0 143 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 1029,0 144 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 318,0 145 0 
+DESIGN @write@back
+VIEW struct.bd
+GRAPHIC 344,0 149 0 
+DESIGN @write@back
+VIEW struct.bd
+NO_GRAPHIC 151

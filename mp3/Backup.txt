@@ -1,0 +1,1 @@
+Is now capable of doing jump, lea, and & add immediate instructions

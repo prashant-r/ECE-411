@@ -1,0 +1,51 @@
+--
+-- VHDL Architecture ece411.ControlStore.untitled
+--
+-- Created:
+--          by - ravi7.ews (dcl-l520-09.ews.illinois.edu)
+--          at - 23:29:39 03/19/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY ControlStore IS
+   PORT( 
+      CLK     : IN     std_logic;
+      RESET : IN     STD_LOGIC;
+      SET : IN STD_LOGIC;
+      Control_in : IN CONTROL_WORD;
+      Control_out : OUT CONTROL_WORD
+   );
+
+-- Declarations
+
+END ControlStore ;
+
+ARCHITECTURE UNTITLED OF ControlStore IS
+SIGNAL PRE_OUT : Control_word;
+BEGIN
+	PROCESS (CLK, RESET, Control_in)
+	BEGIN
+		IF RESET = '0' THEN
+			
+			PRE_OUT.ex.aluop      <= (OTHERS => '0');
+      PRE_OUT.wb.DataMuxSel <= (OTHERS => '0');
+      PRE_OUT.wb.LD_Reg     <= '0';
+      PRE_OUT.wb.LD_CC      <= '0';
+      
+		ELSIF CLK'EVENT AND CLK = '1' THEN
+			IF (SET = '1') THEN
+			  
+				PRE_OUT <= CONTROL_in;
+				
+			END IF;
+		END IF;
+	END PROCESS;
+	CONTROL_out <= PRE_OUT AFTER DELAY_REG;
+END UNTITLED;

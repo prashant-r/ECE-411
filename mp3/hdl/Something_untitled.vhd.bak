@@ -1,0 +1,26 @@
+--
+-- VHDL Architecture ece411.Something.untitled
+--
+-- Created:
+--          by - ravi7.ews (siebl-0220-20.ews.illinois.edu)
+--          at - 07:37:29 02/28/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY Something IS
+-- Declarations
+
+END Something ;
+
+--
+ARCHITECTURE untitled OF Something IS
+BEGIN
+END ARCHITECTURE untitled;
+

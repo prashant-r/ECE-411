@@ -1,0 +1,10 @@
+__date__, Define
+__file__, Define
+__line__, Define
+__time__, Define
+__version_3__, Define
+__version__, Define
+codesegment, Label, 4xAC, 4x0
+done, Label, 4xEC, 4x40
+goto, Label, 4xAC, 4x0
+seven, Label, 4xDE, 4x32

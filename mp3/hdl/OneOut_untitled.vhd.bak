@@ -1,0 +1,30 @@
+--
+-- VHDL Architecture ece411.OneOut.untitled
+--
+-- Created:
+--          by - ravi7.ews (linux-a1.ews.illinois.edu)
+--          at - 06:43:10 02/19/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY OneOut IS
+   PORT( 
+      One : OUT    std_logic
+   );
+
+-- Declarations
+
+END OneOut ;
+
+--
+ARCHITECTURE untitled OF OneOut IS
+BEGIN
+END ARCHITECTURE untitled;
+

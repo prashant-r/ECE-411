@@ -1,0 +1,13 @@
+--
+-- VHDL Architecture ece411.DRAMAuditor.untitled
+--
+-- Created:
+--          by - ravi7.ews (linux-a2.ews.illinois.edu)
+--          at - 15:40:48 02/01/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+ARCHITECTURE untitled OF DRAMAuditor IS
+BEGIN
+END ARCHITECTURE untitled;
+

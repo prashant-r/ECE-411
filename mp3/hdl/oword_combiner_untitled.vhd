@@ -1,0 +1,39 @@
+--
+-- VHDL Architecture ece411.oword_combiner.untitled
+--
+-- Created:
+--          by - ravi7.ews (linux-a1.ews.illinois.edu)
+--          at - 01:45:49 02/23/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY oword_combiner IS
+   PORT( 
+      Fa            : IN     LC3b_word;
+      Fb            : IN     Lc3b_word;
+      Fc            : IN     LC3b_word;
+      Fd            : IN     LC3b_word;
+      Fe            : IN     LC3b_word;
+      Ff            : IN     Lc3b_word;
+      Fg            : IN     LC3b_word;
+      Fh            : IN     LC3b_word;
+      WriteBackData : OUT    lc3b_oword
+   );
+
+-- Declarations
+
+END oword_combiner ;
+
+--
+ARCHITECTURE untitled OF oword_combiner IS
+BEGIN
+  WriteBackData <= Fh & Fg & Ff & Fe & Fd & Fc & Fb & Fa ;
+END ARCHITECTURE untitled;
+

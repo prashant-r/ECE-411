@@ -1,0 +1,14 @@
+         ns       /mp2_cpu/DRAM/PMADDRESS                                      /mp2_cpu/DRAM/PMDATAOUT                                      /mp2_cpu/DRAM/PMWRITE_L      
+          delta                                                                                                                                                          
+          0  +0                      XXXX                             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                                                            U 
+          0  +1                      XXXX                             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                                                            1 
+      18425  +2                      0050                             600D600D600D600D600D600D600D0030                                                            0 
+      18975  +2                      0050                             600D600D600D600D600D600D600D0030                                                            1 
+      19975  +2                      00D0                             52205220522052205220522000B05220                                                            0 
+      20525  +2                      00D0                             52205220522052205220522000B05220                                                            1 
+      21475  +2                      0150                             BAADBAADBAADBAADBAAD0130BAADBAAD                                                            0 
+      22025  +2                      0150                             BAADBAADBAADBAADBAAD0130BAADBAAD                                                            1 
+      23025  +2                      0050                             600D600D600D0130600D600D600D0030                                                            0 
+      23575  +2                      0050                             600D600D600D0130600D600D600D0030                                                            1 
+      39725  +2                      0030                             600D600D0060600D600D600D600D60FA                                                            0 
+      40275  +2                      0030                             600D600D0060600D600D600D600D60FA                                                            1 

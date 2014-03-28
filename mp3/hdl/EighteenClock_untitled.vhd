@@ -1,0 +1,33 @@
+--
+-- VHDL Architecture ece411.EighteenClock.untitled
+--
+-- Created:
+--          by - ravi7.ews (linux-a2.ews.illinois.edu)
+--          at - 10:59:45 03/27/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY EighteenClock IS
+   PORT( 
+      RESET_L : IN     STD_LOGIC;
+      clk     : IN     std_logic;
+      yes     : OUT    std_logic
+   );
+
+-- Declarations
+
+END EighteenClock ;
+
+--
+ARCHITECTURE untitled OF EighteenClock IS
+BEGIN
+  yes <= clk'delayed(18 ns) AND NOT clk ;
+END ARCHITECTURE untitled;
+

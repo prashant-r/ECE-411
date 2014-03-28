@@ -1,0 +1,435 @@
+DESIGN @instr@decode
+VIEW interface
+NO_GRAPHIC 0
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18660,0 17 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18695,0 18 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18730,0 19 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18705,0 20 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18710,0 21 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18720,0 22 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18725,0 23 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18665,0 24 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18715,0 25 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18670,0 26 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18680,0 27 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18675,0 28 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18685,0 29 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18690,0 30 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 18700,0 31 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 1,0 34 0 
+DESIGN @instr@decode
+VIEW interface
+GRAPHIC 1,0 35 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 38
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 523,0 47 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 53
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 0,0 56 2 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8437,0 61 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8811,0 62 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7579,0 63 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 2192,0 64 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6423,0 65 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7109,0 66 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 3862,0 67 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6343,0 68 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6359,0 69 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8433,0 70 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 4976,0 71 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6375,0 72 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 73
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8000,0 75 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 77
+LIBRARY ece411
+DESIGN @a@d@j5outputs
+VIEW untitled
+GRAPHIC 907,0 79 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6451,0 81 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 955,0 84 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 85
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8791,0 87 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 92
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7891,0 94 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 108
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7561,0 110 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7553,0 113 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7571,0 115 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 116
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8769,0 118 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 132
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8415,0 134 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 140
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 883,0 142 0 
+DESIGN @word@mux2
+VIEW untitled
+GRAPHIC 108,0 144 0 
+DESIGN @word@mux2
+VIEW untitled
+GRAPHIC 113,0 145 0 
+DESIGN @word@mux2
+VIEW untitled
+GRAPHIC 118,0 146 0 
+DESIGN @word@mux2
+VIEW untitled
+GRAPHIC 123,0 147 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 5962,0 150 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 425,0 152 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 410,0 153 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 3856,0 154 0 
+LIBRARY mp3lib
+DESIGN @r@e@g3
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 3929,0 157 0 
+DESIGN @r@e@g3
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 52,0 159 0 
+DESIGN @r@e@g3
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 57,0 160 0 
+DESIGN @r@e@g3
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 62,0 161 0 
+DESIGN @r@e@g3
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 67,0 162 0 
+DESIGN @r@e@g3
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 72,0 163 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 628,0 166 0 
+DESIGN @r@e@g@f@i@l@e
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 87,0 168 0 
+DESIGN @r@e@g@f@i@l@e
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 82,0 169 0 
+DESIGN @r@e@g@f@i@l@e
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 67,0 170 0 
+DESIGN @r@e@g@f@i@l@e
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 62,0 171 0 
+DESIGN @r@e@g@f@i@l@e
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 93,0 172 0 
+DESIGN @r@e@g@f@i@l@e
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 52,0 173 0 
+DESIGN @r@e@g@f@i@l@e
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 57,0 174 0 
+DESIGN @r@e@g@f@i@l@e
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 72,0 175 0 
+DESIGN @r@e@g@f@i@l@e
+VIEW @u@n@t@i@t@l@e@d
+GRAPHIC 77,0 176 0 
+LIBRARY ece411
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 179
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 907,0 182 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8791,0 183 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7891,0 184 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7561,0 185 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8769,0 186 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8415,0 187 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 3929,0 188 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 628,0 189 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 883,0 190 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 5962,0 191 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 194
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 3074,0 197 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 200
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 201
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 907,0 203 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8791,0 210 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6584,0 212 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8803,0 213 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8813,0 214 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7891,0 216 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 5807,0 218 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 5932,0 219 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6425,0 220 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7111,0 221 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7036,0 222 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6345,0 223 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7994,0 224 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6377,0 225 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7135,0 226 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7561,0 231 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8769,0 238 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8516,0 240 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8821,0 241 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8829,0 242 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8707,0 251 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8415,0 253 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8000,0 255 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6353,0 256 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8427,0 257 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8439,0 258 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 883,0 260 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 857,0 262 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 955,0 263 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8813,0 264 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 29,0 265 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 5962,0 267 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 3929,0 273 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 3959,0 275 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7571,0 276 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 4766,0 277 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 3941,0 278 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 3967,0 279 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 628,0 281 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 823,0 283 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 6825,0 284 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 841,0 285 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 815,0 286 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 831,0 287 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 7994,0 288 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8439,0 289 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 141,0 290 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 857,0 291 0 
+DESIGN @instr@decode
+VIEW struct.bd
+GRAPHIC 8000,0 295 0 
+DESIGN @instr@decode
+VIEW struct.bd
+NO_GRAPHIC 297

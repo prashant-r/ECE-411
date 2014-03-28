@@ -1,0 +1,30 @@
+--
+-- VHDL Architecture ece411.MUX2_1TAG.untitled
+--
+-- Created:
+--          by - ravi7.ews (linux-a1.ews.illinois.edu)
+--          at - 20:32:16 02/23/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY MUX2_1TAG IS
+   PORT (
+      A   : IN     STD_LOGIC;
+      B   : IN     STD_LOGIC;
+      F   : OUT    STD_LOGIC;
+      SEL : IN     STD_LOGIC
+   );
+END MUX2_1TAG;
+
+--
+ARCHITECTURE untitled OF MUX2_1TAG IS
+BEGIN
+END ARCHITECTURE untitled;
+

@@ -1,0 +1,84 @@
+--
+-- VHDL Architecture ece411.MEM_WB.untitled
+--
+-- Created:
+--          by - aikara2.ews (gelib-057-38.ews.illinois.edu)
+--          at - 23:21:36 03/18/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY MEM_WB IS
+   PORT( 
+      RESET_L        : IN     STD_LOGIC;
+      clk            : IN     std_logic;
+      set_regD       : IN     std_logic;
+      LD_Addr_OUT    : OUT    LC3b_word;
+      LD_ALU_OUT     : OUT    LC3b_word;
+      LD_DATA_OUT    : OUT    LC3b_word;
+      LD_IR_OUT      : OUT    LC3b_word;
+      SAVE_PC_OUT    : OUT    LC3b_word;
+      WB_DestReg_OUT : OUT    STD_LOGIC_VECTOR (2 DOWNTO 0);
+      DataMuxSel     : OUT    std_logic_vector (1 DOWNTO 0);
+      control        : IN     CONTROL_WORD
+   );
+
+-- Declarations
+
+END MEM_WB ;
+
+--
+
+ARCHITECTURE UNTITLED OF MEM_WB IS
+
+SIGNAL LD_ALU_OUT_s    : LC3b_word;
+SIGNAL LD_Addr_OUT_s   : LC3b_word;
+SIGNAL LD_DATA_OUT_s   : LC3b_word;
+SIGNAL LD_IR_OUT_s     : LC3b_word;
+SIGNAL SAVE_PC_OUT_s   : LC3b_word;
+SIGNAL WB_DestReg_OUT_s: STD_LOGIC_VECTOR (2 DOWNTO 0);
+ 
+
+BEGIN
+	PROCESS (RESET_L, clk, set_regD, LD_ALU_Result, LD_Address, LD_DATA, LD_IR, SAVE_NEXTPC, WB_Dest_Reg)
+	
+	BEGIN
+		IF RESET_L = '0' THEN
+		  
+     LD_ALU_OUT_s    <= (OTHERS => '0');
+     LD_Addr_OUT_s   <= (OTHERS => '0');
+     LD_DATA_OUT_s   <= (OTHERS => '0');
+     LD_IR_OUT_s     <= (OTHERS => '0');
+     SAVE_PC_OUT_s   <= (OTHERS => '0');
+     WB_DestReg_OUT_s<= (OTHERS => '0');
+  
+      
+		ELSIF CLK'EVENT AND CLK = '1' THEN
+			IF (set_regD = '1') THEN
+			  
+	       LD_ALU_OUT_s    <= LD_ALU_Result;
+         LD_Addr_OUT_s   <= LD_Address;
+         LD_DATA_OUT_s   <= LD_DATA;
+         LD_IR_OUT_s     <= LD_IR;
+         SAVE_PC_OUT_s   <= SAVE_NEXTPC;
+         WB_DestReg_OUT_s<= WB_Dest_Reg;
+        
+			 END IF;
+		END IF;
+	END PROCESS;
+
+    LD_ALU_OUT    <= LD_ALU_OUT_s after delay_reg;
+    LD_Addr_OUT   <= LD_Addr_OUT_s after delay_reg;
+    LD_DATA_OUT   <= LD_DATA_OUT_s after delay_reg;
+    LD_IR_OUT     <= LD_IR_OUT_s after delay_reg;
+    SAVE_PC_OUT   <= SAVE_PC_OUT_s after delay_reg;
+    WB_DestReg_OUT<= WB_DestReg_OUT_s after delay_reg;
+   
+END UNTITLED;
+

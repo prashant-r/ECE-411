@@ -1,0 +1,101 @@
+--
+-- VHDL Architecture ece411.Control_ROM.untitled
+--
+-- Created:
+--          by - ravi7.ews (linux-a1.ews.illinois.edu)
+--          at - 12:57:04 03/16/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY Control_ROM IS
+   PORT( 
+      clk          : IN     std_logic;
+      RESET_L      : IN     STD_LOGIC;
+      Opcode       : IN     LC3b_opcode;
+      DataMuxSel   : OUT    std_logic_vector (1 DOWNTO 0);
+      ALUop_ID     : OUT    LC3b_aluop;
+      ADDR2MuxSel  : OUT    std_logic_vector (1 DOWNTO 0);
+      ADDRMuxSel   : OUT    std_logic;
+      ADDR1MuxSel  : OUT    std_logic;
+      BR_oper_h    : OUT    STD_LOGIC;
+      Read_Data_h  : OUT    STD_LOGIC;
+      Write_Data_h : OUT    STD_LOGIC;
+      LD_Reg_h     : OUT    STD_LOGIC;
+      Set_CC_h     : OUT    STD_LOGIC
+   );
+
+-- Declarations
+
+END Control_ROM ;
+
+--
+ARCHITECTURE untitled OF Control_ROM IS
+    signal ADDRMuxSel_s  : std_logic;
+    signal ADDR2MuxSel_s : std_logic_vector(1 downto 0);
+    signal ADDr1MuxSel_s : std_logic;
+    signal ALUop_ID_s    : LC3b_aluop;
+    signal Write_Data_h_s: std_logic;
+    signal Read_Data_h_s : std_logic;
+    signal BR_oper_h_s   : std_logic;
+    signal Set_CC_s      : std_logic;
+    signal LD_Reg_s      : std_logic;
+    signal DataMuxSel_s  : std_logic_vector(1 downto 0);
+       
+BEGIN
+  control_signals_simulate: process(Opcode)
+  Begin
+    case Opcode is
+      when op_add =>
+        ALUop_ID_s <= ALU_ADD;
+        DataMuxSel_s <= "11";
+        LD_Reg_s <= '1';
+        Set_CC_s <= '1';
+        
+        
+      when op_and =>
+        ALUop_ID_s <= ALU_AND;
+      when op_LDR =>
+        
+        
+      when op_STR =>
+        
+        
+      when op_BR =>
+        
+        
+      when others =>
+        
+         ADDRMuxSel_s  <= 'X';
+         ADDR2MuxSel_s <= (OTHERS => 'X');
+         ADDr1MuxSel_s <= '0';
+         ALUop_ID_s    <= (OTHERS => '0');
+         Write_Data_h_s<= 'X';
+         Read_Data_h_s <= 'X';
+         BR_oper_h_s   <= '0';
+         Set_CC_s      <= '0';
+         LD_Reg_s      <= '0';
+         DataMuxSel_s  <= (OTHERS => 'X');
+          
+    end case;
+    end process;
+    
+    ALUop_ID    <= ALUop_ID_s;
+    ADDRMuxSel  <= ADDRMuxSel_s ;
+    ADDR2MuxSel <= ADDR2MuxSel_s ;
+    ADDr1MuxSel <= ADDr1MuxSel_s;
+    Write_Data_h<= Write_Data_h_s;
+    Read_Data_h <= Read_Data_h_s;
+    BR_oper_h   <= BR_oper_h_s;
+    Set_CC_h    <= Set_CC_s;
+    LD_Reg_h    <= LD_Reg_s;
+    DataMuxSel  <= DataMuxSel_s;
+    
+END ARCHITECTURE untitled;
+

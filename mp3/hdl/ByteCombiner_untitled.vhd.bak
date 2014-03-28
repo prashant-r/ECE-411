@@ -1,0 +1,32 @@
+--
+-- VHDL Architecture ece411.ByteCombiner.untitled
+--
+-- Created:
+--          by - ravi7.ews (linux-a1.ews.illinois.edu)
+--          at - 14:45:50 02/23/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY ByteCombiner IS
+   PORT( 
+      HighAB        : IN     LC3B_BYTE;
+      LowAB         : IN     LC3B_BYTE;
+      COrrectedWord : OUT    LC3b_word
+   );
+
+-- Declarations
+
+END ByteCombiner ;
+
+--
+ARCHITECTURE untitled OF ByteCombiner IS
+BEGIN
+END ARCHITECTURE untitled;
+

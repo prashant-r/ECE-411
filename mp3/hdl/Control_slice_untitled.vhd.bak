@@ -1,0 +1,54 @@
+--
+-- VHDL Architecture ece411.Control_slice.untitled
+--
+-- Created:
+--          by - ravi7.ews (dcl-l520-09.ews.illinois.edu)
+--          at - 22:26:09 03/19/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY Control_slice IS
+   PORT( 
+      Control_ID   : IN     CONTROL_WORD;
+      RESET_L      : IN     STD_LOGIC;
+      clk          : IN     std_logic;
+      ALUop_ID     : OUT    LC3b_aluop;
+      dataMuXsel   : OUT std_logic_vector (1 DOWNTO 0);
+      LD_reg_h     : OUT std_logic;
+      Set_cc_h     : OUT std_logic;
+      PCMuxSel     : OUT STd_logic;
+      mread_l      : OUT std_logic;
+      mwritel_l     : OUT std_logic;
+      mwriteh_l     : OUT std_logic;
+      Imm5control   : OUT std_logic;
+      srcb_select   : OUT std_logic
+   );
+
+-- Declarations
+
+END Control_slice ;
+
+--
+ARCHITECTURE untitled OF Control_slice IS
+BEGIN
+    
+    ALUop_ID   <= Control_ID.ex.aluop;
+    datamuxsel <= Control_ID.wb.DataMuxSel;
+    ld_reg_h   <= Control_ID.wb.LD_Reg;
+    set_cc_h   <= Control_ID.wb.LD_CC;
+    PCMuxSel   <= Control_ID.mem.PCMuxSelect;
+    mread_l    <= Control_ID.mem.mread_l;
+    mwritel_l  <= Control_ID.mem.mwritel_l;
+    mwriteh_l  <= Control_ID.mem.mwriteh_l;
+    Imm5control <= Control_ID.id.Imm5control;
+    srcb_select <= Control_ID.id.srcb_select;
+
+END ARCHITECTURE untitled;
+

@@ -1,0 +1,4406 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%BoundingBox: 0 0 612 792
+%%Creator: IlogViews Dump module
+%%Date: Thu Feb  6 19:18:30 2014
+%%Pages: (atend)
+%%BeginProlog
+80 dict begin
+/ilvlw true def
+/bd{bind def}bind def/ld{load def}bd/x/exch ld
+/t/translate ld/G/gsave ld/g/grestore ld/M/moveto ld
+/L/lineto ld/rM/rmoveto ld/rL/rlineto ld
+/r/roll ld/n/newpath ld/sc/gsave ld/c/closepath ld
+/slw/setlinewidth ld
+/s{ilvlw{stroke}{matrix currentmatrix imtrx
+   setmatrix stroke setmatrix}ifelse}bd
+/rc{currentrgbcolor currentlinewidth currentdash
+currentfont grestore setfont setdash slw setrgbcolor}bd
+/fillpat{flattenpath pathbbox G 5 -1 r
+    {eoclip}{clip}ifelse 3 -1 r dup 0 x t sub
+    3 1 r x dup 0 t sub 4 -1 r dup 3 1 r div ceiling
+    cvi 1 add 4 2 r 1 index div ceiling cvi 1 add
+    {3 copy pop G{4 index exec dup 0 t}repeat
+     g pop dup 0 x t}repeat g 4{pop}repeat}bd
+/rect{M dup 0 x rL x 0 rL neg 0 x rL c}bd
+/ilvshow{
+  {pop pop currentpoint round x round x M}x kshow}bd
+/readpattern{
+ mul string currentfile /ASCII85Decode filter  x readstring pop /p x def } bd
+/imtrx matrix currentmatrix def
+/Latin1Encoding [
+    [8#202/quotesinglbase][8#203/florin]
+    [8#204/quotedblbase][8#205/ellipsis]
+    [8#206/dagger][8#207/daggerdbl]
+    [8#210/circumflex][8#211/perthousand]
+    [8#212/Scaron][8#213/guilsinglleft]
+    [8#214/OE][8#221/quoteleft]
+    [8#222/quoteright][8#223/quotedblleft]
+    [8#224/quotedblright][8#225/bullet]
+    [8#226/endash][8#227/emdash]
+    [8#230/tilde][8#232/scaron]
+    [8#233/guilsinglright][8#234/oe]
+    [8#237/Ydieresis][8#240/space]
+    [8#241/exclamdown][8#242/cent]
+    [8#243/sterling][8#244/currency]
+    [8#245/yen][8#246/bar]
+    [8#247/section][8#250/dieresis]
+    [8#252/ordfeminine][8#253/guillemotleft]
+    [8#255/hyphen][8#257/macron]
+    [8#260/ring][8#264/acute]
+    [8#266/paragraph][8#267/periodcentered]
+    [8#270/cedilla][8#272/ordmasculine]
+    [8#273/guillemotright][8#277/questiondown]
+    [8#300/Agrave][8#301/Aacute]
+    [8#302/Acircumflex][8#303/Atilde]
+    [8#304/Adieresis][8#305/Aring]
+    [8#306/AE][8#307/Ccedilla]
+    [8#310/Egrave][8#311/Eacute]
+    [8#312/Ecircumflex][8#313/Edieresis]
+    [8#314/Igrave][8#315/Iacute]
+    [8#316/Icircumflex][8#317/Idieresis]
+    [8#321/Ntilde][8#322/Ograve]
+    [8#323/Oacute][8#324/Ocircumflex]
+    [8#325/Otilde][8#326/Odieresis]
+    [8#330/Oslash][8#331/Ugrave]
+    [8#332/Uacute][8#333/Ucircumflex]
+    [8#334/Udieresis][8#335/Yacute]
+    [8#337/germandbls][8#340/agrave]
+    [8#341/aacute][8#342/acircumflex]
+    [8#343/atilde][8#344/adieresis]
+    [8#345/aring][8#346/ae]
+    [8#347/ccedilla][8#350/egrave]
+    [8#351/eacute][8#352/ecircumflex]
+    [8#353/edieresis][8#354/igrave]
+    [8#355/iacute][8#356/icircumflex]
+    [8#357/idieresis][8#361/ntilde]
+    [8#362/ograve][8#363/oacute]
+    [8#364/ocircumflex][8#365/otilde]
+    [8#366/odieresis][8#367/divide]
+    [8#370/oslash][8#371/ugrave]
+    [8#372/uacute][8#373/ucircumflex]
+    [8#374/udieresis][8#375/yacute]
+    [8#377/ydieresis]
+] def
+/ilvreencode{exch dup systemdict/findfont get exec dup
+ length dict
+    begin{1 index/FID ne{def}{pop pop}ifelse} forall
+    exch /Encoding exch Encoding dup length array copy
+    exch{aload pop 2 index 3 1 roll put}forall def
+    currentdict end definefont}bd
+/ilvsf{Latin1Encoding ilvreencode
+       exch scalefont setfont}bd
+/ilvjsf {findfont exch scalefont setfont}bd
+/strip{ newpath gsave translate
+        dup -1 scale dup 1 exch 8 exch[exch 0 0 -1 0 1]
+        currentfile /ASCII85Decode filter         } bd
+/rectclip where
+{ pop }
+{ /rectclip 
+{ 4 -2 roll M dup 0 x rL x 0 rL neg 0 x rL c } bd } ifelse
+/rectfill where
+{ pop }
+{ /rectfill
+{ 4 -2 roll M dup 0 x rL x 0 rL neg 0 x rL c fill } bd } ifelse
+/rectstroke where
+{ pop }
+{ /rectstroke 
+{ 4 -2 roll M dup 0 x rL x 0 rL neg 0 x rL c stroke } bd } ifelse
+%%EndProlog
+%%Page: 1 1
+%%BeginPageSetup
+[{
+%%BeginFeature: *PageRegion 
+  2 dict
+  dup /PageSize [612 792] put
+  dup /ImagingBBox null put
+  setpagedevice
+%%EndFeature
+} stopped cleartomark
+/realmatrix { [1 0 0 -1 0 792] imtrx matrix concatmatrix } bd
+realmatrix setmatrix
+/Courier findfont setfont
+%%EndPageSetup
+initclip 612 792 0 0 rect clip
+ sc
+realmatrix setmatrix 
+[0 -1 1 0 1070 -13] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 1070 -13] concat
+ n 310 144 -380 -654 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 79 -553 M 79 -497 L  -109 -441 L  -109 -609 L  79 -553 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 79 -553 M 79 -497 L -109 -441 L -109 -609 L 79 -553 L s
+0.0784314 setgray
+0 slw
+
+n -70 -654 M -60 -654 L  -55 -650 L  -60 -646 L  -70 -646 L  -70 -654 L  
+ eofill
+0 setgray
+
+n -70 -654 M -60 -654 L -55 -650 L -60 -646 L -70 -646 L -70 -654 L s
+0.0784314 setgray
+
+n -70 -654 M -60 -654 L  -55 -650 L  -60 -646 L  -70 -646 L  -70 -654 L  
+ eofill
+0 setgray
+
+n -70 -654 M -60 -654 L -55 -650 L -60 -646 L -70 -646 L -70 -654 L s
+n -55 -650 M -50 -650 L s
+n -190 -600 M -117 -600 L s
+0.498039 setgray
+
+n -110 -600 M -117 -596 L  -117 -604 L  -110 -600 L  
+ eofill
+0 setgray
+
+n -110 -600 M -117 -596 L -117 -604 L -110 -600 L s
+1 setgray
+
+n matrix currentmatrix -190 -600 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix -190 -600 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+8/Courier ilvsf
+0 setgray
+
+G -100 -597 M 1 -1 scale(A)ilvshow g
+G -80 -647 M 1 -1 scale(RFAorMDR)dup stringwidth pop -1 mul 0 rM ilvshow g
+G -170 -602 M 1 -1 scale(RFAout)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 670 575 M 1 -1 scale(Page 1 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 2 2
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+ n 690 144 -70 -654 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 79 -553 M 79 -497 L  -109 -441 L  -109 -609 L  79 -553 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 79 -553 M 79 -497 L -109 -441 L -109 -609 L 79 -553 L s
+0.8 setgray
+0 slw
+
+n 79 99 321 -639 rect  eofill
+0.0784314 setgray
+2 slw
+
+321 -639 79 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+0 setgray
+0 slw
+
+n G 322 -542 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+ n 690 144 -70 -654 rect clip
+0.0784314 setgray
+
+n -70 -654 M -60 -654 L  -55 -650 L  -60 -646 L  -70 -646 L  -70 -654 L  
+ eofill
+0 setgray
+
+n -70 -654 M -60 -654 L -55 -650 L -60 -646 L -70 -646 L -70 -654 L s
+0.0784314 setgray
+
+n -70 -654 M -60 -654 L  -55 -650 L  -60 -646 L  -70 -646 L  -70 -654 L  
+ eofill
+0 setgray
+
+n -70 -654 M -60 -654 L -55 -650 L -60 -646 L -70 -646 L -70 -654 L s
+n -55 -650 M -50 -650 L s
+0.0784314 setgray
+
+n 580 -514 M 590 -514 L  595 -510 L  590 -506 L  580 -506 L  580 -514 L  
+ eofill
+0 setgray
+
+n 580 -514 M 590 -514 L 595 -510 L 590 -506 L 580 -506 L 580 -514 L s
+0.0784314 setgray
+
+n 580 -514 M 590 -514 L  595 -510 L  590 -506 L  580 -506 L  580 -514 L  
+ eofill
+0 setgray
+
+n 580 -514 M 590 -514 L 595 -510 L 590 -506 L 580 -506 L 580 -514 L s
+n 595 -510 M 600 -510 L s
+n 850 -460 M 850 -640 L 780 -640 L 780 -610 L 400 -610 L s
+n 595 -510 M 600 -510 L s
+n -55 -650 M -50 -650 L s
+n 320 -600 M 220 -600 L 220 -420 L 310 -420 L 310 -390 L 342 -390 L s
+n 662 -510 M 600 -510 L s
+n 640 -610 M 640 -650 L 110 -650 L 110 -330 L 160 -330 L s
+n 342 -310 M 330 -310 L 330 -250 L 300 -250 L 300 -390 L 160 -390 L 160 -400 L 140 -400 L 140 -540 L 87 -540 L s
+n -50 -650 M -30 -650 L -30 -594 L s
+0.498039 setgray
+
+n -30 -586 M -34 -594 L  -26 -594 L  -30 -586 L  
+ eofill
+0 setgray
+
+n -30 -586 M -34 -594 L -26 -594 L -30 -586 L s
+0.498039 setgray
+
+n 87 -540 M 80 -536 L  80 -544 L  87 -540 L  
+ eofill
+0 setgray
+
+n 87 -540 M 80 -536 L 80 -544 L 87 -540 L s
+n 312 -600 M 320 -604 L  320 -596 L  312 -600 L  
+ eofill
+n 312 -600 M 320 -604 L 320 -596 L 312 -600 L s
+n 400 -610 M 407 -614 L  407 -606 L  400 -610 L  
+ eofill
+n 400 -610 M 407 -614 L 407 -606 L 400 -610 L s
+8/Courier-Bold ilvsf
+
+G -62 -524 M 1 -1 scale(U_6)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+8/Courier ilvsf
+
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+ n 690 144 -70 -654 rect clip
+71 -510 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(RFAZEXTout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+ n 690 144 -70 -654 rect clip
+8/Courier-Bold ilvsf
+
+G 342 -596 M 1 -1 scale(ece411)ilvshow g
+G 342 -587 M 1 -1 scale(Plus2)ilvshow g
+G 342 -578 M 1 -1 scale(aPlus2)ilvshow g
+G -62 -542 M 1 -1 scale(ece411)ilvshow g
+G -62 -533 M 1 -1 scale(WordMux2)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+8/Courier ilvsf
+
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+ n 690 144 -70 -654 rect clip
+-34 -561 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Sel)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 1070 677] concat
+ n 690 144 -70 -654 rect clip
+G 70 -537 M 1 -1 scale(F)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 250 -602 M 1 -1 scale(PCPlus2out)ilvshow g
+G 420 -612 M 1 -1 scale(PCout)ilvshow g
+G 570 -507 M 1 -1 scale(LoadPC)dup stringwidth pop -1 mul 0 rM ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 670 575 M 1 -1 scale(Page 2 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 3 3
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 1070 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 1070 1367] concat
+ n 690 144 620 -654 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 79 129 1291 -529 rect  eofill
+0.25098 setgray
+2 slw
+
+1291 -529 79 129 rectstroke
+0.498039 setgray
+0 slw
+
+n 1079 -487 M 1079 -443 L  941 -401 L  941 -529 L  1079 -487 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 1079 -487 M 1079 -443 L 941 -401 L 941 -529 L 1079 -487 L s
+0.0784314 setgray
+0 slw
+
+n 960 -564 M 970 -564 L  975 -560 L  970 -556 L  960 -556 L  960 -564 L  
+ eofill
+0 setgray
+
+n 960 -564 M 970 -564 L 975 -560 L 970 -556 L 960 -556 L 960 -564 L s
+0.0784314 setgray
+
+n 960 -564 M 970 -564 L  975 -560 L  970 -556 L  960 -556 L  960 -564 L  
+ eofill
+0 setgray
+
+n 960 -564 M 970 -564 L 975 -560 L 970 -556 L 960 -556 L 960 -564 L s
+n 975 -560 M 980 -560 L s
+0.498039 setgray
+
+n 119 129 671 -519 rect  eofill
+0.25098 setgray
+2 slw
+
+671 -519 119 129 rectstroke
+0.0784314 setgray
+0 slw
+
+n 1220 -524 M 1230 -524 L  1235 -520 L  1230 -516 L  1220 -516 L  1220 -524 L  
+ eofill
+0 setgray
+
+n 1220 -524 M 1230 -524 L 1235 -520 L 1230 -516 L 1220 -516 L 1220 -524 L s
+0.0784314 setgray
+
+n 1220 -524 M 1230 -524 L  1235 -520 L  1230 -516 L  1220 -516 L  1220 -524 L  
+ eofill
+0 setgray
+
+n 1220 -524 M 1230 -524 L 1235 -520 L 1230 -516 L 1220 -516 L 1220 -524 L s
+n 1235 -520 M 1240 -520 L s
+n 850 -460 M 850 -640 L 780 -640 L 780 -610 L 400 -610 L s
+n 662 -510 M 600 -510 L s
+n 640 -610 M 640 -650 L 110 -650 L 110 -330 L 160 -330 L s
+n 1235 -520 M 1240 -520 L s
+n 975 -560 M 980 -560 L s
+n 1240 -520 M 1282 -520 L s
+n 980 -560 M 1020 -560 L 1020 -513 L s
+n 797 -460 M 880 -460 L 880 -520 L 932 -520 L s
+n matrix currentmatrix 640 -610 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 640 -610 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+
+n 670 -510 M 662 -506 L  662 -514 L  670 -510 L  
+ eofill
+0 setgray
+
+n 670 -510 M 662 -506 L 662 -514 L 670 -510 L s
+0.498039 setgray
+
+n 1290 -520 M 1282 -516 L  1282 -524 L  1290 -520 L  
+ eofill
+0 setgray
+
+n 1290 -520 M 1282 -516 L 1282 -524 L 1290 -520 L s
+0.498039 setgray
+
+n 940 -520 M 932 -516 L  932 -524 L  940 -520 L  
+ eofill
+0 setgray
+
+n 940 -520 M 932 -516 L 932 -524 L 940 -520 L s
+0.498039 setgray
+
+n 1020 -505 M 1016 -513 L  1024 -513 L  1020 -505 L  
+ eofill
+0 setgray
+
+n 1020 -505 M 1016 -513 L 1024 -513 L 1020 -505 L s
+8/Courier ilvsf
+
+G 950 -557 M 1 -1 scale(MARMuxSel)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 1210 -517 M 1 -1 scale(LoadMAR)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 680 -507 M 1 -1 scale(load)ilvshow g
+G 950 -517 M 1 -1 scale(Input00)ilvshow g
+G 1300 -517 M 1 -1 scale(load)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 670 575 M 1 -1 scale(Page 3 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 4 4
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 1070 2057] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 1070 2057] concat
+ n 385 144 1310 -654 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 79 129 1291 -529 rect  eofill
+0.25098 setgray
+2 slw
+
+1291 -529 79 129 rectstroke
+0.0784314 setgray
+0 slw
+
+n 1635 -524 M 1645 -524 L  1650 -520 L  1645 -516 L  1635 -516 L  1635 -524 L  
+ eofill
+0 setgray
+
+n 1635 -524 M 1645 -524 L 1650 -520 L 1645 -516 L 1635 -516 L 1635 -524 L s
+0.0784314 setgray
+
+n 1635 -524 M 1645 -524 L  1650 -520 L  1645 -516 L  1635 -516 L  1635 -524 L  
+ eofill
+0 setgray
+
+n 1635 -524 M 1645 -524 L 1650 -520 L 1645 -516 L 1635 -516 L 1635 -524 L s
+n 1630 -520 M 1635 -520 L s
+n 1630 -520 M 1635 -520 L s
+n 1377 -520 M 1630 -520 L s
+n 1420 -520 M 1420 -440 L 1470 -440 L s
+0.498039 setgray
+
+n 1377 -520 M 1370 -516 L  1370 -524 L  1377 -520 L  
+ eofill
+0 setgray
+
+n 1377 -520 M 1370 -516 L 1370 -524 L 1377 -520 L s
+n matrix currentmatrix 1420 -520 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 1420 -520 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+8/Courier ilvsf
+
+G 1660 -517 M 1 -1 scale(ADDRESS)ilvshow g
+G 1300 -517 M 1 -1 scale(load)ilvshow g
+G 1360 -517 M 1 -1 scale(Output)dup stringwidth pop -1 mul 0 rM ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 670 575 M 1 -1 scale(Page 4 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 5 5
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 560 -13] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 -13] concat
+ n 310 510 -380 -510 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 79 -553 M 79 -497 L  -109 -441 L  -109 -609 L  79 -553 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 79 -553 M 79 -497 L -109 -441 L -109 -609 L 79 -553 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 -13] concat
+0 setgray
+0 slw
+
+n G -107 -442 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 -13] concat
+ n 310 510 -380 -510 rect clip
+0 setgray
+
+n -190 -490 M -130 -490 L -130 -500 L -117 -500 L s
+0.498039 setgray
+
+n -110 -500 M -117 -496 L  -117 -504 L  -110 -500 L  
+ eofill
+0 setgray
+
+n -110 -500 M -117 -496 L -117 -504 L -110 -500 L s
+1 setgray
+
+n matrix currentmatrix -190 -490 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix -190 -490 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+8/Courier-Bold ilvsf
+0 setgray
+
+G -380 -5 M 1 -1 scale(Declarations)ilvshow g
+8/Courier ilvsf
+
+G -100 -497 M 1 -1 scale(B)ilvshow g
+G -170 -492 M 1 -1 scale(MDRout)ilvshow g
+8/Courier-Bold ilvsf
+
+G -380 4 M 1 -1 scale(Ports:)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 670 575 M 1 -1 scale(Page 5 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 6 6
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 79 -553 M 79 -497 L  -109 -441 L  -109 -609 L  79 -553 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 79 -553 M 79 -497 L -109 -441 L -109 -609 L 79 -553 L s
+0.8 setgray
+0 slw
+
+n 109 249 351 -209 rect  eofill
+0.0784314 setgray
+2 slw
+
+351 -209 109 249 rectstroke
+0.8 setgray
+0 slw
+
+n 49 39 171 -29 rect  eofill
+0.0784314 setgray
+2 slw
+
+171 -29 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+0 setgray
+0 slw
+
+n G 172 7 t 15 -14 scale
+15 14 8[15 0 0 -14 0 14]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJH#Ts
+-RU8h-i^s^!!!"Lrr=Do-RU8hs1eU7!!%QLs8W-!s8W-!^]4?7!._l#^qdb$^qdb$!!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+0.8 setgray
+
+n 669 -97 M 669 -63 L  591 -31 L  591 -129 L  669 -97 L  
+ eofill
+0.0784314 setgray
+2 slw
+
+n 669 -97 M 669 -63 L 591 -31 L 591 -129 L 669 -97 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+0 setgray
+0 slw
+
+n G 592 -32 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+0.0784314 setgray
+
+n 280 -174 M 290 -174 L  295 -170 L  290 -166 L  280 -166 L  280 -174 L  
+ eofill
+0 setgray
+
+n 280 -174 M 290 -174 L 295 -170 L 290 -166 L 280 -166 L 280 -174 L s
+0.0784314 setgray
+
+n 280 -174 M 290 -174 L  295 -170 L  290 -166 L  280 -166 L  280 -174 L  
+ eofill
+0 setgray
+
+n 280 -174 M 290 -174 L 295 -170 L 290 -166 L 280 -166 L 280 -174 L s
+n 295 -170 M 300 -170 L s
+0.8 setgray
+
+n 79 99 -9 -339 rect  eofill
+0.0784314 setgray
+2 slw
+
+-9 -339 79 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+0 setgray
+0 slw
+
+n G -7 -242 t 14 -15 scale
+14 15 8[14 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzzJ:N0#J:N0#z!!%QLs8W-!s1j-bzJH,ZLs8W,7s*t(L!!%QLs8W-!rr<$!zJH#TLzs1eU7!!%QL!
+%0-A-R\r0zJH,ZLs8W-!s1eU7!!%QL!%0-A-R\r0zJH#Ts-RU8hs1eU7!!%QLs8W-!s8W,7zJH#Ts-RU
+8hs1eU7!!%QL!%0-A-R\r0zJH,ZLs8W-!s1eU7!!%Pb^qdb$^qdb$!!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+0.8 setgray
+
+n 79 99 161 -349 rect  eofill
+0.0784314 setgray
+2 slw
+
+161 -349 79 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+0 setgray
+0 slw
+
+n G 162 -252 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+0.0784314 setgray
+
+n 515 -184 M 525 -184 L  530 -180 L  525 -176 L  515 -176 L  515 -184 L  
+ eofill
+0 setgray
+
+n 515 -184 M 525 -184 L 530 -180 L 525 -176 L 515 -176 L 515 -184 L s
+0.0784314 setgray
+
+n 515 -184 M 525 -184 L  530 -180 L  525 -176 L  515 -176 L  515 -184 L  
+ eofill
+0 setgray
+
+n 515 -184 M 525 -184 L 530 -180 L 525 -176 L 515 -176 L 515 -184 L s
+n 510 -180 M 515 -180 L s
+0.0784314 setgray
+
+n 310 -504 M 320 -504 L  325 -500 L  320 -496 L  310 -496 L  310 -504 L  
+ eofill
+0 setgray
+
+n 310 -504 M 320 -504 L 325 -500 L 320 -496 L 310 -496 L 310 -504 L s
+0.0784314 setgray
+
+n 310 -504 M 320 -504 L  325 -500 L  320 -496 L  310 -496 L  310 -504 L  
+ eofill
+0 setgray
+
+n 310 -504 M 320 -504 L 325 -500 L 320 -496 L 310 -496 L 310 -504 L s
+n 325 -500 M 330 -500 L s
+0.0784314 setgray
+
+n 580 -514 M 590 -514 L  595 -510 L  590 -506 L  580 -506 L  580 -514 L  
+ eofill
+0 setgray
+
+n 580 -514 M 590 -514 L 595 -510 L 590 -506 L 580 -506 L 580 -514 L s
+0.0784314 setgray
+
+n 580 -514 M 590 -514 L  595 -510 L  590 -506 L  580 -506 L  580 -514 L  
+ eofill
+0 setgray
+
+n 580 -514 M 590 -514 L 595 -510 L 590 -506 L 580 -506 L 580 -514 L s
+n 595 -510 M 600 -510 L s
+0.0784314 setgray
+
+n 495 -84 M 505 -84 L  510 -80 L  505 -76 L  495 -76 L  495 -84 L  
+ eofill
+0 setgray
+
+n 495 -84 M 505 -84 L 510 -80 L 505 -76 L 495 -76 L 495 -84 L s
+0.0784314 setgray
+
+n 495 -84 M 505 -84 L  510 -80 L  505 -76 L  495 -76 L  495 -84 L  
+ eofill
+0 setgray
+
+n 495 -84 M 505 -84 L 510 -80 L 505 -76 L 495 -76 L 495 -84 L s
+n 490 -80 M 495 -80 L s
+0.8 setgray
+
+n 79 99 511 -309 rect  eofill
+0.0784314 setgray
+2 slw
+
+511 -309 79 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+0 setgray
+0 slw
+
+n G 512 -212 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+0.0784314 setgray
+
+n 495 -104 M 505 -104 L  510 -100 L  505 -96 L  495 -96 L  495 -104 L  
+ eofill
+0 setgray
+
+n 495 -104 M 505 -104 L 510 -100 L 505 -96 L 495 -96 L 495 -104 L s
+0.0784314 setgray
+
+n 495 -104 M 505 -104 L  510 -100 L  505 -96 L  495 -96 L  495 -104 L  
+ eofill
+0 setgray
+
+n 495 -104 M 505 -104 L 510 -100 L 505 -96 L 495 -96 L 495 -104 L s
+n 490 -100 M 495 -100 L s
+0.8 setgray
+
+n 79 99 151 -219 rect  eofill
+0.0784314 setgray
+2 slw
+
+151 -219 79 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+0 setgray
+0 slw
+
+n G 152 -122 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+0.498039 setgray
+
+n 489 -357 M 489 -313 L  351 -271 L  351 -399 L  489 -357 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 489 -357 M 489 -313 L 351 -271 L 351 -399 L 489 -357 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+0 setgray
+0 slw
+
+n G 352 -272 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+0.0784314 setgray
+
+n 495 -64 M 505 -64 L  510 -60 L  505 -56 L  495 -56 L  495 -64 L  
+ eofill
+0 setgray
+
+n 495 -64 M 505 -64 L 510 -60 L 505 -56 L 495 -56 L 495 -64 L s
+0.0784314 setgray
+
+n 495 -64 M 505 -64 L  510 -60 L  505 -56 L  495 -56 L  495 -64 L  
+ eofill
+0 setgray
+
+n 495 -64 M 505 -64 L 510 -60 L 505 -56 L 495 -56 L 495 -64 L s
+n 490 -60 M 495 -60 L s
+n 1410 -80 M 1460 -80 L 1460 460 L 730 460 L 730 430 L 470 430 L 470 440 L s
+n 350 -50 M 50 -50 L 50 -240 L s
+n 850 -460 M 850 -640 L 780 -640 L 780 -610 L 400 -610 L s
+n 530 -140 M 530 -100 L 590 -100 L s
+n 460 0 M 490 0 L 490 80 L 680 80 L 680 90 L 690 90 L 690 140 L 840 140 L 840 130 L 860 130 L s
+n 190 -30 M 190 -120 L s
+n 210 -90 M 210 -120 L s
+n 350 20 M 280 20 L 280 -130 L 860 -130 L 860 -250 L 1020 -250 L 1020 -300 L 960 -300 L s
+n 295 -170 M 300 -170 L s
+n 510 -180 M 515 -180 L s
+n 325 -500 M 330 -500 L s
+n 595 -510 M 600 -510 L s
+n 300 -170 M 350 -170 L s
+n 460 -180 M 510 -180 L s
+n 70 -280 M 160 -280 L s
+n 320 -600 M 220 -600 L 220 -420 L 310 -420 L 310 -390 L 342 -390 L s
+n 610 -360 M 630 -360 L 630 -400 L 653 -400 L s
+n 620 -430 M 662 -430 L s
+n 662 -510 M 600 -510 L s
+n 640 -610 M 640 -650 L 110 -650 L 110 -330 L 160 -330 L s
+n 240 -310 M 320 -310 L 320 -350 L 342 -350 L s
+n 460 -140 M 610 -140 L 610 -220 L 662 -220 L s
+n 497 -330 M 510 -330 L 510 -350 L 550 -350 L 550 -480 L 662 -480 L s
+n 342 -310 M 330 -310 L 330 -250 L 300 -250 L 300 -390 L 160 -390 L 160 -400 L 140 -400 L 140 -540 L 87 -540 L s
+n 330 -500 M 430 -500 L 430 -383 L s
+n 342 -280 M 340 -280 L 340 -240 L 190 -240 L 190 -220 L s
+n 590 -300 M 620 -300 L 620 -290 L 662 -290 L s
+n 350 -20 M 220 -20 L s
+n 350 -100 M 260 -100 L s
+n 490 -80 M 495 -80 L s
+n 490 -100 M 495 -100 L s
+n 490 -60 M 495 -60 L s
+n 590 30 M 620 30 L 620 -42 L s
+n 460 -30 M 520 -30 L 520 -50 L 590 -50 L s
+n 460 -10 M 560 -10 L 560 10 L 750 10 L s
+n 460 -80 M 490 -80 L s
+n 460 -100 M 490 -100 L s
+n 460 -60 M 490 -60 L s
+n 467 -80 M 460 -76 L  460 -84 L  467 -80 L  
+ eofill
+n 467 -80 M 460 -76 L 460 -84 L 467 -80 L s
+1 setgray
+
+n matrix currentmatrix 210 -90 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 210 -90 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+
+n 497 -330 M 490 -326 L  490 -334 L  497 -330 L  
+ eofill
+0 setgray
+
+n 497 -330 M 490 -326 L 490 -334 L 497 -330 L s
+0.498039 setgray
+
+n 350 -390 M 342 -386 L  342 -394 L  350 -390 L  
+ eofill
+0 setgray
+
+n 350 -390 M 342 -386 L 342 -394 L 350 -390 L s
+0.498039 setgray
+
+n 350 -350 M 342 -346 L  342 -354 L  350 -350 L  
+ eofill
+0 setgray
+
+n 350 -350 M 342 -346 L 342 -354 L 350 -350 L s
+0.498039 setgray
+
+n 350 -310 M 342 -306 L  342 -314 L  350 -310 L  
+ eofill
+0 setgray
+
+n 350 -310 M 342 -306 L 342 -314 L 350 -310 L s
+0.498039 setgray
+
+n 350 -280 M 342 -276 L  342 -284 L  350 -280 L  
+ eofill
+0 setgray
+
+n 350 -280 M 342 -276 L 342 -284 L 350 -280 L s
+0.498039 setgray
+
+n 430 -375 M 426 -383 L  434 -383 L  430 -375 L  
+ eofill
+0 setgray
+
+n 430 -375 M 426 -383 L 434 -383 L 430 -375 L s
+n 350 -170 M 342 -166 L  342 -174 L  350 -170 L  
+ eofill
+n 350 -170 M 342 -166 L 342 -174 L 350 -170 L s
+n 467 -180 M 460 -176 L  460 -184 L  467 -180 L  
+ eofill
+n 467 -180 M 460 -176 L 460 -184 L 467 -180 L s
+n 50 -240 M 54 -232 L  46 -232 L  50 -240 L  
+ eofill
+n 50 -240 M 54 -232 L 46 -232 L 50 -240 L s
+n 77 -280 M 70 -276 L  70 -284 L  77 -280 L  
+ eofill
+n 77 -280 M 70 -276 L 70 -284 L 77 -280 L s
+n 160 -280 M 152 -276 L  152 -284 L  160 -280 L  
+ eofill
+n 160 -280 M 152 -276 L 152 -284 L 160 -280 L s
+1 setgray
+
+n matrix currentmatrix 610 -360 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 610 -360 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+1 setgray
+
+n matrix currentmatrix 620 -430 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 620 -430 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n 160 -330 M 152 -326 L  152 -334 L  160 -330 L  
+ eofill
+n 160 -330 M 152 -326 L 152 -334 L 160 -330 L s
+n 247 -310 M 240 -306 L  240 -314 L  247 -310 L  
+ eofill
+n 247 -310 M 240 -306 L 240 -314 L 247 -310 L s
+n 467 -140 M 460 -136 L  460 -144 L  467 -140 L  
+ eofill
+n 467 -140 M 460 -136 L 460 -144 L 467 -140 L s
+n matrix currentmatrix 530 -140 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 530 -140 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+n 590 -100 M 582 -96 L  582 -104 L  590 -100 L  
+ eofill
+n 590 -100 M 582 -96 L 582 -104 L 590 -100 L s
+n 190 -227 M 194 -220 L  186 -220 L  190 -227 L  
+ eofill
+n 190 -227 M 194 -220 L 186 -220 L 190 -227 L s
+n 597 -300 M 590 -296 L  590 -304 L  597 -300 L  
+ eofill
+n 597 -300 M 590 -296 L 590 -304 L 597 -300 L s
+n 467 -100 M 460 -96 L  460 -104 L  467 -100 L  
+ eofill
+n 467 -100 M 460 -96 L 460 -104 L 467 -100 L s
+n 190 -120 M 194 -112 L  186 -112 L  190 -120 L  
+ eofill
+n 190 -120 M 194 -112 L 186 -112 L 190 -120 L s
+n 210 -120 M 214 -112 L  206 -112 L  210 -120 L  
+ eofill
+n 210 -120 M 214 -112 L 206 -112 L 210 -120 L s
+n 342 -100 M 350 -104 L  350 -96 L  342 -100 L  
+ eofill
+n 342 -100 M 350 -104 L 350 -96 L 342 -100 L s
+1 setgray
+
+n matrix currentmatrix 260 -100 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 260 -100 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n 220 -20 M 227 -24 L  227 -16 L  220 -20 L  
+ eofill
+n 220 -20 M 227 -24 L 227 -16 L 220 -20 L s
+n 190 -37 M 194 -30 L  186 -30 L  190 -37 L  
+ eofill
+n 190 -37 M 194 -30 L 186 -30 L 190 -37 L s
+n 620 -42 M 624 -35 L  616 -35 L  620 -42 L  
+ eofill
+n 620 -42 M 624 -35 L 616 -35 L 620 -42 L s
+n 342 -50 M 350 -54 L  350 -46 L  342 -50 L  
+ eofill
+n 342 -50 M 350 -54 L 350 -46 L 342 -50 L s
+n 467 -30 M 460 -26 L  460 -34 L  467 -30 L  
+ eofill
+n 467 -30 M 460 -26 L 460 -34 L 467 -30 L s
+n 590 -50 M 582 -46 L  582 -54 L  590 -50 L  
+ eofill
+n 590 -50 M 582 -46 L 582 -54 L 590 -50 L s
+n 467 0 M 460 4 L  460 -4 L  467 0 L  
+ eofill
+n 467 0 M 460 4 L 460 -4 L 467 0 L s
+n 467 -10 M 460 -6 L  460 -14 L  467 -10 L  
+ eofill
+n 467 -10 M 460 -6 L 460 -14 L 467 -10 L s
+n 342 -20 M 350 -24 L  350 -16 L  342 -20 L  
+ eofill
+n 342 -20 M 350 -24 L 350 -16 L 342 -20 L s
+n 467 -60 M 460 -56 L  460 -64 L  467 -60 L  
+ eofill
+n 467 -60 M 460 -56 L 460 -64 L 467 -60 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+8/Courier ilvsf
+
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+71 -510 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(RFAZEXTout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+8/Courier-Bold ilvsf
+
+G 612 -68 M 1 -1 scale(aStoreMux)ilvshow g
+G 182 -7 M 1 -1 scale(asext11)ilvshow g
+8/Courier ilvsf
+
+G 480 -2 M 1 -1 scale(index6)ilvshow g
+8/Courier-Bold ilvsf
+
+G 532 -266 M 1 -1 scale(ece411)ilvshow g
+8/Courier ilvsf
+
+G 120 -332 M 1 -1 scale(PCout)ilvshow g
+8/Courier-Bold ilvsf
+
+G 12 -296 M 1 -1 scale(ece411)ilvshow g
+G 12 -287 M 1 -1 scale(ADJ9)ilvshow g
+G 12 -278 M 1 -1 scale(aADJ9)ilvshow g
+8/Courier ilvsf
+
+G 90 -282 M 1 -1 scale(ADJ9out)ilvshow g
+8/Courier-Bold ilvsf
+
+G 182 -306 M 1 -1 scale(ece411)ilvshow g
+G 182 -297 M 1 -1 scale(BRadd)ilvshow g
+G 182 -288 M 1 -1 scale(aBRadd)ilvshow g
+8/Courier ilvsf
+
+G 300 -497 M 1 -1 scale(PCMuxSel)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 570 -507 M 1 -1 scale(LoadPC)dup stringwidth pop -1 mul 0 rM ilvshow g
+8/Courier-Bold ilvsf
+
+G 397 -332 M 1 -1 scale(ece411)ilvshow g
+G 397 -323 M 1 -1 scale(WordMux4)ilvshow g
+G 397 -314 M 1 -1 scale(PCMuz)ilvshow g
+8/Courier ilvsf
+
+G 480 -327 M 1 -1 scale(Fin)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 360 -387 M 1 -1 scale(Input00)ilvshow g
+G 360 -347 M 1 -1 scale(Input01)ilvshow g
+G 360 -307 M 1 -1 scale(Input10)ilvshow g
+G 360 -277 M 1 -1 scale(Input11)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+425 -290 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Select4 : \(1:0\))ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+G 260 -312 M 1 -1 scale(BRaddout)ilvshow g
+G 517 -332 M 1 -1 scale(PCMuxout)ilvshow g
+G 610 -302 M 1 -1 scale(r7ch)ilvshow g
+8/Courier-Bold ilvsf
+
+G 372 -166 M 1 -1 scale(ece411)ilvshow g
+G 372 -157 M 1 -1 scale(IR)ilvshow g
+G 372 -148 M 1 -1 scale(aIR)ilvshow g
+8/Courier ilvsf
+
+G 270 -167 M 1 -1 scale(LoadIR)dup stringwidth pop -1 mul 0 rM ilvshow g
+8/Courier-Bold ilvsf
+
+G 172 -176 M 1 -1 scale(ece411)ilvshow g
+G 172 -167 M 1 -1 scale(JSRadd)ilvshow g
+G 172 -158 M 1 -1 scale(aJSRadd)ilvshow g
+8/Courier ilvsf
+
+G 320 -222 M 1 -1 scale(ran2)ilvshow g
+G 540 -177 M 1 -1 scale(Opcode)ilvshow g
+8/Courier-Bold ilvsf
+
+G 532 -257 M 1 -1 scale(r7Gen)ilvshow g
+G 532 -248 M 1 -1 scale(ar7Gen)ilvshow g
+8/Courier ilvsf
+
+G 480 -142 M 1 -1 scale(dest)ilvshow g
+8/Courier-Bold ilvsf
+
+G 182 -16 M 1 -1 scale(ece411)ilvshow g
+8/Courier ilvsf
+
+G 290 -52 M 1 -1 scale(offset9)ilvshow g
+G 320 -22 M 1 -1 scale(offset11)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+171 -70 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(ADJ11)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+201 -100 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(PCout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 677] concat
+ n 690 510 -70 -510 rect clip
+G 310 -102 M 1 -1 scale(Immd4)ilvshow g
+8/Courier-Bold ilvsf
+
+G 612 -86 M 1 -1 scale(ece411)ilvshow g
+G 612 -77 M 1 -1 scale(StoreMux)ilvshow g
+8/Courier ilvsf
+
+G 520 -77 M 1 -1 scale(bit5)ilvshow g
+G 520 -97 M 1 -1 scale(bit11)ilvshow g
+G 520 -57 M 1 -1 scale(bit4)ilvshow g
+G 480 -32 M 1 -1 scale(SrcA)ilvshow g
+G 560 -102 M 1 -1 scale(dest)ilvshow g
+G 480 -12 M 1 -1 scale(SrcB)ilvshow g
+8/Courier-Bold ilvsf
+
+G 182 1 M 1 -1 scale(U_4)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 670 575 M 1 -1 scale(Page 6 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 7 7
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 79 129 1291 -529 rect  eofill
+0.25098 setgray
+2 slw
+
+1291 -529 79 129 rectstroke
+0.498039 setgray
+0 slw
+
+n 1079 -487 M 1079 -443 L  941 -401 L  941 -529 L  1079 -487 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 1079 -487 M 1079 -443 L 941 -401 L 941 -529 L 1079 -487 L s
+0.8 setgray
+0 slw
+
+n 79 209 751 -99 rect  eofill
+0.0784314 setgray
+2 slw
+
+751 -99 79 209 rectstroke
+0.498039 setgray
+0 slw
+
+n 119 129 671 -519 rect  eofill
+0.25098 setgray
+2 slw
+
+671 -519 119 129 rectstroke
+0.498039 setgray
+0 slw
+
+n 1079 -17 M 1079 27 L  941 69 L  941 -59 L  1079 -17 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 1079 -17 M 1079 27 L 941 69 L 941 -59 L 1079 -17 L s
+0.8 setgray
+0 slw
+
+n 669 -97 M 669 -63 L  591 -31 L  591 -129 L  669 -97 L  
+ eofill
+0.0784314 setgray
+2 slw
+
+n 669 -97 M 669 -63 L 591 -31 L 591 -129 L 669 -97 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+0 setgray
+0 slw
+
+n G 672 -392 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+0.0784314 setgray
+
+n 680 -334 M 690 -334 L  695 -330 L  690 -326 L  680 -326 L  680 -334 L  
+ eofill
+0 setgray
+
+n 680 -334 M 690 -334 L 695 -330 L 690 -326 L 680 -326 L 680 -334 L s
+0.0784314 setgray
+
+n 680 -334 M 690 -334 L  695 -330 L  690 -326 L  680 -326 L  680 -334 L  
+ eofill
+0 setgray
+
+n 680 -334 M 690 -334 L 695 -330 L 690 -326 L 680 -326 L 680 -334 L s
+n 695 -330 M 700 -330 L s
+0.498039 setgray
+
+n 79 119 671 -319 rect  eofill
+0.25098 setgray
+2 slw
+
+671 -319 79 119 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+0 setgray
+0 slw
+
+n G 672 -202 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+0.0784314 setgray
+
+n 1260 -194 M 1270 -194 L  1275 -190 L  1270 -186 L  1260 -186 L  1260 -194 L  
+ eofill
+0 setgray
+
+n 1260 -194 M 1270 -194 L 1275 -190 L 1270 -186 L 1260 -186 L 1260 -194 L s
+0.0784314 setgray
+
+n 1260 -194 M 1270 -194 L  1275 -190 L  1270 -186 L  1260 -186 L  1260 -194 L  
+ eofill
+0 setgray
+
+n 1260 -194 M 1270 -194 L 1275 -190 L 1270 -186 L 1260 -186 L 1260 -194 L s
+n 1275 -190 M 1280 -190 L s
+0.0784314 setgray
+
+n 900 -94 M 910 -94 L  915 -90 L  910 -86 L  900 -86 L  900 -94 L  
+ eofill
+0 setgray
+
+n 900 -94 M 910 -94 L 915 -90 L 910 -86 L 900 -86 L 900 -94 L s
+0.0784314 setgray
+
+n 900 -94 M 910 -94 L  915 -90 L  910 -86 L  900 -86 L  900 -94 L  
+ eofill
+0 setgray
+
+n 900 -94 M 910 -94 L 915 -90 L 910 -86 L 900 -86 L 900 -94 L s
+n 915 -90 M 920 -90 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+0 setgray
+
+n G 1292 -402 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+0.8 setgray
+
+n 69 59 891 -329 rect  eofill
+0.0784314 setgray
+2 slw
+
+891 -329 69 59 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+0 setgray
+0 slw
+
+n G 892 -272 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+n G 942 -402 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+0 setgray
+
+n 1410 -80 M 1460 -80 L 1460 460 L 730 460 L 730 430 L 470 430 L 470 440 L s
+n 1280 -190 M 1380 -190 L 1380 -109 L s
+n 932 -480 M 890 -480 L 890 -360 L 1180 -360 L 1180 -350 L 1200 -350 L 1200 -320 L 1460 -320 L 1460 -80 L s
+n 850 -460 M 850 -640 L 780 -640 L 780 -610 L 400 -610 L s
+n 460 0 M 490 0 L 490 80 L 680 80 L 680 90 L 690 90 L 690 140 L 840 140 L 840 130 L 860 130 L s
+n 757 -250 M 790 -250 L 790 -210 L 790 -100 L s
+n 350 20 M 280 20 L 280 -130 L 860 -130 L 860 -250 L 1020 -250 L 1020 -300 L 960 -300 L s
+n 695 -330 M 700 -330 L s
+n 610 -360 M 630 -360 L 630 -400 L 653 -400 L s
+n 620 -430 M 662 -430 L s
+n 662 -510 M 600 -510 L s
+n 640 -610 M 640 -650 L 110 -650 L 110 -330 L 160 -330 L s
+n 460 -140 M 610 -140 L 610 -220 L 662 -220 L s
+n 497 -330 M 510 -330 L 510 -350 L 550 -350 L 550 -480 L 662 -480 L s
+n 700 -330 M 730 -330 L 730 -327 L s
+n 590 -300 M 620 -300 L 620 -290 L 662 -290 L s
+n 1275 -190 M 1280 -190 L s
+n 1235 -520 M 1240 -520 L s
+n 1250 -370 M 1273 -370 L 1273 -410 L s
+n 1240 -440 M 1270 -440 L 1270 -500 L 1282 -500 L s
+n 1240 -520 M 1282 -520 L s
+n 1087 -460 M 1282 -460 L s
+n 980 -560 M 1020 -560 L 1020 -513 L s
+n 797 -460 M 880 -460 L 880 -520 L 932 -520 L s
+n 890 -310 M 860 -310 L 860 -440 L 932 -440 L s
+n 1040 -370 M 932 -370 L 932 -410 L s
+n 700 -90 M 750 -90 L s
+n 670 -80 M 720 -80 L 720 -60 L 750 -60 L s
+n 590 30 M 620 30 L 620 -42 L s
+n 460 -10 M 560 -10 L 560 10 L 750 10 L s
+n 915 -90 M 920 -90 L s
+n 830 30 M 890 30 L 890 -30 L 920 -30 L 920 -50 L 932 -50 L s
+n 1087 10 M 1170 10 L 1170 0 L 1190 0 L 1190 -30 L 1330 -30 L 1330 -50 L s
+n 830 -70 M 1270 -70 L 1270 -110 L 1330 -110 L s
+n 920 -90 M 1020 -90 L 1020 -43 L s
+n 932 -10 M 860 -10 L 860 -110 L 1220 -110 L 1220 20 L 1360 20 L 1360 60 L 1500 60 L 1500 130 L 1437 130 L s
+1 setgray
+
+n matrix currentmatrix 700 -90 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 700 -90 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n 750 -90 M 742 -86 L  742 -94 L  750 -90 L  
+ eofill
+n 750 -90 M 742 -86 L 742 -94 L 750 -90 L s
+n 677 -80 M 670 -76 L  670 -84 L  677 -80 L  
+ eofill
+n 677 -80 M 670 -76 L 670 -84 L 677 -80 L s
+0.498039 setgray
+
+n 670 -510 M 662 -506 L  662 -514 L  670 -510 L  
+ eofill
+0 setgray
+
+n 670 -510 M 662 -506 L 662 -514 L 670 -510 L s
+0.498039 setgray
+
+n 670 -480 M 662 -476 L  662 -484 L  670 -480 L  
+ eofill
+0 setgray
+
+n 670 -480 M 662 -476 L 662 -484 L 670 -480 L s
+0.498039 setgray
+
+n 670 -430 M 662 -426 L  662 -434 L  670 -430 L  
+ eofill
+0 setgray
+
+n 670 -430 M 662 -426 L 662 -434 L 670 -430 L s
+0.498039 setgray
+
+n 678 -430 M 671 -427 L  671 -433 L  678 -430 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 678 -430 M 671 -427 L 671 -433 L 678 -430 L s
+0.498039 setgray
+0 slw
+
+n 661 -400 M 653 -396 L  653 -404 L  661 -400 L  
+ eofill
+0 setgray
+
+n 661 -400 M 653 -396 L 653 -404 L 661 -400 L s
+0.498039 setgray
+
+n matrix currentmatrix 666 -400 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.25098 setgray
+2 slw
+
+n matrix currentmatrix 666 -400 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+0 slw
+
+n 670 -290 M 662 -286 L  662 -294 L  670 -290 L  
+ eofill
+0 setgray
+
+n 670 -290 M 662 -286 L 662 -294 L 670 -290 L s
+0.498039 setgray
+
+n 670 -220 M 662 -216 L  662 -224 L  670 -220 L  
+ eofill
+0 setgray
+
+n 670 -220 M 662 -216 L 662 -224 L 670 -220 L s
+1 setgray
+
+n matrix currentmatrix 620 -430 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 620 -430 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+
+n 797 -460 M 790 -456 L  790 -464 L  797 -460 L  
+ eofill
+0 setgray
+
+n 797 -460 M 790 -456 L 790 -464 L 797 -460 L s
+0.498039 setgray
+
+n 1290 -460 M 1282 -456 L  1282 -464 L  1290 -460 L  
+ eofill
+0 setgray
+
+n 1290 -460 M 1282 -456 L 1282 -464 L 1290 -460 L s
+0.498039 setgray
+
+n 1290 -500 M 1282 -496 L  1282 -504 L  1290 -500 L  
+ eofill
+0 setgray
+
+n 1290 -500 M 1282 -496 L 1282 -504 L 1290 -500 L s
+0.498039 setgray
+
+n 1298 -500 M 1291 -497 L  1291 -503 L  1298 -500 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 1298 -500 M 1291 -497 L 1291 -503 L 1298 -500 L s
+0.498039 setgray
+0 slw
+
+n 1281 -410 M 1273 -406 L  1273 -414 L  1281 -410 L  
+ eofill
+0 setgray
+
+n 1281 -410 M 1273 -406 L 1273 -414 L 1281 -410 L s
+0.498039 setgray
+
+n matrix currentmatrix 1286 -410 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.25098 setgray
+2 slw
+
+n matrix currentmatrix 1286 -410 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+0 slw
+
+n 757 -250 M 750 -246 L  750 -254 L  757 -250 L  
+ eofill
+0 setgray
+
+n 757 -250 M 750 -246 L 750 -254 L 757 -250 L s
+0.498039 setgray
+
+n 730 -320 M 726 -327 L  734 -327 L  730 -320 L  
+ eofill
+0 setgray
+
+n 730 -320 M 726 -327 L 734 -327 L 730 -320 L s
+0.498039 setgray
+
+n 1087 -460 M 1080 -456 L  1080 -464 L  1087 -460 L  
+ eofill
+0 setgray
+
+n 1087 -460 M 1080 -456 L 1080 -464 L 1087 -460 L s
+0.498039 setgray
+
+n 940 -480 M 932 -476 L  932 -484 L  940 -480 L  
+ eofill
+0 setgray
+
+n 940 -480 M 932 -476 L 932 -484 L 940 -480 L s
+0.498039 setgray
+
+n 940 -440 M 932 -436 L  932 -444 L  940 -440 L  
+ eofill
+0 setgray
+
+n 940 -440 M 932 -436 L 932 -444 L 940 -440 L s
+0.498039 setgray
+
+n 940 -410 M 932 -406 L  932 -414 L  940 -410 L  
+ eofill
+0 setgray
+
+n 940 -410 M 932 -406 L 932 -414 L 940 -410 L s
+0.498039 setgray
+
+n 1020 -505 M 1016 -513 L  1024 -513 L  1020 -505 L  
+ eofill
+0 setgray
+
+n 1020 -505 M 1016 -513 L 1024 -513 L 1020 -505 L s
+1 setgray
+
+n matrix currentmatrix 1250 -370 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 1250 -370 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+1 setgray
+
+n matrix currentmatrix 1240 -440 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 1240 -440 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n matrix currentmatrix 850 -460 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 850 -460 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+n 790 -100 M 786 -107 L  794 -107 L  790 -100 L  
+ eofill
+n 790 -100 M 786 -107 L 794 -107 L 790 -100 L s
+n 960 -300 M 967 -304 L  967 -296 L  960 -300 L  
+ eofill
+n 960 -300 M 967 -304 L 967 -296 L 960 -300 L s
+n 882 -310 M 890 -314 L  890 -306 L  882 -310 L  
+ eofill
+n 882 -310 M 890 -314 L 890 -306 L 882 -310 L s
+1 setgray
+
+n matrix currentmatrix 1040 -370 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 1040 -370 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n 620 -42 M 624 -35 L  616 -35 L  620 -42 L  
+ eofill
+n 620 -42 M 624 -35 L 616 -35 L 620 -42 L s
+0.498039 setgray
+
+n 940 -50 M 932 -46 L  932 -54 L  940 -50 L  
+ eofill
+0 setgray
+
+n 940 -50 M 932 -46 L 932 -54 L 940 -50 L s
+0.498039 setgray
+
+n 940 -10 M 932 -6 L  932 -14 L  940 -10 L  
+ eofill
+0 setgray
+
+n 940 -10 M 932 -6 L 932 -14 L 940 -10 L s
+0.498039 setgray
+
+n 1020 -35 M 1016 -43 L  1024 -43 L  1020 -35 L  
+ eofill
+0 setgray
+
+n 1020 -35 M 1016 -43 L 1024 -43 L 1020 -35 L s
+n 837 -70 M 830 -66 L  830 -74 L  837 -70 L  
+ eofill
+n 837 -70 M 830 -66 L 830 -74 L 837 -70 L s
+n 750 -60 M 742 -56 L  742 -64 L  750 -60 L  
+ eofill
+n 750 -60 M 742 -56 L 742 -64 L 750 -60 L s
+8/Courier-Bold ilvsf
+
+G 612 -68 M 1 -1 scale(aStoreMux)ilvshow g
+8/Courier ilvsf
+
+G 950 -7 M 1 -1 scale(Input01)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+1015 50 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Select4 : \(1:0\))ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+G 670 -327 M 1 -1 scale(DestnSel)dup stringwidth pop -1 mul 0 rM ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+1098 10 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(ALUMuxout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+G 630 -362 M 1 -1 scale(RESET_L)ilvshow g
+G 640 -432 M 1 -1 scale(clk)ilvshow g
+G 610 -302 M 1 -1 scale(r7ch)ilvshow g
+8/Courier-Bold ilvsf
+
+G 612 -86 M 1 -1 scale(ece411)ilvshow g
+G 612 -77 M 1 -1 scale(StoreMux)ilvshow g
+G 677 -263 M 1 -1 scale(RegSelectMux)ilvshow g
+G 707 -452 M 1 -1 scale(ece411)ilvshow g
+G 707 -443 M 1 -1 scale(Reg16)ilvshow g
+G 707 -434 M 1 -1 scale(PC)ilvshow g
+8/Courier ilvsf
+
+G 680 -507 M 1 -1 scale(load)ilvshow g
+G 680 -477 M 1 -1 scale(input)ilvshow g
+G 680 -427 M 1 -1 scale(clk)ilvshow g
+G 680 -397 M 1 -1 scale(RESET)ilvshow g
+G 780 -457 M 1 -1 scale(Output)dup stringwidth pop -1 mul 0 rM ilvshow g
+8/Courier-Bold ilvsf
+
+G 677 -272 M 1 -1 scale(ece411)ilvshow g
+8/Courier ilvsf
+
+G 680 -287 M 1 -1 scale(A)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+725 -295 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Sel)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+8/Courier-Bold ilvsf
+
+G 912 -286 M 1 -1 scale(ece411)ilvshow g
+G 912 -277 M 1 -1 scale(ZEXT8)ilvshow g
+G 912 -268 M 1 -1 scale(U_5)ilvshow g
+G 987 -462 M 1 -1 scale(ece411)ilvshow g
+G 987 -453 M 1 -1 scale(WordMux4)ilvshow g
+G 987 -444 M 1 -1 scale(MARMux)ilvshow g
+8/Courier ilvsf
+
+G 1070 -457 M 1 -1 scale(Fin)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 950 -477 M 1 -1 scale(Input01)ilvshow g
+G 950 -437 M 1 -1 scale(Input10)ilvshow g
+G 950 -407 M 1 -1 scale(Input11)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+1015 -420 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Select4 : \(1:0\))ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+1121 -440 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(MARMuxout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 1367] concat
+ n 690 510 620 -510 rect clip
+G 817 -462 M 1 -1 scale(PCout)ilvshow g
+G 892 -482 M 1 -1 scale(ALUout)ilvshow g
+G 840 -312 M 1 -1 scale(zextTrap)ilvshow g
+G 1010 -372 M 1 -1 scale(MDRout)ilvshow g
+G 1300 -457 M 1 -1 scale(input)ilvshow g
+G 1300 -497 M 1 -1 scale(clk)ilvshow g
+G 1300 -407 M 1 -1 scale(RESET)ilvshow g
+G 1270 -372 M 1 -1 scale(RESET_L)ilvshow g
+G 1270 -502 M 1 -1 scale(clk)ilvshow g
+G 890 -87 M 1 -1 scale(ALUMuxSel)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 950 -47 M 1 -1 scale(Input00)ilvshow g
+8/Courier-Bold ilvsf
+
+G 677 -254 M 1 -1 scale(aDestSelector)ilvshow g
+8/Courier ilvsf
+
+G 680 -217 M 1 -1 scale(B)ilvshow g
+G 740 -247 M 1 -1 scale(F)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 850 -72 M 1 -1 scale(RFAout)ilvshow g
+G 710 -92 M 1 -1 scale(RESET_L)ilvshow g
+G 690 -62 M 1 -1 scale(StoreMuxOut)ilvshow g
+G 777 -243 M 1 -1 scale(destn)ilvshow g
+G 882 -12 M 1 -1 scale(Input01)ilvshow g
+G 1250 -187 M 1 -1 scale(ALUop)dup stringwidth pop -1 mul 0 rM ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 670 575 M 1 -1 scale(Page 7 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 8 8
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 560 2057] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 2057] concat
+ n 385 510 1310 -510 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 79 129 1291 -529 rect  eofill
+0.25098 setgray
+2 slw
+
+1291 -529 79 129 rectstroke
+0.8 setgray
+0 slw
+
+n 1331 -129 M 1331 -89 L  1358 -80 L  1331 -71 L  1331 -31 L  1409 -63 L  1409 -97 L  1331 -129 L  
+ eofill
+0.0784314 setgray
+2 slw
+
+n 1331 -129 M 1331 -89 L 1358 -80 L 1331 -71 L 1331 -31 L 1409 -63 L 1409 -97 L 1331 -129 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 2057] concat
+0 setgray
+0 slw
+
+n G 1332 -32 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+n G 1292 -402 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 2057] concat
+ n 385 510 1310 -510 rect clip
+0.8 setgray
+
+n 89 99 1471 -489 rect  eofill
+0.0784314 setgray
+2 slw
+
+1471 -489 89 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 560 2057] concat
+0 setgray
+0 slw
+
+n G 1472 -392 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 560 2057] concat
+ n 385 510 1310 -510 rect clip
+0.0784314 setgray
+
+n 1615 -464 M 1625 -464 L  1630 -460 L  1625 -456 L  1615 -456 L  1615 -464 L  
+ eofill
+0 setgray
+
+n 1615 -464 M 1625 -464 L 1630 -460 L 1625 -456 L 1615 -456 L 1615 -464 L s
+0.0784314 setgray
+
+n 1615 -464 M 1625 -464 L  1630 -460 L  1625 -456 L  1615 -456 L  1615 -464 L  
+ eofill
+0 setgray
+
+n 1615 -464 M 1625 -464 L 1630 -460 L 1625 -456 L 1615 -456 L 1615 -464 L s
+n 1610 -460 M 1615 -460 L s
+n 1410 -80 M 1460 -80 L 1460 460 L 730 460 L 730 430 L 470 430 L 470 440 L s
+n 1280 -190 M 1380 -190 L 1380 -109 L s
+n 932 -480 M 890 -480 L 890 -360 L 1180 -360 L 1180 -350 L 1200 -350 L 1200 -320 L 1460 -320 L 1460 -80 L s
+n 1630 -520 M 1635 -520 L s
+n 1610 -460 M 1615 -460 L s
+n 1377 -520 M 1630 -520 L s
+n 1420 -520 M 1420 -440 L 1470 -440 L s
+n 1560 -460 M 1610 -460 L s
+n 1087 10 M 1170 10 L 1170 0 L 1190 0 L 1190 -30 L 1330 -30 L 1330 -50 L s
+n 830 -70 M 1270 -70 L 1270 -110 L 1330 -110 L s
+n 932 -10 M 860 -10 L 860 -110 L 1220 -110 L 1220 20 L 1360 20 L 1360 60 L 1500 60 L 1500 130 L 1437 130 L s
+n 1380 -109 M 1376 -117 L  1384 -117 L  1380 -109 L  
+ eofill
+n 1380 -109 M 1376 -117 L 1384 -117 L 1380 -109 L s
+n 1330 -110 M 1322 -106 L  1322 -114 L  1330 -110 L  
+ eofill
+n 1330 -110 M 1322 -106 L 1322 -114 L 1330 -110 L s
+n 1330 -50 M 1334 -42 L  1326 -42 L  1330 -50 L  
+ eofill
+n 1330 -50 M 1334 -42 L 1326 -42 L 1330 -50 L s
+n 1417 -80 M 1410 -76 L  1410 -84 L  1417 -80 L  
+ eofill
+n 1417 -80 M 1410 -76 L 1410 -84 L 1417 -80 L s
+n matrix currentmatrix 1460 -80 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 1460 -80 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+n 1470 -440 M 1462 -436 L  1462 -444 L  1470 -440 L  
+ eofill
+n 1470 -440 M 1462 -436 L 1462 -444 L 1470 -440 L s
+n 1567 -460 M 1560 -456 L  1560 -464 L  1567 -460 L  
+ eofill
+n 1567 -460 M 1560 -456 L 1560 -464 L 1567 -460 L s
+8/Courier-Bold ilvsf
+
+G 1317 -472 M 1 -1 scale(ece411)ilvshow g
+G 1317 -463 M 1 -1 scale(Reg16)ilvshow g
+G 1317 -454 M 1 -1 scale(MAR)ilvshow g
+8/Courier ilvsf
+
+G 1300 -457 M 1 -1 scale(input)ilvshow g
+G 1300 -497 M 1 -1 scale(clk)ilvshow g
+G 1300 -407 M 1 -1 scale(RESET)ilvshow g
+8/Courier-Bold ilvsf
+
+G 1492 -446 M 1 -1 scale(ece411)ilvshow g
+G 1492 -437 M 1 -1 scale(ParityTeller)ilvshow g
+G 1492 -428 M 1 -1 scale(U_12)ilvshow g
+8/Courier ilvsf
+
+G 1640 -457 M 1 -1 scale(Parity)ilvshow g
+G 1420 -442 M 1 -1 scale(ADDRESS)ilvshow g
+8/Courier-Bold ilvsf
+
+G 1362 -86 M 1 -1 scale(ece411)ilvshow g
+G 1362 -77 M 1 -1 scale(ALU)ilvshow g
+G 1362 -68 M 1 -1 scale(U_3)ilvshow g
+8/Courier ilvsf
+
+G 1390 -82 M 1 -1 scale(ALUout)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 670 575 M 1 -1 scale(Page 8 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 9 9
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 50 -13] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 -13] concat
+ n 310 510 -380 0 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.0784314 setgray
+0 slw
+n -130 326 M -120 326 L  -115 330 L  -120 334 L  -130 334 L  -130 326 L  
+ eofill
+0 setgray
+
+n -130 326 M -120 326 L -115 330 L -120 334 L -130 334 L -130 326 L s
+0.0784314 setgray
+
+n -130 326 M -120 326 L  -115 330 L  -120 334 L  -130 334 L  -130 326 L  
+ eofill
+0 setgray
+
+n -130 326 M -120 326 L -115 330 L -120 334 L -130 334 L -130 326 L s
+n -115 330 M -110 330 L s
+n -115 330 M -110 330 L s
+2 slw
+
+n -110 330 M -17 330 L s
+8/Courier ilvsf
+0 slw
+
+G -360 508 M 1 -1 scale(SIGNAL RFBout        : LC3b_word)ilvshow g
+G -360 256 M 1 -1 scale(bit11         : std_logic)ilvshow g
+G -360 121 M 1 -1 scale(RESET_L       : std_logic)ilvshow g
+8/Courier-Bold ilvsf
+
+G -380 4 M 1 -1 scale(Ports:)ilvshow g
+8/Courier ilvsf
+
+G -360 67 M 1 -1 scale(LoadMDR       : std_logic)ilvshow g
+G -360 103 M 1 -1 scale(MDRMuxSel     : std_logic)ilvshow g
+G -360 76 M 1 -1 scale(LoadNZP       : std_logic)ilvshow g
+G -360 22 M 1 -1 scale(ALUop         : LC3b_aluop)ilvshow g
+G -360 49 M 1 -1 scale(LoadIR        : std_logic)ilvshow g
+G -360 58 M 1 -1 scale(LoadMAR       : std_logic)ilvshow g
+G -360 94 M 1 -1 scale(MARMuxSel     : std_logic_vector\(1 DOWNTO 0\))ilvshow g
+G -360 85 M 1 -1 scale(LoadPC        : std_logic)ilvshow g
+G -360 31 M 1 -1 scale(DATAIN        : LC3b_word)ilvshow g
+G -360 112 M 1 -1 scale(PCMuxSel      : std_logic_vector\(1 DOWNTO 0\))ilvshow g
+G -360 13 M 1 -1 scale(ALUMuxSel     : std_logic_vector\(1 DOWNTO 0\))ilvshow g
+G -360 40 M 1 -1 scale(DestnSel      : std_logic)ilvshow g
+G -360 184 M 1 -1 scale(clk           : std_logic)ilvshow g
+G -360 202 M 1 -1 scale(CheckN        : std_logic)ilvshow g
+G -360 220 M 1 -1 scale(CheckZ        : std_logic)ilvshow g
+G -360 211 M 1 -1 scale(CheckP        : std_logic)ilvshow g
+G -360 148 M 1 -1 scale(RegWrite      : std_logic)ilvshow g
+G -360 175 M 1 -1 scale(StoreSR       : std_logic)ilvshow g
+G -360 193 M 1 -1 scale(ADDRESS       : LC3b_word)ilvshow g
+G -360 238 M 1 -1 scale(Opcode        : LC3b_opcode)ilvshow g
+G -360 229 M 1 -1 scale(DATAOUT       : LC3b_word)ilvshow g
+G -360 130 M 1 -1 scale(RFAorMDR      : std_logic)ilvshow g
+G -360 139 M 1 -1 scale(RFMuxSel      : std_logic_vector\(2 DOWNTO 0\))ilvshow g
+G -360 166 M 1 -1 scale(ShiftSelector : std_logic_vector\(1 DOWNTO 0\))ilvshow g
+G -360 157 M 1 -1 scale(SextorADJ     : std_logic)ilvshow g
+G -360 247 M 1 -1 scale(Parity        : std_logic)ilvshow g
+G -70 242 M 1 -1 scale(MDRMuxSel)dup stringwidth pop -1 mul 0 rM ilvshow g
+G -360 382 M 1 -1 scale(SIGNAL Fin           : LC3b_word)ilvshow g
+8/Courier-Bold ilvsf
+
+G -380 310 M 1 -1 scale(Diagram Signals:)ilvshow g
+8/Courier ilvsf
+
+G -140 332 M 1 -1 scale(DATAIN)dup stringwidth pop -1 mul 0 rM ilvshow g
+G -360 355 M 1 -1 scale(SIGNAL ALUout        : LC3b_word)ilvshow g
+G -360 346 M 1 -1 scale(SIGNAL ALUMuxout     : LC3b_word)ilvshow g
+G -360 337 M 1 -1 scale(SIGNAL ADJ9out       : LC3b_word)ilvshow g
+G -360 364 M 1 -1 scale(SIGNAL BRaddout      : LC3b_word)ilvshow g
+G -360 283 M 1 -1 scale(n             : std_logic)ilvshow g
+G -360 301 M 1 -1 scale(z             : std_logic)ilvshow g
+G -360 292 M 1 -1 scale(p             : std_logic)ilvshow g
+G -360 274 M 1 -1 scale(bit5          : std_logic)ilvshow g
+G -360 373 M 1 -1 scale(SIGNAL C             : LC3b_word)ilvshow g
+G -360 319 M 1 -1 scale(SIGNAL ADJ11         : LC3b_word)ilvshow g
+G -360 265 M 1 -1 scale(bit4          : std_logic)ilvshow g
+G -360 328 M 1 -1 scale(SIGNAL ADJ6out       : LC3b_word)ilvshow g
+G -360 445 M 1 -1 scale(SIGNAL MDRMuxout     : LC3b_word)ilvshow g
+G -360 454 M 1 -1 scale(SIGNAL MDRout        : LC3b_word)ilvshow g
+G -360 391 M 1 -1 scale(SIGNAL GenCCout      : LC3b_cc)ilvshow g
+G -360 499 M 1 -1 scale(SIGNAL RFAout        : LC3b_word)ilvshow g
+G -360 472 M 1 -1 scale(SIGNAL PCPlus2out    : LC3b_word)ilvshow g
+G -360 436 M 1 -1 scale(SIGNAL MARMuxout     : LC3b_word)ilvshow g
+G -360 481 M 1 -1 scale(SIGNAL PCout         : LC3b_word)ilvshow g
+G -360 463 M 1 -1 scale(SIGNAL PCMuxout      : LC3b_word)ilvshow g
+G -360 400 M 1 -1 scale(SIGNAL ImmD5         : LC3b_imm5)ilvshow g
+G -360 490 M 1 -1 scale(SIGNAL RFAZEXTout    : LC3b_word)ilvshow g
+G -360 409 M 1 -1 scale(SIGNAL Immd4         : LC3b_nibble)ilvshow g
+G -360 427 M 1 -1 scale(SIGNAL Llog          : LC3b_word)ilvshow g
+G -360 418 M 1 -1 scale(SIGNAL Input01       : LC3b_word)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 670 575 M 1 -1 scale(Page 9 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 10 10
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.8 setgray
+0 slw
+n 109 249 351 -209 rect  eofill
+0.0784314 setgray
+2 slw
+
+351 -209 109 249 rectstroke
+0.8 setgray
+0 slw
+
+n 49 39 171 -29 rect  eofill
+0.0784314 setgray
+2 slw
+
+171 -29 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+0 setgray
+0 slw
+
+n G 172 7 t 15 -14 scale
+15 14 8[15 0 0 -14 0 14]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJH#Ts
+-RU8h-i^s^!!!"Lrr=Do-RU8hs1eU7!!%QLs8W-!s8W-!^]4?7!._l#^qdb$^qdb$!!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+0.952941 setgray
+
+n 170 10 250 500 rect  eofill
+0 setgray
+
+250 500 170 10 rectstroke
+0.952941 setgray
+
+n 170 10 250 480 rect  eofill
+0 setgray
+
+250 480 170 10 rectstroke
+0.952941 setgray
+
+n 210 20 210 460 rect  eofill
+0 setgray
+
+210 460 210 20 rectstroke
+0.952941 setgray
+
+n 170 10 250 490 rect  eofill
+0 setgray
+
+250 490 170 10 rectstroke
+0.498039 setgray
+
+n 189 159 241 181 rect  eofill
+0.25098 setgray
+2 slw
+
+241 181 189 159 rectstroke
+0.0784314 setgray
+0 slw
+
+n -20 116 M -10 116 L  -5 120 L  -10 124 L  -20 124 L  -20 116 L  
+ eofill
+0 setgray
+
+n -20 116 M -10 116 L -5 120 L -10 124 L -20 124 L -20 116 L s
+0.0784314 setgray
+
+n -20 116 M -10 116 L  -5 120 L  -10 124 L  -20 124 L  -20 116 L  
+ eofill
+0 setgray
+
+n -20 116 M -10 116 L -5 120 L -10 124 L -20 124 L -20 116 L s
+n -5 120 M 0 120 L s
+0.0784314 setgray
+
+n -20 156 M -10 156 L  -5 160 L  -10 164 L  -20 164 L  -20 156 L  
+ eofill
+0 setgray
+
+n -20 156 M -10 156 L -5 160 L -10 164 L -20 164 L -20 156 L s
+0.0784314 setgray
+
+n -20 156 M -10 156 L  -5 160 L  -10 164 L  -20 164 L  -20 156 L  
+ eofill
+0 setgray
+
+n -20 156 M -10 156 L -5 160 L -10 164 L -20 164 L -20 156 L s
+n -5 160 M 0 160 L s
+0.843137 setgray
+
+n matrix currentmatrix 100 160 t 10 10 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0 setgray
+
+n matrix currentmatrix 100 160 t 10 10 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.0784314 setgray
+
+n 150 216 M 160 216 L  165 220 L  160 224 L  150 224 L  150 216 L  
+ eofill
+0 setgray
+
+n 150 216 M 160 216 L 165 220 L 160 224 L 150 224 L 150 216 L s
+0.0784314 setgray
+
+n 150 216 M 160 216 L  165 220 L  160 224 L  150 224 L  150 216 L  
+ eofill
+0 setgray
+
+n 150 216 M 160 216 L 165 220 L 160 224 L 150 224 L 150 216 L s
+n 165 220 M 170 220 L s
+0.0784314 setgray
+
+n -60 236 M -50 236 L  -45 240 L  -50 244 L  -60 244 L  -60 236 L  
+ eofill
+0 setgray
+
+n -60 236 M -50 236 L -45 240 L -50 244 L -60 244 L -60 236 L s
+0.0784314 setgray
+
+n -60 236 M -50 236 L  -45 240 L  -50 244 L  -60 244 L  -60 236 L  
+ eofill
+0 setgray
+
+n -60 236 M -50 236 L -45 240 L -50 244 L -60 244 L -60 236 L s
+n -45 240 M -40 240 L s
+0.0784314 setgray
+
+n 605 156 M 615 156 L  620 160 L  615 164 L  605 164 L  605 156 L  
+ eofill
+0 setgray
+
+n 605 156 M 615 156 L 620 160 L 615 164 L 605 164 L 605 156 L s
+0.0784314 setgray
+
+n 605 156 M 615 156 L  620 160 L  615 164 L  605 164 L  605 156 L  
+ eofill
+0 setgray
+
+n 605 156 M 615 156 L 620 160 L 615 164 L 605 164 L 605 156 L s
+n 600 160 M 605 160 L s
+0.0784314 setgray
+
+n 510 206 M 520 206 L  525 210 L  520 214 L  510 214 L  510 206 L  
+ eofill
+0 setgray
+
+n 510 206 M 520 206 L 525 210 L 520 214 L 510 214 L 510 206 L s
+0.0784314 setgray
+
+n 510 206 M 520 206 L  525 210 L  520 214 L  510 214 L  510 206 L  
+ eofill
+0 setgray
+
+n 510 206 M 520 206 L 525 210 L 520 214 L 510 214 L 510 206 L s
+n 525 210 M 530 210 L s
+0.0784314 setgray
+
+n 570 26 M 580 26 L  585 30 L  580 34 L  570 34 L  570 26 L  
+ eofill
+0 setgray
+
+n 570 26 M 580 26 L 585 30 L 580 34 L 570 34 L 570 26 L s
+0.0784314 setgray
+
+n 570 26 M 580 26 L  585 30 L  580 34 L  570 34 L  570 26 L  
+ eofill
+0 setgray
+
+n 570 26 M 580 26 L 585 30 L 580 34 L 570 34 L 570 26 L s
+n 585 30 M 590 30 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+0 setgray
+
+n G 352 37 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+0.929412 setgray
+
+n 79 99 411 81 rect  eofill
+0.0784314 setgray
+2 slw
+
+411 81 79 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+0 setgray
+0 slw
+
+n G 412 177 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLz!<3$!z!.b+Ls8W-!s8W,7z
+JH#TLs8N'!s8Tk7!!!"Ls8W*!!<<'!s1eU7!!%QLs8W-!s8W-!^]4?7!.b(L!<<'!rrE)7zJH,ZLzs8T
+k7!!!"Ls8W-!s8W-!s1eU7!!%QLrr<$!!!*'!^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_czzzz!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+1 setgray
+
+n 179 49 491 181 rect  eofill
+0.0784314 setgray
+2 slw
+
+491 181 179 49 rectstroke
+0.952941 setgray
+0 slw
+
+n 40 10 210 480 rect  eofill
+0 setgray
+
+210 480 40 10 rectstroke
+0.952941 setgray
+
+n 40 10 210 490 rect  eofill
+0 setgray
+
+210 490 40 10 rectstroke
+0.952941 setgray
+
+n 40 10 210 500 rect  eofill
+0 setgray
+
+210 500 40 10 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+0 setgray
+
+n G 242 337 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+0.498039 setgray
+
+n 89 297 M 89 333 L  -9 369 L  -9 261 L  89 297 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 89 297 M 89 333 L -9 369 L -9 261 L 89 297 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+0 setgray
+0 slw
+
+n G -7 367 t 14 -15 scale
+14 15 8[14 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzzJ:N0#J:N0#z!!%QLs8W-!s1j-bzJH,ZLs8W,7s*t(L!!%QLs8W-!rr<$!zJH#TLzs1eU7!!%QL!
+%0-A-R\r0zJH,ZLs8W-!s1eU7!!%QL!%0-A-R\r0zJH#Ts-RU8hs1eU7!!%QLs8W-!s8W,7zJH#Ts-RU
+8hs1eU7!!%QL!%0-A-R\r0zJH,ZLs8W-!s1eU7!!%Pb^qdb$^qdb$!!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+0.952941 setgray
+
+n 40 10 420 460 rect  eofill
+0 setgray
+
+420 460 40 10 rectstroke
+0.952941 setgray
+
+n 200 40 420 470 rect  eofill
+0 setgray
+
+420 470 200 40 rectstroke
+0.952941 setgray
+
+n 160 10 460 460 rect  eofill
+0 setgray
+
+460 460 160 10 rectstroke
+0.498039 setgray
+
+n 139 129 531 271 rect  eofill
+0.25098 setgray
+2 slw
+
+531 271 139 129 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+0 setgray
+0 slw
+
+n G 532 397 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+0 setgray
+
+n 522 300 M 470 300 L 470 440 L -40 440 L -40 350 L -17 350 L s
+n 1410 -80 M 1460 -80 L 1460 460 L 730 460 L 730 430 L 470 430 L 470 440 L s
+n 712 530 M 590 530 L 590 407 L s
+n 840 420 M 940 420 L 940 450 L 780 450 L 770 430 L 770 420 L 720 420 L 720 480 L 610 480 L 610 407 L s
+n 460 0 M 490 0 L 490 80 L 680 80 L 680 90 L 690 90 L 690 140 L 840 140 L 840 130 L 860 130 L s
+n 460 10 M 520 10 L 560 130 L 720 130 L 720 190 L 800 190 L s
+n 350 20 M 280 20 L 280 -130 L 860 -130 L 860 -250 L 1020 -250 L 1020 -300 L 960 -300 L s
+n 450 270 M 450 110 L 430 110 L 430 70 L 400 70 L 400 40 L s
+n -5 120 M 0 120 L s
+n 0 120 M 100 120 L s
+n 585 30 M 590 30 L s
+n 590 30 M 620 30 L 620 -42 L s
+n 460 -10 M 560 -10 L 560 10 L 750 10 L s
+n -5 160 M 0 160 L s
+n 165 220 M 170 220 L s
+n -45 240 M -40 240 L s
+n 0 160 M 90 160 L s
+n 97 310 M 160 310 L 160 250 L 232 250 L s
+n 210 370 M 223 370 L 223 330 L s
+n 170 220 M 232 220 L s
+n -40 240 M 10 240 L 10 258 L s
+2 slw
+
+n -110 330 M -17 330 L s
+0 slw
+
+n 50 160 M 50 270 L 232 270 L s
+n 600 160 M 605 160 L s
+n 525 210 M 530 210 L s
+2 slw
+
+n 437 270 M 510 270 L s
+n 550 160 M 600 160 L s
+0 slw
+
+n 522 330 M 510 330 L 440 330 L s
+n 522 380 M 490 380 L 450 380 L 440 380 L s
+n 510 270 M 510 280 L 522 280 L s
+n 530 210 M 610 210 L 610 262 L s
+1 setgray
+
+n matrix currentmatrix 100 120 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 100 120 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n 467 0 M 460 4 L  460 -4 L  467 0 L  
+ eofill
+n 467 0 M 460 4 L 460 -4 L 467 0 L s
+n 400 40 M 404 47 L  396 47 L  400 40 L  
+ eofill
+n 400 40 M 404 47 L 396 47 L 400 40 L s
+n 467 10 M 460 14 L  460 6 L  467 10 L  
+ eofill
+n 467 10 M 460 14 L 460 6 L 467 10 L s
+n 342 20 M 350 16 L  350 24 L  342 20 L  
+ eofill
+n 342 20 M 350 16 L 350 24 L 342 20 L s
+0.498039 setgray
+
+n 240 220 M 232 224 L  232 216 L  240 220 L  
+ eofill
+0 setgray
+
+n 240 220 M 232 224 L 232 216 L 240 220 L s
+0.498039 setgray
+
+n 240 250 M 232 254 L  232 246 L  240 250 L  
+ eofill
+0 setgray
+
+n 240 250 M 232 254 L 232 246 L 240 250 L s
+0.498039 setgray
+
+n 240 270 M 232 274 L  232 266 L  240 270 L  
+ eofill
+0 setgray
+
+n 240 270 M 232 274 L 232 266 L 240 270 L s
+0.498039 setgray
+
+n 248 270 M 241 273 L  241 267 L  248 270 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 248 270 M 241 273 L 241 267 L 248 270 L s
+0.498039 setgray
+0 slw
+
+n 231 330 M 223 334 L  223 326 L  231 330 L  
+ eofill
+0 setgray
+
+n 231 330 M 223 334 L 223 326 L 231 330 L s
+0.498039 setgray
+
+n matrix currentmatrix 236 330 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.25098 setgray
+2 slw
+
+n matrix currentmatrix 236 330 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+0 slw
+
+n -10 330 M -17 334 L  -17 326 L  -10 330 L  
+ eofill
+0 setgray
+
+n -10 330 M -17 334 L -17 326 L -10 330 L s
+0.498039 setgray
+
+n -10 350 M -17 354 L  -17 346 L  -10 350 L  
+ eofill
+0 setgray
+
+n -10 350 M -17 354 L -17 346 L -10 350 L s
+0.498039 setgray
+
+n 10 267 M 6 260 L  14 260 L  10 267 L  
+ eofill
+0 setgray
+
+n 10 267 M 6 260 L 14 260 L 10 267 L s
+0.498039 setgray
+
+n 97 310 M 90 314 L  90 306 L  97 310 L  
+ eofill
+0 setgray
+
+n 97 310 M 90 314 L 90 306 L 97 310 L s
+n matrix currentmatrix 50 160 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 50 160 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+
+n 437 270 M 430 274 L  430 266 L  437 270 L  
+ eofill
+0 setgray
+
+n 437 270 M 430 274 L 430 266 L 437 270 L s
+0.498039 setgray
+
+n 530 280 M 522 284 L  522 276 L  530 280 L  
+ eofill
+0 setgray
+
+n 530 280 M 522 284 L 522 276 L 530 280 L s
+0.498039 setgray
+
+n 530 300 M 522 304 L  522 296 L  530 300 L  
+ eofill
+0 setgray
+
+n 530 300 M 522 304 L 522 296 L 530 300 L s
+0.498039 setgray
+
+n 530 330 M 522 334 L  522 326 L  530 330 L  
+ eofill
+0 setgray
+
+n 530 330 M 522 334 L 522 326 L 530 330 L s
+0.498039 setgray
+
+n 610 270 M 606 262 L  614 262 L  610 270 L  
+ eofill
+0 setgray
+
+n 610 270 M 606 262 L 614 262 L 610 270 L s
+1 setgray
+
+n matrix currentmatrix 510 270 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 510 270 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n matrix currentmatrix 450 270 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 450 270 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+n matrix currentmatrix 510 270 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 510 270 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+1 setgray
+
+n matrix currentmatrix 550 160 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 550 160 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+1 setgray
+
+n matrix currentmatrix 440 330 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 440 330 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+
+n 530 380 M 522 384 L  522 376 L  530 380 L  
+ eofill
+0 setgray
+
+n 530 380 M 522 384 L 522 376 L 530 380 L s
+0.498039 setgray
+
+n 590 400 M 594 407 L  586 407 L  590 400 L  
+ eofill
+0 setgray
+
+n 590 400 M 594 407 L 586 407 L 590 400 L s
+0.498039 setgray
+
+n 610 400 M 614 407 L  606 407 L  610 400 L  
+ eofill
+0 setgray
+
+n 610 400 M 614 407 L 606 407 L 610 400 L s
+1 setgray
+
+n matrix currentmatrix 210 370 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 210 370 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n matrix currentmatrix 470 440 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 470 440 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+1 setgray
+
+n matrix currentmatrix 440 380 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 440 380 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+8/Courier ilvsf
+0 setgray
+
+G 492 189 M 1 -1 scale(--Dataout = MDRout)ilvshow g
+G 492 198 M 1 -1 scale(DATAOUT <= MDRout;                )ilvshow g
+G 492 207 M 1 -1 scale(              )ilvshow g
+G 480 -2 M 1 -1 scale(index6)ilvshow g
+G 0 16 M 1 -1 scale(LIBRARY ieee;)ilvshow g
+G 0 25 M 1 -1 scale(USE ieee.std_logic_1164.all;)ilvshow g
+G 0 34 M 1 -1 scale(USE ieee.NUMERIC_STD.all;)ilvshow g
+G 0 43 M 1 -1 scale()ilvshow g
+G 0 52 M 1 -1 scale(LIBRARY ece411;)ilvshow g
+G 0 61 M 1 -1 scale(USE ece411.LC3b_types.all;)ilvshow g
+G 250 252 M 1 -1 scale(input)ilvshow g
+G 140 222 M 1 -1 scale(LoadMDR)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 110 328 M 1 -1 scale(MDRMuxout)ilvshow g
+G -30 122 M 1 -1 scale(RESET_L)dup stringwidth pop -1 mul 0 rM ilvshow g
+8/Courier-Bold ilvsf
+
+G 0 7 M 1 -1 scale(Package List)ilvshow g
+8/Courier ilvsf
+
+G -30 162 M 1 -1 scale(clk)dup stringwidth pop -1 mul 0 rM ilvshow g
+8/Courier-Bold ilvsf
+
+G 97 162 M 1 -1 scale(G)ilvshow g
+8/Courier ilvsf
+
+G -70 242 M 1 -1 scale(MDRMuxSel)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 250 222 M 1 -1 scale(load)ilvshow g
+G 500 212 M 1 -1 scale(RFMuxSel)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 560 32 M 1 -1 scale(StoreSR)dup stringwidth pop -1 mul 0 rM ilvshow g
+8/Courier-Bold ilvsf
+
+G 442 128 M 1 -1 scale(eb1)ilvshow g
+G 442 137 M 1 -1 scale(1)ilvshow g
+G 182 1 M 1 -1 scale(U_4)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+8/Courier ilvsf
+
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+391 90 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(MDRout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+G 480 8 M 1 -1 scale(ImmD5)ilvshow g
+G 300 18 M 1 -1 scale(trap_8)ilvshow g
+8/Courier-Bold ilvsf
+
+G 37 308 M 1 -1 scale(ece411)ilvshow g
+G 37 317 M 1 -1 scale(WordMux2)ilvshow g
+G 37 326 M 1 -1 scale(aMARMux)ilvshow g
+8/Courier ilvsf
+
+G 0 332 M 1 -1 scale(A)ilvshow g
+G 0 352 M 1 -1 scale(B)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+5 315 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Sel)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+G 80 312 M 1 -1 scale(F)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 420 272 M 1 -1 scale(Output)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 540 382 M 1 -1 scale(Input011)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+585 400 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Input100)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+605 400 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Input101)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 677] concat
+ n 690 510 -70 0 rect clip
+8/Courier-Bold ilvsf
+
+G 337 278 M 1 -1 scale(ece411)ilvshow g
+G 337 287 M 1 -1 scale(Reg16)ilvshow g
+G 337 296 M 1 -1 scale(U_1)ilvshow g
+8/Courier ilvsf
+
+G 250 272 M 1 -1 scale(clk)ilvshow g
+G 250 332 M 1 -1 scale(RESET)ilvshow g
+G 230 368 M 1 -1 scale(RESET_L)ilvshow g
+G 202 268 M 1 -1 scale(clk)ilvshow g
+8/Courier-Bold ilvsf
+
+G 577 338 M 1 -1 scale(ece411)ilvshow g
+G 577 347 M 1 -1 scale(WordMux8)ilvshow g
+G 577 356 M 1 -1 scale(RFMux)ilvshow g
+8/Courier ilvsf
+
+G 540 282 M 1 -1 scale(Input000)ilvshow g
+G 540 302 M 1 -1 scale(Input001)ilvshow g
+G 540 332 M 1 -1 scale(Input010)ilvshow g
+G 457 268 M 1 -1 scale(MDRout)ilvshow g
+G 482 298 M 1 -1 scale(ALUout)ilvshow g
+G 470 348 M 1 -1 scale(BRaddout)ilvshow g
+G 482 378 M 1 -1 scale(PCout)ilvshow g
+G 482 278 M 1 -1 scale(MDRout)ilvshow g
+0.0784314 setgray
+
+G 252 507 M 1 -1 scale(by ravi7 on 06 Feb 2014)ilvshow g
+G 252 487 M 1 -1 scale(<enter diagram title here>)ilvshow g
+G 212 487 M 1 -1 scale(Title:)ilvshow g
+10/Courier ilvsf
+0.172549 setgray
+
+G 315 473 M 1 -1 scale(<company name>)dup stringwidth pop -2 div 0 rM ilvshow g
+8/Courier ilvsf
+0.0784314 setgray
+
+G 212 497 M 1 -1 scale(Path:)ilvshow g
+G 212 507 M 1 -1 scale(Edited:)ilvshow g
+G 252 497 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 422 467 M 1 -1 scale(Project:)ilvshow g
+G 422 479 M 1 -1 scale(<enter comments here>)ilvshow g
+G 462 467 M 1 -1 scale(ece411_mp3)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 664 575 M 1 -1 scale(Page 10 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 11 11
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 721 557 M 721 513 L  789 471 L  789 599 L  721 557 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 721 557 M 721 513 L 789 471 L 789 599 L 721 557 L s
+0.8 setgray
+0 slw
+
+n 79 209 751 -99 rect  eofill
+0.0784314 setgray
+2 slw
+
+751 -99 79 209 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 752 107 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.498039 setgray
+
+n 1079 -17 M 1079 27 L  941 69 L  941 -59 L  1079 -17 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 1079 -17 M 1079 27 L 941 69 L 941 -59 L 1079 -17 L s
+0.0784314 setgray
+0 slw
+
+n 605 156 M 615 156 L  620 160 L  615 164 L  605 164 L  605 156 L  
+ eofill
+0 setgray
+
+n 605 156 M 615 156 L 620 160 L 615 164 L 605 164 L 605 156 L s
+0.0784314 setgray
+
+n 605 156 M 615 156 L  620 160 L  615 164 L  605 164 L  605 156 L  
+ eofill
+0 setgray
+
+n 605 156 M 615 156 L 620 160 L 615 164 L 605 164 L 605 156 L s
+n 600 160 M 605 160 L s
+0.0784314 setgray
+
+n 690 26 M 700 26 L  705 30 L  700 34 L  690 34 L  690 26 L  
+ eofill
+0 setgray
+
+n 690 26 M 700 26 L 705 30 L 700 34 L 690 34 L 690 26 L s
+0.0784314 setgray
+
+n 690 26 M 700 26 L  705 30 L  700 34 L  690 34 L  690 26 L  
+ eofill
+0 setgray
+
+n 690 26 M 700 26 L 705 30 L 700 34 L 690 34 L 690 26 L s
+n 705 30 M 710 30 L s
+1 setgray
+
+n 179 49 491 181 rect  eofill
+0.0784314 setgray
+2 slw
+
+491 181 179 49 rectstroke
+0.952941 setgray
+0 slw
+
+n 200 40 420 470 rect  eofill
+0 setgray
+
+420 470 200 40 rectstroke
+0.952941 setgray
+
+n 160 10 460 460 rect  eofill
+0 setgray
+
+460 460 160 10 rectstroke
+0.498039 setgray
+
+n 139 129 531 271 rect  eofill
+0.25098 setgray
+2 slw
+
+531 271 139 129 rectstroke
+0.0784314 setgray
+0 slw
+
+n 710 396 M 720 396 L  725 400 L  720 404 L  710 404 L  710 396 L  
+ eofill
+0 setgray
+
+n 710 396 M 720 396 L 725 400 L 720 404 L 710 404 L 710 396 L s
+0.0784314 setgray
+
+n 710 396 M 720 396 L  725 400 L  720 404 L  710 404 L  710 396 L  
+ eofill
+0 setgray
+
+n 710 396 M 720 396 L 725 400 L 720 404 L 710 404 L 710 396 L s
+n 725 400 M 730 400 L s
+0.8 setgray
+
+n 79 99 1201 191 rect  eofill
+0.0784314 setgray
+2 slw
+
+1201 191 79 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 1202 287 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.8 setgray
+
+n 79 99 951 141 rect  eofill
+0.0784314 setgray
+2 slw
+
+951 141 79 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 952 237 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.0784314 setgray
+
+n 1095 166 M 1105 166 L  1110 170 L  1105 174 L  1095 174 L  1095 166 L  
+ eofill
+0 setgray
+
+n 1095 166 M 1105 166 L 1110 170 L 1105 174 L 1095 174 L 1095 166 L s
+0.0784314 setgray
+
+n 1095 166 M 1105 166 L  1110 170 L  1105 174 L  1095 174 L  1095 166 L  
+ eofill
+0 setgray
+
+n 1095 166 M 1105 166 L 1110 170 L 1105 174 L 1095 174 L 1095 166 L s
+n 1090 170 M 1095 170 L s
+0.0784314 setgray
+
+n 1095 186 M 1105 186 L  1110 190 L  1105 194 L  1095 194 L  1095 186 L  
+ eofill
+0 setgray
+
+n 1095 186 M 1105 186 L 1110 190 L 1105 194 L 1095 194 L 1095 186 L s
+0.0784314 setgray
+
+n 1095 186 M 1105 186 L  1110 190 L  1105 194 L  1095 194 L  1095 186 L  
+ eofill
+0 setgray
+
+n 1095 186 M 1105 186 L 1110 190 L 1105 194 L 1095 194 L 1095 186 L s
+n 1090 190 M 1095 190 L s
+0.0784314 setgray
+
+n 1095 206 M 1105 206 L  1110 210 L  1105 214 L  1095 214 L  1095 206 L  
+ eofill
+0 setgray
+
+n 1095 206 M 1105 206 L 1110 210 L 1105 214 L 1095 214 L 1095 206 L s
+0.0784314 setgray
+
+n 1095 206 M 1105 206 L  1110 210 L  1105 214 L  1095 214 L  1095 206 L  
+ eofill
+0 setgray
+
+n 1095 206 M 1105 206 L 1110 210 L 1105 214 L 1095 214 L 1095 206 L s
+n 1090 210 M 1095 210 L s
+0.8 setgray
+
+n 49 49 861 101 rect  eofill
+0.0784314 setgray
+2 slw
+
+861 101 49 49 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 862 147 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.8 setgray
+
+n 49 39 801 161 rect  eofill
+0.0784314 setgray
+2 slw
+
+801 161 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 802 197 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+n G 942 67 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.8 setgray
+
+n 49 39 1091 31 rect  eofill
+0.0784314 setgray
+2 slw
+
+1091 31 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 1092 67 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.498039 setgray
+
+n 1429 117 M 1429 173 L  1301 229 L  1301 61 L  1429 117 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 1429 117 M 1429 173 L 1301 229 L 1301 61 L 1429 117 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 1302 227 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.0784314 setgray
+
+n 1240 46 M 1250 46 L  1255 50 L  1250 54 L  1240 54 L  1240 46 L  
+ eofill
+0 setgray
+
+n 1240 46 M 1250 46 L 1255 50 L 1250 54 L 1240 54 L 1240 46 L s
+0.0784314 setgray
+
+n 1240 46 M 1250 46 L  1255 50 L  1250 54 L  1240 54 L  1240 46 L  
+ eofill
+0 setgray
+
+n 1240 46 M 1250 46 L 1255 50 L 1250 54 L 1240 54 L 1240 46 L s
+n 1255 50 M 1260 50 L s
+0.8 setgray
+
+n 79 99 781 271 rect  eofill
+0.0784314 setgray
+2 slw
+
+781 271 79 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 782 367 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.8 setgray
+
+n 79 99 951 261 rect  eofill
+0.0784314 setgray
+2 slw
+
+951 261 79 99 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 952 357 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.0784314 setgray
+
+n 870 326 M 880 326 L  885 330 L  880 334 L  870 334 L  870 326 L  
+ eofill
+0 setgray
+
+n 870 326 M 880 326 L 885 330 L 880 334 L 870 334 L 870 326 L s
+0.0784314 setgray
+
+n 870 326 M 880 326 L  885 330 L  880 334 L  870 334 L  870 326 L  
+ eofill
+0 setgray
+
+n 870 326 M 880 326 L 885 330 L 880 334 L 870 334 L 870 326 L s
+n 885 330 M 890 330 L s
+0.0784314 setgray
+
+n 1075 286 M 1085 286 L  1090 290 L  1085 294 L  1075 294 L  1075 286 L  
+ eofill
+0 setgray
+
+n 1075 286 M 1085 286 L 1090 290 L 1085 294 L 1075 294 L 1075 286 L s
+0.0784314 setgray
+
+n 1075 286 M 1085 286 L  1090 290 L  1085 294 L  1075 294 L  1075 286 L  
+ eofill
+0 setgray
+
+n 1075 286 M 1085 286 L 1090 290 L 1085 294 L 1075 294 L 1075 286 L s
+n 1070 290 M 1075 290 L s
+0.0784314 setgray
+
+n 1075 306 M 1085 306 L  1090 310 L  1085 314 L  1075 314 L  1075 306 L  
+ eofill
+0 setgray
+
+n 1075 306 M 1085 306 L 1090 310 L 1085 314 L 1075 314 L 1075 306 L s
+0.0784314 setgray
+
+n 1075 306 M 1085 306 L  1090 310 L  1085 314 L  1075 314 L  1075 306 L  
+ eofill
+0 setgray
+
+n 1075 306 M 1085 306 L 1090 310 L 1085 314 L 1075 314 L 1075 306 L s
+n 1070 310 M 1075 310 L s
+0.0784314 setgray
+
+n 1075 326 M 1085 326 L  1090 330 L  1085 334 L  1075 334 L  1075 326 L  
+ eofill
+0 setgray
+
+n 1075 326 M 1085 326 L 1090 330 L 1085 334 L 1075 334 L 1075 326 L s
+0.0784314 setgray
+
+n 1075 326 M 1085 326 L  1090 330 L  1085 334 L  1075 334 L  1075 326 L  
+ eofill
+0 setgray
+
+n 1075 326 M 1085 326 L 1090 330 L 1085 334 L 1075 334 L 1075 326 L s
+n 1070 330 M 1075 330 L s
+0.8 setgray
+
+n 49 39 851 471 rect  eofill
+0.0784314 setgray
+2 slw
+
+851 471 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 852 507 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.8 setgray
+
+n 49 39 791 411 rect  eofill
+0.0784314 setgray
+2 slw
+
+791 411 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 792 447 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0.8 setgray
+
+n 49 39 1011 391 rect  eofill
+0.0784314 setgray
+2 slw
+
+1011 391 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+0 setgray
+0 slw
+
+n G 1012 427 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+0 setgray
+
+n 1410 -80 M 1460 -80 L 1460 460 L 730 460 L 730 430 L 470 430 L 470 440 L s
+n 660 407 M 660 460 L s
+n 1020 390 M 1020 380 L 770 380 L 770 410 L 700 410 L 700 450 L 640 450 L 640 407 L s
+n 712 530 M 590 530 L 590 407 L s
+n 730 400 M 750 400 L 750 487 L s
+n 730 360 M 730 390 L 780 390 L 780 410 L 790 410 L s
+n 840 420 M 940 420 L 940 450 L 780 450 L 770 430 L 770 420 L 720 420 L 720 480 L 610 480 L 610 407 L s
+n 677 340 M 730 340 L 730 320 L 780 320 L s
+n 740 320 M 740 150 L 790 150 L 790 110 L s
+n 460 0 M 490 0 L 490 80 L 680 80 L 680 90 L 690 90 L 690 140 L 840 140 L 840 130 L 860 130 L s
+n 460 10 M 520 10 L 560 130 L 720 130 L 720 190 L 800 190 L s
+n 350 20 M 280 20 L 280 -130 L 860 -130 L 860 -250 L 1020 -250 L 1020 -300 L 960 -300 L s
+n 705 30 M 710 30 L s
+n 710 30 M 750 30 L s
+n 590 30 M 620 30 L 620 -42 L s
+n 460 -10 M 560 -10 L 560 10 L 750 10 L s
+n 725 400 M 730 400 L s
+n 530 210 M 610 210 L 610 262 L s
+n 885 330 M 890 330 L s
+n 1070 290 M 1075 290 L s
+n 1070 310 M 1075 310 L s
+n 1070 330 M 1075 330 L s
+n 1090 170 M 1095 170 L s
+n 1090 190 M 1095 190 L s
+n 1090 210 M 1095 210 L s
+n 1255 50 M 1260 50 L s
+n 900 190 M 950 190 L s
+n 860 300 M 950 300 L s
+n 890 330 M 950 330 L s
+n 1030 290 M 1070 290 L s
+n 1030 310 M 1070 310 L s
+n 1030 330 M 1070 330 L s
+n 1030 160 M 1090 160 L 1090 170 L s
+n 1030 190 M 1090 190 L s
+n 1030 210 M 1090 210 L s
+n 830 30 M 890 30 L 890 -30 L 920 -30 L 920 -50 L 932 -50 L s
+n 1087 10 M 1170 10 L 1170 0 L 1190 0 L 1190 -30 L 1330 -30 L 1330 -50 L s
+n 850 180 M 920 180 L 920 40 L 932 40 L 932 30 L s
+n 932 60 M 932 90 L 990 90 L 990 100 L 1060 100 L 1060 40 L 1090 40 L s
+n 910 120 M 1200 120 L 1200 150 L 1270 150 L 1270 120 L 1292 120 L s
+n 830 140 M 830 120 L 850 120 L 850 80 L 1190 80 L 1190 250 L 1200 250 L s
+n 1280 210 M 1292 210 L 1292 170 L s
+n 932 -10 M 860 -10 L 860 -110 L 1220 -110 L 1220 20 L 1360 20 L 1360 60 L 1500 60 L 1500 130 L 1437 130 L s
+n 1260 50 M 1340 50 L 1340 70 L 1360 70 L 1360 79 L s
+n 1110 400 M 1060 400 L s
+n 1010 530 M 930 530 L 930 480 L 900 480 L s
+n 1050 490 M 900 490 L s
+n 970 490 M 970 610 L 900 610 L s
+n 950 490 M 950 550 L 900 550 L s
+n 850 480 M 797 480 L s
+n 850 530 M 820 530 L 820 510 L 797 510 L s
+1 setgray
+
+n matrix currentmatrix 730 360 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 730 360 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+
+n 677 340 M 670 344 L  670 336 L  677 340 L  
+ eofill
+0 setgray
+
+n 677 340 M 670 344 L 670 336 L 677 340 L s
+n 1037 290 M 1030 294 L  1030 286 L  1037 290 L  
+ eofill
+n 1037 290 M 1030 294 L 1030 286 L 1037 290 L s
+n 1037 310 M 1030 314 L  1030 306 L  1037 310 L  
+ eofill
+n 1037 310 M 1030 314 L 1030 306 L 1037 310 L s
+n 1037 330 M 1030 334 L  1030 326 L  1037 330 L  
+ eofill
+n 1037 330 M 1030 334 L 1030 326 L 1037 330 L s
+n 1037 160 M 1030 164 L  1030 156 L  1037 160 L  
+ eofill
+n 1037 160 M 1030 164 L 1030 156 L 1037 160 L s
+n 1037 190 M 1030 194 L  1030 186 L  1037 190 L  
+ eofill
+n 1037 190 M 1030 194 L 1030 186 L 1037 190 L s
+n 1037 210 M 1030 214 L  1030 206 L  1037 210 L  
+ eofill
+n 1037 210 M 1030 214 L 1030 206 L 1037 210 L s
+n 860 130 M 852 134 L  852 126 L  860 130 L  
+ eofill
+n 860 130 M 852 134 L 852 126 L 860 130 L s
+n matrix currentmatrix 830 140 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 830 140 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+
+n 940 30 M 932 34 L  932 26 L  940 30 L  
+ eofill
+0 setgray
+
+n 940 30 M 932 34 L 932 26 L 940 30 L s
+0.498039 setgray
+
+n 940 60 M 932 64 L  932 56 L  940 60 L  
+ eofill
+0 setgray
+
+n 940 60 M 932 64 L 932 56 L 940 60 L s
+n 837 30 M 830 34 L  830 26 L  837 30 L  
+ eofill
+n 837 30 M 830 34 L 830 26 L 837 30 L s
+n 750 30 M 742 34 L  742 26 L  750 30 L  
+ eofill
+n 750 30 M 742 34 L 742 26 L 750 30 L s
+n 790 110 M 794 117 L  786 117 L  790 110 L  
+ eofill
+n 790 110 M 794 117 L 786 117 L 790 110 L s
+n 750 10 M 742 14 L  742 6 L  750 10 L  
+ eofill
+n 750 10 M 742 14 L 742 6 L 750 10 L s
+n 917 120 M 910 124 L  910 116 L  917 120 L  
+ eofill
+n 917 120 M 910 124 L 910 116 L 917 120 L s
+0.498039 setgray
+
+n 1087 10 M 1080 14 L  1080 6 L  1087 10 L  
+ eofill
+0 setgray
+
+n 1087 10 M 1080 14 L 1080 6 L 1087 10 L s
+0.498039 setgray
+
+n 1300 120 M 1292 124 L  1292 116 L  1300 120 L  
+ eofill
+0 setgray
+
+n 1300 120 M 1292 124 L 1292 116 L 1300 120 L s
+n 1082 40 M 1090 36 L  1090 44 L  1082 40 L  
+ eofill
+n 1082 40 M 1090 36 L 1090 44 L 1082 40 L s
+n 780 320 M 772 324 L  772 316 L  780 320 L  
+ eofill
+n 780 320 M 772 324 L 772 316 L 780 320 L s
+n matrix currentmatrix 740 320 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 740 320 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+1 setgray
+
+n matrix currentmatrix 900 190 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 900 190 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n 950 190 M 942 194 L  942 186 L  950 190 L  
+ eofill
+n 950 190 M 942 194 L 942 186 L 950 190 L s
+n 867 300 M 860 304 L  860 296 L  867 300 L  
+ eofill
+n 867 300 M 860 304 L 860 296 L 867 300 L s
+n 950 300 M 942 304 L  942 296 L  950 300 L  
+ eofill
+n 950 300 M 942 304 L 942 296 L 950 300 L s
+n 950 330 M 942 334 L  942 326 L  950 330 L  
+ eofill
+n 950 330 M 942 334 L 942 326 L 950 330 L s
+n 800 190 M 792 194 L  792 186 L  800 190 L  
+ eofill
+n 800 190 M 792 194 L 792 186 L 800 190 L s
+n 857 180 M 850 184 L  850 176 L  857 180 L  
+ eofill
+n 857 180 M 850 184 L 850 176 L 857 180 L s
+0.498039 setgray
+
+n 1300 170 M 1292 174 L  1292 166 L  1300 170 L  
+ eofill
+0 setgray
+
+n 1300 170 M 1292 174 L 1292 166 L 1300 170 L s
+n 1200 250 M 1192 254 L  1192 246 L  1200 250 L  
+ eofill
+n 1200 250 M 1192 254 L 1192 246 L 1200 250 L s
+n 1287 210 M 1280 214 L  1280 206 L  1287 210 L  
+ eofill
+n 1287 210 M 1280 214 L 1280 206 L 1287 210 L s
+0.498039 setgray
+
+n 640 400 M 644 407 L  636 407 L  640 400 L  
+ eofill
+0 setgray
+
+n 640 400 M 644 407 L 636 407 L 640 400 L s
+0.498039 setgray
+
+n 660 400 M 664 407 L  656 407 L  660 400 L  
+ eofill
+0 setgray
+
+n 660 400 M 664 407 L 656 407 L 660 400 L s
+1 setgray
+
+n matrix currentmatrix 660 460 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 660 460 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0.498039 setgray
+
+n 790 510 M 797 506 L  797 514 L  790 510 L  
+ eofill
+0 setgray
+
+n 790 510 M 797 506 L 797 514 L 790 510 L s
+0.498039 setgray
+
+n 790 480 M 797 476 L  797 484 L  790 480 L  
+ eofill
+0 setgray
+
+n 790 480 M 797 476 L 797 484 L 790 480 L s
+0.498039 setgray
+
+n 750 495 M 746 487 L  754 487 L  750 495 L  
+ eofill
+0 setgray
+
+n 750 495 M 746 487 L 754 487 L 750 495 L s
+n 1020 382 M 1024 390 L  1016 390 L  1020 382 L  
+ eofill
+n 1020 382 M 1024 390 L 1016 390 L 1020 382 L s
+n 900 480 M 907 476 L  907 484 L  900 480 L  
+ eofill
+n 900 480 M 907 476 L 907 484 L 900 480 L s
+1 setgray
+
+n matrix currentmatrix 1050 490 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 1050 490 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n 900 490 M 907 486 L  907 494 L  900 490 L  
+ eofill
+n 900 490 M 907 486 L 907 494 L 900 490 L s
+n matrix currentmatrix 970 490 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 970 490 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+n matrix currentmatrix 950 490 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 950 490 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+n 842 480 M 850 476 L  850 484 L  842 480 L  
+ eofill
+n 842 480 M 850 476 L 850 484 L 842 480 L s
+1 setgray
+
+n matrix currentmatrix 1110 400 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 1110 400 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n 1060 400 M 1067 396 L  1067 404 L  1060 400 L  
+ eofill
+n 1060 400 M 1067 396 L 1067 404 L 1060 400 L s
+n 790 410 M 782 414 L  782 406 L  790 410 L  
+ eofill
+n 790 410 M 782 414 L 782 406 L 790 410 L s
+n 847 420 M 840 424 L  840 416 L  847 420 L  
+ eofill
+n 847 420 M 840 424 L 840 416 L 847 420 L s
+8/Courier ilvsf
+
+G 780 512 M 1 -1 scale(Input10)dup stringwidth pop -1 mul 0 rM ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+745 580 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Select4 : \(1:0\))ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+G 630 162 M 1 -1 scale(DATAOUT)ilvshow g
+G 680 32 M 1 -1 scale(RegWrite)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 492 189 M 1 -1 scale(--Dataout = MDRout)ilvshow g
+G 492 198 M 1 -1 scale(DATAOUT <= MDRout;                )ilvshow g
+G 492 207 M 1 -1 scale(              )ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+1015 50 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Select4 : \(1:0\))ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+G 660 342 M 1 -1 scale(Fin)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 700 402 M 1 -1 scale(ShiftSelector)dup stringwidth pop -1 mul 0 rM ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+1098 10 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(ALUMuxout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+G 640 418 M 1 -1 scale(ran7)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+635 325 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Select8 : \(2:0\))ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+625 400 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Input110)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+645 400 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Input111)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+8/Courier-Bold ilvsf
+
+G 1222 251 M 1 -1 scale(U_11)ilvshow g
+8/Courier ilvsf
+
+G 1160 248 M 1 -1 scale(index6)ilvshow g
+8/Courier-Bold ilvsf
+
+G 872 123 M 1 -1 scale(ece411)ilvshow g
+G 772 53 M 1 -1 scale(ece411)ilvshow g
+G 772 62 M 1 -1 scale(RegFile)ilvshow g
+G 772 71 M 1 -1 scale(aRegFile)ilvshow g
+8/Courier ilvsf
+
+G 850 28 M 1 -1 scale(RFBout)ilvshow g
+8/Courier-Bold ilvsf
+
+G 987 8 M 1 -1 scale(ece411)ilvshow g
+G 987 17 M 1 -1 scale(WordMux4)ilvshow g
+G 987 26 M 1 -1 scale(ALUMux)ilvshow g
+8/Courier ilvsf
+
+G 1070 12 M 1 -1 scale(Fin)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 950 32 M 1 -1 scale(Input10)ilvshow g
+G 950 62 M 1 -1 scale(Input11)ilvshow g
+8/Courier-Bold ilvsf
+
+G 1102 53 M 1 -1 scale(ece411)ilvshow g
+G 1102 62 M 1 -1 scale(Shft8)ilvshow g
+G 1102 71 M 1 -1 scale(U_16)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+8/Courier ilvsf
+
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+923 80 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(ran54)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+G 930 118 M 1 -1 scale(ADJ6out)ilvshow g
+8/Courier-Bold ilvsf
+
+G 872 132 M 1 -1 scale(ADJ6)ilvshow g
+G 872 141 M 1 -1 scale(aADJ6)ilvshow g
+G 812 173 M 1 -1 scale(ece411)ilvshow g
+G 812 182 M 1 -1 scale(SgnExt5)ilvshow g
+G 812 191 M 1 -1 scale(aSEXT5)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+8/Courier ilvsf
+
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+781 170 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(RFMuxout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+G 870 187 M 1 -1 scale(C)ilvshow g
+8/Courier-Bold ilvsf
+
+G 972 183 M 1 -1 scale(ece411)ilvshow g
+G 972 192 M 1 -1 scale(NZPsplit)ilvshow g
+G 972 201 M 1 -1 scale(aNZPsplit)ilvshow g
+8/Courier ilvsf
+
+G 1120 172 M 1 -1 scale(CheckN)ilvshow g
+G 1120 192 M 1 -1 scale(CheckZ)ilvshow g
+G 1120 212 M 1 -1 scale(CheckP)ilvshow g
+G 920 188 M 1 -1 scale(dest)ilvshow g
+8/Courier-Bold ilvsf
+
+G 1222 233 M 1 -1 scale(ece411)ilvshow g
+G 1222 242 M 1 -1 scale(SEXT6)ilvshow g
+8/Courier ilvsf
+
+G 1230 52 M 1 -1 scale(SextorADJ)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 1300 208 M 1 -1 scale(Sext6out)ilvshow g
+G 880 298 M 1 -1 scale(GenCCout)ilvshow g
+8/Courier-Bold ilvsf
+
+G 802 313 M 1 -1 scale(ece411)ilvshow g
+G 802 322 M 1 -1 scale(GenCC)ilvshow g
+G 802 331 M 1 -1 scale(aGenCC)ilvshow g
+8/Courier ilvsf
+
+G 900 352 M 1 -1 scale(LoadNZP)dup stringwidth pop -1 mul 0 rM ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+668 330 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(RFMuxout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+721 380 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(MDRout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+8/Courier-Bold ilvsf
+
+G 972 303 M 1 -1 scale(ece411)ilvshow g
+G 972 312 M 1 -1 scale(NZP)ilvshow g
+G 972 321 M 1 -1 scale(aNZP)ilvshow g
+8/Courier ilvsf
+
+G 1100 292 M 1 -1 scale(n)ilvshow g
+G 1100 312 M 1 -1 scale(z)ilvshow g
+G 1100 332 M 1 -1 scale(p)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+1011 380 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(zHout)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 1367] concat
+ n 690 510 620 0 rect clip
+8/Courier-Bold ilvsf
+
+G 862 483 M 1 -1 scale(ece411)ilvshow g
+G 862 492 M 1 -1 scale(RSHArith)ilvshow g
+G 862 501 M 1 -1 scale(U_7)ilvshow g
+8/Courier ilvsf
+
+G 780 482 M 1 -1 scale(Input11)dup stringwidth pop -1 mul 0 rM ilvshow g
+8/Courier-Bold ilvsf
+
+G 802 423 M 1 -1 scale(ece411)ilvshow g
+G 802 432 M 1 -1 scale(ZextLByte)ilvshow g
+G 802 441 M 1 -1 scale(U_13)ilvshow g
+8/Courier ilvsf
+
+G 800 478 M 1 -1 scale(Rarith)ilvshow g
+G 860 418 M 1 -1 scale(zLout)ilvshow g
+8/Courier-Bold ilvsf
+
+G 1012 423 M 1 -1 scale(ece411)ilvshow g
+G 1012 432 M 1 -1 scale(ZextHByte)ilvshow g
+G 1012 441 M 1 -1 scale(U_14)ilvshow g
+8/Courier ilvsf
+
+G 1020 488 M 1 -1 scale(RFAout)ilvshow g
+G 1080 398 M 1 -1 scale(MDRout)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 664 575 M 1 -1 scale(Page 11 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 12 12
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 50 2057] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 2057] concat
+ n 385 510 1310 0 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 1429 117 M 1429 173 L  1301 229 L  1301 61 L  1429 117 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 1429 117 M 1429 173 L 1301 229 L 1301 61 L 1429 117 L s
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 2057] concat
+0 setgray
+0 slw
+
+n G 1302 227 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 2057] concat
+ n 385 510 1310 0 rect clip
+0 setgray
+
+n 1410 -80 M 1460 -80 L 1460 460 L 730 460 L 730 430 L 470 430 L 470 440 L s
+n 1087 10 M 1170 10 L 1170 0 L 1190 0 L 1190 -30 L 1330 -30 L 1330 -50 L s
+n 932 -10 M 860 -10 L 860 -110 L 1220 -110 L 1220 20 L 1360 20 L 1360 60 L 1500 60 L 1500 130 L 1437 130 L s
+n 1260 50 M 1340 50 L 1340 70 L 1360 70 L 1360 79 L s
+0.498039 setgray
+
+n 1360 86 M 1356 79 L  1364 79 L  1360 86 L  
+ eofill
+0 setgray
+
+n 1360 86 M 1356 79 L 1364 79 L 1360 86 L s
+0.498039 setgray
+
+n 1437 130 M 1430 134 L  1430 126 L  1437 130 L  
+ eofill
+0 setgray
+
+n 1437 130 M 1430 134 L 1430 126 L 1437 130 L s
+8/Courier-Bold ilvsf
+
+G 1347 148 M 1 -1 scale(ece411)ilvshow g
+G 1347 157 M 1 -1 scale(WordMux2)ilvshow g
+G 1347 166 M 1 -1 scale(U_10)ilvshow g
+8/Courier ilvsf
+
+G 1310 122 M 1 -1 scale(A)ilvshow g
+G 1310 172 M 1 -1 scale(B)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 2057] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 2057] concat
+ n 385 510 1310 0 rect clip
+1355 111 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Sel)ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 50 2057] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 50 2057] concat
+ n 385 510 1310 0 rect clip
+G 1420 132 M 1 -1 scale(F)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 1300 208 M 1 -1 scale(Sext6out)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 664 575 M 1 -1 scale(Page 12 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 13 13
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 -460 -13] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 -460 -13] concat
+ n 310 189 -380 510 rect clip
+8/Courier ilvsf
+[] 0 setdash
+0 setgray
+0 slw
+G -360 508 M 1 -1 scale(SIGNAL RFBout        : LC3b_word)ilvshow g
+G -360 517 M 1 -1 scale(SIGNAL RFMuxout      : LC3b_word)ilvshow g
+G -360 580 M 1 -1 scale(SIGNAL dest          : LC3b_reg)ilvshow g
+G -360 571 M 1 -1 scale(SIGNAL StoreMuxOut   : LC3b_reg)ilvshow g
+G -360 616 M 1 -1 scale(SIGNAL offset9       : LC3b_offset9)ilvshow g
+G -360 553 M 1 -1 scale(SIGNAL SrcA          : LC3b_reg)ilvshow g
+G -360 598 M 1 -1 scale(SIGNAL index6        : LC3b_index6)ilvshow g
+G -360 562 M 1 -1 scale(SIGNAL SrcB          : LC3b_reg)ilvshow g
+G -360 634 M 1 -1 scale(SIGNAL ran2          : LC3b_word)ilvshow g
+G -360 589 M 1 -1 scale(SIGNAL destn         : LC3b_reg)ilvshow g
+G -360 625 M 1 -1 scale(SIGNAL r7ch          : LC3b_reg)ilvshow g
+G -360 607 M 1 -1 scale(SIGNAL offset11      : LC3b_offset11)ilvshow g
+G -360 661 M 1 -1 scale(SIGNAL trap_8        : LC3b_trapvect8)ilvshow g
+G -360 697 M 1 -1 scale(SIGNAL zextTrap      : LC3b_word)ilvshow g
+G -360 652 M 1 -1 scale(SIGNAL ran7          : LC3b_word)ilvshow g
+G -360 643 M 1 -1 scale(SIGNAL ran54         : LC3b_word)ilvshow g
+G -360 688 M 1 -1 scale(SIGNAL zextImm       : LC3b_word)ilvshow g
+G -360 526 M 1 -1 scale(SIGNAL Rarith        : LC3b_word)ilvshow g
+G -360 535 M 1 -1 scale(SIGNAL Rlog          : LC3b_word)ilvshow g
+G -360 544 M 1 -1 scale(SIGNAL Sext6out      : LC3b_word)ilvshow g
+G -360 679 M 1 -1 scale(SIGNAL zLout         : LC3b_word)ilvshow g
+G -360 670 M 1 -1 scale(SIGNAL zHout         : LC3b_word)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 664 575 M 1 -1 scale(Page 13 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 14 14
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 -460 677] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 -460 677] concat
+ n 690 189 -70 510 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.952941 setgray
+0 slw
+n 170 10 250 500 rect  eofill
+0 setgray
+
+250 500 170 10 rectstroke
+0.952941 setgray
+
+n 40 10 210 500 rect  eofill
+0 setgray
+
+210 500 40 10 rectstroke
+0.952941 setgray
+
+n 200 40 420 470 rect  eofill
+0 setgray
+
+420 470 200 40 rectstroke
+n 712 530 M 590 530 L 590 407 L s
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 664 575 M 1 -1 scale(Page 14 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 15 15
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+ n 690 189 620 510 rect clip
+12/Helvetica ilvsf
+[] 0 setdash
+0.498039 setgray
+0 slw
+n 721 557 M 721 513 L  789 471 L  789 599 L  721 557 L  
+ eofill
+0.25098 setgray
+2 slw
+
+n 721 557 M 721 513 L 789 471 L 789 599 L 721 557 L s
+0.952941 setgray
+0 slw
+
+n 200 40 420 470 rect  eofill
+0 setgray
+
+420 470 200 40 rectstroke
+0.8 setgray
+
+n 49 39 851 471 rect  eofill
+0.0784314 setgray
+2 slw
+
+851 471 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+0 setgray
+0 slw
+
+n G 852 507 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+ n 690 189 620 510 rect clip
+0.8 setgray
+
+n 49 39 1011 521 rect  eofill
+0.0784314 setgray
+2 slw
+
+1011 521 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+0 setgray
+0 slw
+
+n G 1012 557 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+ n 690 189 620 510 rect clip
+0.8 setgray
+
+n 49 39 851 581 rect  eofill
+0.0784314 setgray
+2 slw
+
+851 581 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+0 setgray
+0 slw
+
+n G 852 617 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+ n 690 189 620 510 rect clip
+0.8 setgray
+
+n 49 39 851 521 rect  eofill
+0.0784314 setgray
+2 slw
+
+851 521 49 39 rectstroke
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+0 setgray
+0 slw
+
+n G 852 557 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+n G 722 597 t 15 -15 scale
+15 15 8[15 0 0 -15 0 15]  currentfile /ASCII85Decode filter  image
+zzzz!.]TMJ:N0#J:IV"zJH,ZLs8W-!^jlCb!!!"Ls8W-!s8W,7s*t(L!!%QLs8W-!s8N'!z!.b(Lz!!
+*&7zJH#Ts-RU8h-i^s^!!!"Ls8W-!s8W-!s1eU7!!%QL!%0-A-RU;A^]4?7!.b(L-RU8h-R\r0zJH,ZL
+s8W-!s8Tk7!!!"Lrr=Do-RU8hs1eU7!!%QL!%0-A-RU;A^]4?7!.b+Ls8W-!s8W,7zJAAt9^qdb$^qd_
+c!!~>
+g
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+ n 690 189 620 510 rect clip
+0 setgray
+
+n 712 530 M 590 530 L 590 407 L s
+n 1100 540 M 1060 540 L s
+n 1010 530 M 930 530 L 930 480 L 900 480 L s
+n 970 490 M 970 610 L 900 610 L s
+n 950 490 M 950 550 L 900 550 L s
+n 850 530 M 820 530 L 820 510 L 797 510 L s
+n 850 590 M 830 590 L 830 550 L 797 550 L s
+n 830 590 M 797 590 L s
+n 930 530 M 900 530 L s
+n 930 530 M 930 580 L 900 580 L s
+0.498039 setgray
+
+n 712 530 M 720 526 L  720 534 L  712 530 L  
+ eofill
+0 setgray
+
+n 712 530 M 720 526 L 720 534 L 712 530 L s
+0.498039 setgray
+
+n 790 590 M 797 586 L  797 594 L  790 590 L  
+ eofill
+0 setgray
+
+n 790 590 M 797 586 L 797 594 L 790 590 L s
+0.498039 setgray
+
+n 790 550 M 797 546 L  797 554 L  790 550 L  
+ eofill
+0 setgray
+
+n 790 550 M 797 546 L 797 554 L 790 550 L s
+0.498039 setgray
+
+n 790 510 M 797 506 L  797 514 L  790 510 L  
+ eofill
+0 setgray
+
+n 790 510 M 797 506 L 797 514 L 790 510 L s
+1 setgray
+
+n matrix currentmatrix 1100 540 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+0.341176 setgray
+
+n matrix currentmatrix 1100 540 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+0 setgray
+
+n 1060 540 M 1067 536 L  1067 544 L  1060 540 L  
+ eofill
+n 1060 540 M 1067 536 L 1067 544 L 1060 540 L s
+n 1002 530 M 1010 526 L  1010 534 L  1002 530 L  
+ eofill
+n 1002 530 M 1010 526 L 1010 534 L 1002 530 L s
+n matrix currentmatrix 930 530 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 930 530 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+n matrix currentmatrix 930 530 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 930 530 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+n 900 610 M 907 606 L  907 614 L  900 610 L  
+ eofill
+n 900 610 M 907 606 L 907 614 L 900 610 L s
+n 900 550 M 907 546 L  907 554 L  900 550 L  
+ eofill
+n 900 550 M 907 546 L 907 554 L 900 550 L s
+n 842 530 M 850 526 L  850 534 L  842 530 L  
+ eofill
+n 842 530 M 850 526 L 850 534 L 842 530 L s
+n 842 590 M 850 586 L  850 594 L  842 590 L  
+ eofill
+n 842 590 M 850 586 L 850 594 L 842 590 L s
+n matrix currentmatrix 830 590 t 4 4 scale 0 0 M 1 -1 scale  0 0 1 0 360 arc setmatrix
+ eofill
+n matrix currentmatrix 830 590 t 4 4 scale 1 -1 scale  0 0 1 0 360 arc setmatrix s
+n 900 530 M 907 526 L  907 534 L  900 530 L  
+ eofill
+n 900 530 M 907 526 L 907 534 L 900 530 L s
+n 900 580 M 907 576 L  907 584 L  900 580 L  
+ eofill
+n 900 580 M 907 576 L 907 584 L 900 580 L s
+8/Courier ilvsf
+
+G 780 512 M 1 -1 scale(Input10)dup stringwidth pop -1 mul 0 rM ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+ G 
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+ n 690 189 620 510 rect clip
+745 580 M[-1.19034e-12 -1 1 -1.19034e-12 0 0]concat
+0 7 rM 1 -1 scale(Select4 : \(1:0\))ilvshow g
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+ rc sc realmatrix setmatrix 
+[0 -1 1 0 -460 1367] concat
+ n 690 189 620 510 rect clip
+8/Courier-Bold ilvsf
+
+G 1032 533 M 1 -1 scale(ece411)ilvshow g
+G 1032 542 M 1 -1 scale(ZEXTImmD4)ilvshow g
+G 1032 551 M 1 -1 scale(U_9)ilvshow g
+G 862 593 M 1 -1 scale(ece411)ilvshow g
+G 862 602 M 1 -1 scale(LSHF)ilvshow g
+G 862 611 M 1 -1 scale(U_0)ilvshow g
+G 862 533 M 1 -1 scale(ece411)ilvshow g
+G 862 542 M 1 -1 scale(RSHLOg)ilvshow g
+G 862 551 M 1 -1 scale(U_2)ilvshow g
+G 747 538 M 1 -1 scale(ece411)ilvshow g
+G 747 547 M 1 -1 scale(WordMux4)ilvshow g
+G 747 556 M 1 -1 scale(U_8)ilvshow g
+8/Courier ilvsf
+
+G 730 532 M 1 -1 scale(Fin)ilvshow g
+G 780 592 M 1 -1 scale(Input00)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 780 552 M 1 -1 scale(Input01)dup stringwidth pop -1 mul 0 rM ilvshow g
+G 1070 538 M 1 -1 scale(Immd4)ilvshow g
+G 960 528 M 1 -1 scale(zextImm)ilvshow g
+G 920 608 M 1 -1 scale(RFAout)ilvshow g
+G 920 548 M 1 -1 scale(RFAout)ilvshow g
+G 682 528 M 1 -1 scale(Fin)ilvshow g
+G 800 528 M 1 -1 scale(Rlog)ilvshow g
+G 800 588 M 1 -1 scale(Llog)ilvshow g
+G 817 588 M 1 -1 scale(Llog)ilvshow g
+G 920 528 M 1 -1 scale(zextImm)ilvshow g
+G 920 578 M 1 -1 scale(zextImm)ilvshow g
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+ rc sc
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+0 setgray
+
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 664 575 M 1 -1 scale(Page 15 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Page: 16 16
+%%BeginPageSetup
+realmatrix setmatrix
+%%EndPageSetup
+realmatrix setmatrix 
+[0 -1 1 0 -460 2057] concat
+realmatrix setmatrix 
+[0 -1 1 0 0 792] concat
+10/Courier-Bold ilvsf
+[] 0 setdash
+0 setgray
+0 slw
+G 330 45 M 1 -1 scale(ece411/Datapath/struct)ilvshow g
+G 664 575 M 1 -1 scale(Page 16 of 16)ilvshow g
+G 50 575 M 1 -1 scale(Printed by ravi7 on 02/06/14 at 19:18:30)ilvshow g
+showpage
+%%Trailer
+end
+%%Pages: 16
+%%EOF

@@ -1,0 +1,110 @@
+DESIGN @stalling@unit
+VIEW interface
+NO_GRAPHIC 0
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 837,0 17 0 
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 832,0 18 0 
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 802,0 19 0 
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 807,0 20 0 
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 817,0 21 0 
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 812,0 22 0 
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 822,0 23 0 
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 827,0 24 0 
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 1,0 27 0 
+DESIGN @stalling@unit
+VIEW interface
+GRAPHIC 1,0 28 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+NO_GRAPHIC 31
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 187,0 40 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+NO_GRAPHIC 46
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 0,0 49 2 
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 360,0 54 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 627,0 55 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+NO_GRAPHIC 56
+DESIGN @stalling@unit
+VIEW struct.bd
+NO_GRAPHIC 57
+LIBRARY mp3lib
+DESIGN @a@n@d2
+VIEW untitled
+GRAPHIC 267,0 59 0 
+DESIGN @a@n@d2
+VIEW untitled
+GRAPHIC 52,0 61 0 
+DESIGN @a@n@d2
+VIEW untitled
+GRAPHIC 57,0 62 0 
+DESIGN @a@n@d2
+VIEW untitled
+GRAPHIC 62,0 63 0 
+LIBRARY ece411
+DESIGN @stalling@unit
+VIEW struct.bd
+NO_GRAPHIC 66
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 267,0 69 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+NO_GRAPHIC 72
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 311,0 75 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+NO_GRAPHIC 83
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 617,0 84 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+NO_GRAPHIC 87
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 267,0 89 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 629,0 91 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 29,0 92 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+GRAPHIC 43,0 93 0 
+DESIGN @stalling@unit
+VIEW struct.bd
+NO_GRAPHIC 96
