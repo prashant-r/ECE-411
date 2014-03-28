@@ -1,9 +1,9 @@
 --
--- VHDL Architecture ece411.zext8.untitled
+-- VHDL Architecture ece411.ZEXT8.untitled
 --
 -- Created:
 --          by - ravi7.ews (linux-a1.ews.illinois.edu)
---          at - 04:04:09 03/16/14
+--          at - 15:34:34 02/02/14
 --
 -- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
 --
@@ -14,20 +14,19 @@ USE ieee.NUMERIC_STD.all;
 LIBRARY ece411;
 USE ece411.LC3b_types.all;
 
-ENTITY zext8 IS
+ENTITY ZEXT8 IS
    PORT( 
-      CLK     : IN     std_logic;
-      RESET_L : IN     STD_LOGIC;
-      sig6    : IN     LC3b_word;
-      sig7    : OUT    LC3b_word
+      clk      : IN     std_logic;
+      trap_8   : IN     LC3b_trapvect8;
+      zextTrap : OUT    LC3b_word
    );
 
 -- Declarations
 
-END zext8 ;
+END ZEXT8 ;
 
 --
-ARCHITECTURE untitled OF zext8 IS
+ARCHITECTURE untitled OF ZEXT8 IS
 BEGIN
 END ARCHITECTURE untitled;
 

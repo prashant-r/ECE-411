@@ -1,9 +1,9 @@
 --
--- VHDL Architecture ece411.ADJ6out.untitled
+-- VHDL Architecture ece411.ADJ6.untitled
 --
 -- Created:
---          by - aikara2.ews (gelib-057-23.ews.illinois.edu)
---          at - 22:50:45 03/17/14
+--          by - lewang2.ews (evrt-252-33.ews.illinois.edu)
+--          at - 10:25:26 09/07/13
 --
 -- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
 --
@@ -14,21 +14,19 @@ USE ieee.NUMERIC_STD.all;
 LIBRARY ece411;
 USE ece411.LC3b_types.all;
 
-ENTITY ADJ6outs IS
+ENTITY ADJ6 IS
    PORT( 
-      RESET_L : IN     STD_LOGIC;
-      clk     : IN     std_logic;
-      index6  : IN     LC3b_index6;
-      adj6out : OUT    LC3b_word
+      indx6  : IN     LC3b_index6;
+      ADJ6out   : OUT    LC3b_word
    );
 
 -- Declarations
 
-END ADJ6outs ;
+END ADJ6 ;
 
 --
-ARCHITECTURE untitled OF ADJ6outs IS
+ARCHITECTURE UNTITLED OF ADJ6 IS
 BEGIN
-	ADJ6OUT <= INDEX6(5) & INDEX6(5) & INDEX6(5) & INDEX6(5) & INDEX6(5) & INDEX6(5) & INDEX6(5) & INDEX6(5) & INDEX6(5) & INDEX6 & '0' AFTER DELAY_MUX2;
+	ADJ6out <= indx6(5) & indx6(5) & indx6(5) & indx6(5) & indx6(5) & indx6(5) & indx6(5) & indx6(5) & indx6(5) & indx6 & '0' AFTER DELAY_MUX2;
 END UNTITLED;
 

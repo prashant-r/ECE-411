@@ -135,10 +135,11 @@ uid 1690,0
 )
 *20 (LogPort
 port (LogicalPort
+m 1
 decl (Decl
-n "MRESP_H"
-t "std_logic"
-o 7
+n "mresp_h"
+t "STD_LOGIC"
+o 15
 suid 119,0
 )
 )
@@ -150,7 +151,7 @@ lang 11
 decl (Decl
 n "PMRESP_H"
 t "STD_LOGIC"
-o 15
+o 14
 suid 120,0
 )
 )
@@ -163,7 +164,7 @@ m 1
 decl (Decl
 n "PMREAD_L"
 t "STD_LOGIC"
-o 14
+o 13
 suid 121,0
 )
 )
@@ -176,7 +177,7 @@ m 1
 decl (Decl
 n "PMWRITE_L"
 t "STD_LOGIC"
-o 13
+o 12
 suid 122,0
 )
 )
@@ -187,7 +188,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 8
+o 7
 suid 123,0
 )
 )
@@ -199,7 +200,7 @@ lang 11
 decl (Decl
 n "PMDATAIN"
 t "lc3b_oword"
-o 12
+o 11
 suid 124,0
 )
 )
@@ -212,7 +213,7 @@ m 1
 decl (Decl
 n "PMADDRESS"
 t "LC3B_WORD"
-o 10
+o 9
 suid 125,0
 )
 )
@@ -224,7 +225,7 @@ m 1
 decl (Decl
 n "PMDATAOUT"
 t "LC3b_oword"
-o 11
+o 10
 suid 126,0
 )
 )
@@ -237,7 +238,7 @@ m 1
 decl (Decl
 n "DataIn"
 t "LC3b_word"
-o 9
+o 8
 suid 127,0
 )
 )
@@ -319,61 +320,61 @@ uid 1685,0
 )
 *38 (MRCItem
 litem &18
-pos 6
+pos 5
 dimension 20
 uid 1687,0
 )
 *39 (MRCItem
 litem &19
-pos 7
+pos 6
 dimension 20
 uid 1689,0
 )
 *40 (MRCItem
 litem &20
-pos 5
+pos 14
 dimension 20
 uid 1691,0
 )
 *41 (MRCItem
 litem &21
-pos 9
+pos 8
 dimension 20
 uid 1693,0
 )
 *42 (MRCItem
 litem &22
-pos 10
+pos 9
 dimension 20
 uid 1695,0
 )
 *43 (MRCItem
 litem &23
-pos 11
+pos 10
 dimension 20
 uid 1697,0
 )
 *44 (MRCItem
 litem &24
-pos 8
+pos 7
 dimension 20
 uid 1699,0
 )
 *45 (MRCItem
 litem &25
-pos 12
+pos 11
 dimension 20
 uid 1701,0
 )
 *46 (MRCItem
 litem &26
-pos 13
+pos 12
 dimension 20
 uid 1703,0
 )
 *47 (MRCItem
 litem &27
-pos 14
+pos 13
 dimension 20
 uid 1705,0
 )
@@ -652,7 +653,7 @@ value "/home/ravi7/ece411/mp3/hds/L1CacheSet"
 )
 (vvPair
 variable "date"
-value "03/14/14"
+value "03/28/14"
 )
 (vvPair
 variable "day"
@@ -664,7 +665,7 @@ value "Friday"
 )
 (vvPair
 variable "dd"
-value "14"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -692,7 +693,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "linux-a2.ews.illinois.edu"
+value "linux-a1.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -784,7 +785,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:51:13"
+value "01:22:17"
 )
 (vvPair
 variable "unit"
@@ -1094,26 +1095,26 @@ suid 118,0
 uid 1734,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 1735,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,12625,15000,13375"
+xt "27000,11625,27750,12375"
 )
 tg (CPTG
 uid 1736,0
 ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
+stg "RightVerticalLayoutStrategy"
 f (Text
 uid 1737,0
 va (VaSet
 font "courier,8,0"
 )
-xt "16000,12550,19500,13450"
-st "MRESP_H"
-blo "16000,13250"
+xt "22500,11550,26000,12450"
+st "mresp_h"
+ju 2
+blo "26000,12250"
 tm "CptPortNameMgr"
 )
 )
@@ -1122,15 +1123,16 @@ uid 1738,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,7200,60000,8100"
-st "MRESP_H   : IN     std_logic  ;
+xt "44000,14400,59000,15300"
+st "mresp_h   : OUT    STD_LOGIC 
 "
 )
 thePort (LogicalPort
+m 1
 decl (Decl
-n "MRESP_H"
-t "std_logic"
-o 7
+n "mresp_h"
+t "STD_LOGIC"
+o 15
 suid 119,0
 )
 )
@@ -1167,8 +1169,8 @@ uid 1743,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,14400,59000,15300"
-st "PMRESP_H  : IN     STD_LOGIC 
+xt "44000,13500,60000,14400"
+st "PMRESP_H  : IN     STD_LOGIC  ;
 "
 )
 thePort (LogicalPort
@@ -1176,7 +1178,7 @@ lang 11
 decl (Decl
 n "PMRESP_H"
 t "STD_LOGIC"
-o 15
+o 14
 suid 120,0
 )
 )
@@ -1214,7 +1216,7 @@ uid 1748,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,13500,60000,14400"
+xt "44000,12600,60000,13500"
 st "PMREAD_L  : OUT    STD_LOGIC  ;
 "
 )
@@ -1224,7 +1226,7 @@ m 1
 decl (Decl
 n "PMREAD_L"
 t "STD_LOGIC"
-o 14
+o 13
 suid 121,0
 )
 )
@@ -1262,7 +1264,7 @@ uid 1753,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,12600,60000,13500"
+xt "44000,11700,60000,12600"
 st "PMWRITE_L : OUT    STD_LOGIC  ;
 "
 )
@@ -1272,7 +1274,7 @@ m 1
 decl (Decl
 n "PMWRITE_L"
 t "STD_LOGIC"
-o 13
+o 12
 suid 122,0
 )
 )
@@ -1309,7 +1311,7 @@ uid 1758,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,8100,60000,9000"
+xt "44000,7200,60000,8100"
 st "RESET_L   : IN     std_logic  ;
 "
 )
@@ -1317,7 +1319,7 @@ thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 8
+o 7
 suid 123,0
 )
 )
@@ -1354,7 +1356,7 @@ uid 1763,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,11700,60500,12600"
+xt "44000,10800,60500,11700"
 st "PMDATAIN  : IN     lc3b_oword  ;
 "
 )
@@ -1363,7 +1365,7 @@ lang 11
 decl (Decl
 n "PMDATAIN"
 t "lc3b_oword"
-o 12
+o 11
 suid 124,0
 )
 )
@@ -1401,7 +1403,7 @@ uid 1768,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,9900,60000,10800"
+xt "44000,9000,60000,9900"
 st "PMADDRESS : OUT    LC3B_WORD  ;
 "
 )
@@ -1411,7 +1413,7 @@ m 1
 decl (Decl
 n "PMADDRESS"
 t "LC3B_WORD"
-o 10
+o 9
 suid 125,0
 )
 )
@@ -1449,7 +1451,7 @@ uid 1773,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,10800,60500,11700"
+xt "44000,9900,60500,10800"
 st "PMDATAOUT : OUT    LC3b_oword  ;
 "
 )
@@ -1458,7 +1460,7 @@ m 1
 decl (Decl
 n "PMDATAOUT"
 t "LC3b_oword"
-o 11
+o 10
 suid 126,0
 )
 )
@@ -1496,7 +1498,7 @@ uid 1778,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,9000,60000,9900"
+xt "44000,8100,60000,9000"
 st "DataIn    : OUT    LC3b_word  ;
 "
 )
@@ -1506,7 +1508,7 @@ m 1
 decl (Decl
 n "DataIn"
 t "LC3b_word"
-o 9
+o 8
 suid 127,0
 )
 )
@@ -2222,7 +2224,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1778,0
+lastUid 1801,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

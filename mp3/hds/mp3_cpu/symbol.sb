@@ -67,7 +67,7 @@ tm "EolColHdrMgr"
 *14 (LogPort
 port (LogicalPort
 decl (Decl
-n "RESET_L"
+n "reset_l"
 t "std_logic"
 o 1
 suid 9,0
@@ -398,19 +398,19 @@ value "/home/ravi7/ece411/mp3/hds/mp3_cpu"
 )
 (vvPair
 variable "date"
-value "03/20/14"
+value "03/28/14"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "20"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -530,7 +530,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "03:16:48"
+value "01:13:39"
 )
 (vvPair
 variable "unit"
@@ -586,7 +586,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "15000,6550,18500,7450"
-st "RESET_L"
+st "reset_l"
 blo "15000,7250"
 tm "CptPortNameMgr"
 )
@@ -597,12 +597,12 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,58000,2700"
-st "RESET_L : IN     std_logic 
+st "reset_l : IN     std_logic 
 "
 )
 thePort (LogicalPort
 decl (Decl
-n "RESET_L"
+n "reset_l"
 t "std_logic"
 o 1
 suid 9,0
@@ -1319,7 +1319,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 879,0
+lastUid 902,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

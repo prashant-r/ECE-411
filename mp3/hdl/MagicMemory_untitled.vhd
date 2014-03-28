@@ -1,25 +1,29 @@
-LIBRARY IEEE;
-USE IEEE.STD_LOGIC_1164.ALL;
-USE IEEE.NUMERIC_STD.ALL;
-LIBRARY ECE411;
-USE ECE411.LC3B_TYPES.ALL;
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
 
 ENTITY MagicMemory IS
-	PORT(
-		RESET_L    : IN     STD_LOGIC;
-		CLK        : IN     STD_LOGIC;
-		I_MREAD_L  : IN     STD_LOGIC;
-		I_ADDRESS  : IN     LC3B_WORD;
-		I_MRESP_H  : OUT    STD_LOGIC;
-		I_DATAIN   : OUT    LC3B_WORD;			
-		D_MREAD_L  : IN     STD_LOGIC;
-		D_MWRITEH_L: IN     STD_LOGIC;
-		D_MWRITEL_L: IN     STD_LOGIC;
-		D_ADDRESS  : IN     LC3B_WORD;
-		D_DATAOUT  : IN     LC3B_WORD;
-		D_DATAIN   : OUT    LC3B_WORD;
-		D_MRESP_H  : OUT    STD_LOGIC
-	);
+   PORT( 
+      reset_l     : IN     std_logic;
+      clk         : IN     std_logic;
+      I_MREAD_L   : IN     std_logic;
+      I_ADDRESS   : IN     LC3b_word;
+      I_MRESP_H   : OUT    std_logic;
+      I_DataIn    : OUT    LC3b_word;
+      D_MREAD_L   : IN     std_logic;
+      D_MWRITEH_L : IN     std_logic;
+      D_MWRITEL_L : IN     std_logic;
+      D_ADDRESS   : IN     LC3b_word;
+      D_DataOut   : IN     LC3b_word;
+      D_DATAIN    : OUT    LC3B_WORD;
+      D_MRESP_H   : OUT    std_logic
+   );
+
+-- Declarations
+
 END MagicMemory ;
 
 ARCHITECTURE UNTITLED OF MagicMemory IS

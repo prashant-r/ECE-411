@@ -10,6 +10,8 @@
 # vsim -L ece411 -L mp3lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"/software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll"} ece411.mp3_cpu(struct) 
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "ArbiterStateMachine(fsm)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Cache_Controller(fsm)".
 # Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
 # Loading std.standard
 # Loading std.textio(body)
@@ -18,6 +20,52 @@
 # Loading work.lc3b_types(body)
 # Loading work.mp3_cpu(struct)#1
 # Loading work.clkgen(untitled)#1
+# Loading work.cachemoney(struct)#1
+# Loading work.arbiter(struct)#1
+# Loading work.and2(untitled)#1
+# Loading work.arbiterstatemachine(fsm)#1
+# Loading work.mux2_1(untitled)#1
+# Loading work.not1(untitled)#1
+# Loading work.or2(untitled)#1
+# Loading work.wordmux2(untitled)#1
+# Loading work.o_wordmux2(untitled)#1
+# Loading mp3lib.nand2(untitled)#1
+# Loading work.l1cacheset(struct)#1
+# Loading work.cache_controller(fsm)#1
+# Loading work.cache_datapath(struct)#1
+# Loading work.addressconstructor(untitled)#1
+# Loading work.adrsripper(untitled)#1
+# Loading work.comp_tag(untitled)#1
+# Loading work.cachewriter(struct)#1
+# Loading work.clock_delay(untitled)#1
+# Loading mp3lib.and2(untitled)#1
+# Loading mp3lib.and3(untitled)#1
+# Loading mp3lib.or2(untitled)#1
+# Loading work.cachewriterblock(struct)#1
+# Loading work.changebyindex(struct)#1
+# Loading work.splitrightcombiner(struct)#1
+# Loading work.bytecombiner(untitled)#1
+# Loading work.bytemux(untitled)#1
+# Loading work.word2byte(untitled)#1
+# Loading mp3lib.nor2(untitled)#1
+# Loading mp3lib.not1(untitled)#1
+# Loading work.numgen(untitled)#1
+# Loading work.offset3bit(untitled)#1
+# Loading work.whichword(untitled)#1
+# Loading work.o_wordripper(untitled)#1
+# Loading work.oword_combiner(untitled)#1
+# Loading mp3lib.decode3_8(untitled)#1
+# Loading work.dataarray(untitled)#1
+# Loading work.dirtycomputer1(untitled)#1
+# Loading work.hitormiss(struct1)#1
+# Loading work.and4(untitled)#1
+# Loading work.clockgate(untitled)#1
+# Loading work.lru(untitled)#1
+# Loading work.mux2_1tag(untitled)#1
+# Loading work.zerooutput(untitled)#1
+# Loading mp3lib.mux2_1(untitled)#1
+# Loading mp3lib.nand3(untitled)#1
+# Loading work.main_pm(untitled)#1
 # Loading work.magicmemory(untitled)#1
 # Loading work.wifdem(struct)#1
 # Loading work.controm(untitled)#1
@@ -28,7 +76,6 @@
 # Loading work.reg16(untitled)#1
 # Loading mp3lib.reg16(untitled)#1
 # Loading work.execute(struct)#1
-# Loading work.and2(untitled)#1
 # Loading work.bitselector(untitled)#1
 # Loading work.control_slice(untitled)#1
 # Loading work.nzpdoubledecoder(untitled)#1
@@ -37,7 +84,6 @@
 # Loading work.id_ex(struct)#1
 # Loading mp3lib.reg3(untitled)#1
 # Loading work.if_id(struct)#1
-# Loading work.wordmux2(untitled)#1
 # Loading work.doesnothing(untitled)#1
 # Loading ieee.std_logic_arith(body)
 # Loading work.instfetch(struct)#1
@@ -57,271 +103,8 @@
 # Loading work.delayer_16(untitled)#1
 # Loading work.plus4(untitled)#1
 # Loading work.stallingunit(struct)#1
-# Loading mp3lib.and2(untitled)#1
 # Loading work.writeback(struct)#1
 # Loading work.gencondcode(untitled)#1
 # Loading work.wordmux4(untitled)#1
 # ** Warning: (vsim-8683) Uninitialized out port /mp3_cpu/TheDatapath/MemStage/Mem_Address(15 downto 0) has no driver.
 # This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
-add wave -position insertpoint sim:/mp3_cpu/TheDatapath/IDecode/aREGFILE/*
-restart -f
-# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
-# ** Warning: (vsim-8683) Uninitialized out port /mp3_cpu/TheDatapath/MemStage/Mem_Address(15 downto 0) has no driver.
-# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
-do str.do
-# --- Executing initialization force file for ../testcode/str.asm --- 
-# Resetting processor for 5 ns. 
-# Initializing the processor. 
-# Done initializing processor, loading ../testcode/str.asm program code. 
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: INVALID ALU OPERATION (ALUOP).
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 4 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: INVALID ALU OPERATION (ALUOP).
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# 0
-# 
-# Done loading ../testcode/str.asm program code. 
-run 98000
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 130 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 175 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# 0
-# 
-restart -f
-# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
-# ** Warning: (vsim-8683) Uninitialized out port /mp3_cpu/TheDatapath/MemStage/Mem_Address(15 downto 0) has no driver.
-# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
-do ld.do
-# --- Executing initialization force file for ../testcode/ld.asm --- 
-# Resetting processor for 5 ns. 
-# Initializing the processor. 
-# Done initializing processor, loading ../testcode/ld.asm program code. 
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: INVALID ALU OPERATION (ALUOP).
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 4 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: INVALID ALU OPERATION (ALUOP).
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# 0
-# 
-# Done loading ../testcode/ld.asm program code. 
-run 9800
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 130 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 175 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# 0
-# 
-restart -f
-# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
-# ** Warning: (vsim-8683) Uninitialized out port /mp3_cpu/TheDatapath/MemStage/Mem_Address(15 downto 0) has no driver.
-# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
-do mp3cpcheck.do
-# --- Executing initialization force file for ../testcode/mp3cpcheck.asm --- 
-# Resetting processor for 5 ns. 
-# Initializing the processor. 
-# Done initializing processor, loading ../testcode/mp3cpcheck.asm program code. 
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: INVALID ALU OPERATION (ALUOP).
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 4 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: INVALID ALU OPERATION (ALUOP).
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# Done loading ../testcode/mp3cpcheck.asm program code. 
-run 9999
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 130 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 175 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-restart -
-restart -f
-# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
-# ** Warning: (vsim-8683) Uninitialized out port /mp3_cpu/TheDatapath/MemStage/Mem_Address(15 downto 0) has no driver.
-# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
-do mp3cp1.do
-# --- Executing initialization force file for ../testcode/mp3cp1.asm --- 
-# Resetting processor for 5 ns. 
-# Initializing the processor. 
-# Done initializing processor, loading ../testcode/mp3cp1.asm program code. 
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: INVALID ALU OPERATION (ALUOP).
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 4 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/GoldenForCp1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: INVALID ALU OPERATION (ALUOP).
-#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/ExecStage/aALU
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 1  Instance: /mp3_cpu/GoldenForCp1
-# Done loading ../testcode/mp3cp1.asm program code. 
-run 9000
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 130 ns  Iteration: 1  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 175 ns  Iteration: 0  Instance: /mp3_cpu/TheDatapath/IDecode/aREGFILE
