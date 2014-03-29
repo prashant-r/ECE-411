@@ -53,7 +53,7 @@ The points that should add to 120+ total:
 
 13) 1point for bubble insert on rate– (1 point) --Thomas
 
-Detailed work breakdown between team members
+Detailed breakdown b/w members
 =============================================
 Tony Jose Aikara :LC3X support, data path to support the full instruction set and data forwarding, support for TRAP, JSSR, and JMP in BTB, Support for unconditional branch and JSR in BTB
 Prashant Ravi: Will be responsible for DRAM bursting, Instruction cache, Data cache, L2 cache and arbiter. Basically anything memory related.
