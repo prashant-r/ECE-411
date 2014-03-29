@@ -27,7 +27,7 @@ The points that should add to 120+ total:
 ==========================================
 0)  All under Basic Design Options! (65 points) -- Prashant (Basic Datapath CP1, Stalling Unit), Tony(All other instruction)
 
-1)  Cache line eviction buffer (8 points) -- Prashant 
+1)  Cache line eviction buffer (8 points) -- Tony Aikara, Prashant
 
 2)  Branch Target Buffer (10 points) -- Thomas
 
