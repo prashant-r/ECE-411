@@ -31,19 +31,25 @@ How you expect to earn the 40 design points (/team member)?
 While we will be responsible for each other’s implementations, eventuallly. A general scheme of responsibilities will be divided according to the design units that follow. If the design unit falls under memory- Prashant Ravi. And if it falls inside datapath -Tony and Thomas.
 
 The points that should add to 120+ total:
-All under Basic Design Options! (65 points) Cache line eviction buffer (8 points) Branch Target Buffer (10 points) Branch prediction under BTB - ( 5 points) LC3-X Support ( 10 points) Support for TRAP, JSSR, and JMP in BTB (5 points) support for unconditional branch and jsr in BTB (5 points) separate branch history table ( 10 points) 2- way set associative BTB with 16 sets (3 points) Bonus fo 8-way set associative L2 cache–10 points
-Bonus for 8-way truereplacement policy–(8 points) L1I,L1D,L2 cache miss rate –1 point each (3 points total)
-–  1point for branch mispredict rate – 1point
-–  1point for bubble insert on rate– 1 point
+All under Basic Design Options! (65 points) -- Prashant (Basic Datapath CP1, Stalling Unit), Tony(All other instructions)
+Cache line eviction buffer (8 points) -- Prashant 
+Branch Target Buffer (10 points) -- Thomas
+Branch prediction under BTB - ( 5 points) --Thomas
+LC3-X Support ( 10 points) -- Tony
+Support for TRAP, JSSR, and JMP in BTB (5 points) --Tony
+support for unconditional branch and jsr in BTB (5 points) --Tony
+separate branch history table ( 10 points) --Thomas
+2- way set associative BTB with 16 sets (3 points)- Thomas
+Bonus fo 8-way set associative L2 cache–(10 points) -- Prashant
+Bonus for 8-way truereplacement policy–(8 points)-- Prashant
+L1I,L1D,L2 cache miss rate –1 point each (3 points total) --Prashant
+–  1point for branch mispredict rate – (1point) --Thomas
+–  1point for bubble insert on rate– (1 point) --Thomas
 
 Detailed work breakdown between team members.
-
 Tony Jose Aikara :LC3X support, data path to support the full instruction set and data forwarding, support for TRAP, JSSR, and JMP in BTB, Support for unconditional branch and JSR in BTB
-
 Prashant Ravi: Will be responsible for DRAM bursting, Instruction cache, Data cache, L2 cache and arbiter. Basically anything memory related.
-
 Thomas Niu : data path to support the full instruction set and data forwarding, Branch Prediction under Branch Target Buffer, Branch Target Buffer,
-
 ReadMEFirst: ( Rules for further commits) Hi team!
 
 Welcome to tony and friends for ECE 411 MP3. For this machine problem we will be using the following conventions for commits:
