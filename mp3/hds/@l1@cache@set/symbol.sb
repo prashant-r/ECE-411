@@ -653,19 +653,19 @@ value "/home/ravi7/ece411/mp3/hds/L1CacheSet"
 )
 (vvPair
 variable "date"
-value "03/28/14"
+value "03/29/14"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Sat"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Saturday"
 )
 (vvPair
 variable "dd"
-value "28"
+value "29"
 )
 (vvPair
 variable "entity_name"
@@ -693,7 +693,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "linux-a1.ews.illinois.edu"
+value "linux-a3.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -785,7 +785,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "01:22:17"
+value "17:15:28"
 )
 (vvPair
 variable "unit"
@@ -852,8 +852,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,60000,2700"
-st "clk       : IN     std_logic  ;
-"
+st "clk       : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -898,8 +897,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,60000,3600"
-st "ADDRESS   : IN     LC3b_word  ;
-"
+st "ADDRESS   : IN     LC3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -943,8 +941,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,4500,60000,5400"
-st "DataOut   : IN     LC3b_word  ;
-"
+st "DataOut   : IN     LC3b_word  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -989,8 +986,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,5400,60000,6300"
-st "MREAD_L   : IN     std_logic  ;
-"
+st "MREAD_L   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1034,8 +1030,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,60000,4500"
-st "MWRITEH_L : IN     std_logic  ;
-"
+st "MWRITEH_L : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1079,8 +1074,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,6300,60000,7200"
-st "mwritel_l : IN     std_logic  ;
-"
+st "mwritel_l : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1095,6 +1089,7 @@ suid 118,0
 uid 1734,0
 ps "OnEdgeStrategy"
 shape (Triangle
+uid 1825,0
 ro 90
 va (VaSet
 vasetType 1
@@ -1124,8 +1119,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,14400,59000,15300"
-st "mresp_h   : OUT    STD_LOGIC 
-"
+st "mresp_h   : OUT    STD_LOGIC "
 )
 thePort (LogicalPort
 m 1
@@ -1170,8 +1164,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,13500,60000,14400"
-st "PMRESP_H  : IN     STD_LOGIC  ;
-"
+st "PMRESP_H  : IN     STD_LOGIC  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1217,8 +1210,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,12600,60000,13500"
-st "PMREAD_L  : OUT    STD_LOGIC  ;
-"
+st "PMREAD_L  : OUT    STD_LOGIC  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1265,8 +1257,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,11700,60000,12600"
-st "PMWRITE_L : OUT    STD_LOGIC  ;
-"
+st "PMWRITE_L : OUT    STD_LOGIC  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1312,8 +1303,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,7200,60000,8100"
-st "RESET_L   : IN     std_logic  ;
-"
+st "RESET_L   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1357,8 +1347,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,10800,60500,11700"
-st "PMDATAIN  : IN     lc3b_oword  ;
-"
+st "PMDATAIN  : IN     lc3b_oword  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1404,8 +1393,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9000,60000,9900"
-st "PMADDRESS : OUT    LC3B_WORD  ;
-"
+st "PMADDRESS : OUT    LC3B_WORD  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1452,8 +1440,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9900,60500,10800"
-st "PMDATAOUT : OUT    LC3b_oword  ;
-"
+st "PMDATAOUT : OUT    LC3b_oword  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1499,8 +1486,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,8100,60000,9000"
-st "DataIn    : OUT    LC3b_word  ;
-"
+st "DataIn    : OUT    LC3b_word  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2224,7 +2210,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1801,0
+lastUid 1894,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

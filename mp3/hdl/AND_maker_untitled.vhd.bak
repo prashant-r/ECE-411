@@ -11,23 +11,23 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
 
-ENTITY AND_maker IS
+ENTITY NAND_maker IS
    PORT (
       A : IN     STD_LOGIC;
       B : IN     STD_LOGIC;
       F : OUT    STD_LOGIC
    );
-END AND_maker;
+END NAND_maker;
 
 --
-ARCHITECTURE untitled OF AND_maker IS
+ARCHITECTURE untitled OF NAND_maker IS
 BEGIN
   PROCESS(A, B)
   BEGIN
     IF ( A='1' AND B='1' ) then
-      F<= '1' after delay_logic2;
+      F<= '0' after 1ns;
     else
-      F <= '0'after delay_logic2;
+      F <= '1'after 1ns;
     end if;
   END PROCESS;
 END ARCHITECTURE untitled;

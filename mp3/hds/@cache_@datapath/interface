@@ -69,7 +69,7 @@ port (LogicalPort
 decl (Decl
 n "ADDRESS"
 t "LC3b_word"
-o 2
+o 1
 suid 486,0
 )
 )
@@ -81,7 +81,7 @@ lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 1
+o 9
 suid 487,0
 )
 )
@@ -94,7 +94,7 @@ m 1
 decl (Decl
 n "DataIn"
 t "LC3b_word"
-o 8
+o 12
 suid 488,0
 )
 )
@@ -106,7 +106,7 @@ lang 11
 decl (Decl
 n "DataOut"
 t "LC3b_word"
-o 4
+o 2
 suid 489,0
 )
 )
@@ -117,7 +117,7 @@ port (LogicalPort
 decl (Decl
 n "MREAD_L"
 t "std_logic"
-o 5
+o 4
 suid 490,0
 )
 )
@@ -129,7 +129,7 @@ m 1
 decl (Decl
 n "mresp_h"
 t "STD_LOGIC"
-o 19
+o 17
 suid 491,0
 )
 )
@@ -140,7 +140,7 @@ port (LogicalPort
 decl (Decl
 n "MWRITEH_L"
 t "std_logic"
-o 3
+o 5
 suid 492,0
 )
 )
@@ -151,7 +151,7 @@ port (LogicalPort
 decl (Decl
 n "mwritel_l"
 t "std_logic"
-o 6
+o 10
 suid 493,0
 )
 )
@@ -164,7 +164,7 @@ m 1
 decl (Decl
 n "PMADDRESS"
 t "LC3B_WORD"
-o 9
+o 15
 suid 494,0
 )
 )
@@ -176,7 +176,7 @@ lang 11
 decl (Decl
 n "PMDATAIN"
 t "lc3b_oword"
-o 11
+o 6
 suid 495,0
 )
 )
@@ -188,7 +188,7 @@ m 1
 decl (Decl
 n "PMDATAOUT"
 t "LC3b_oword"
-o 10
+o 16
 suid 496,0
 )
 )
@@ -200,7 +200,7 @@ lang 11
 decl (Decl
 n "PMRESP_H"
 t "STD_LOGIC"
-o 14
+o 7
 suid 497,0
 )
 )
@@ -211,7 +211,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 7
+o 8
 suid 498,0
 )
 )
@@ -223,7 +223,7 @@ m 1
 decl (Decl
 n "IsItDirty"
 t "STD_LOGIC"
-o 18
+o 13
 suid 499,0
 )
 )
@@ -234,7 +234,7 @@ port (LogicalPort
 decl (Decl
 n "LdOn"
 t "std_logic"
-o 17
+o 3
 suid 500,0
 )
 )
@@ -246,7 +246,7 @@ m 1
 decl (Decl
 n "Miss"
 t "std_logic"
-o 15
+o 14
 suid 501,0
 )
 )
@@ -257,7 +257,7 @@ port (LogicalPort
 decl (Decl
 n "start_hit"
 t "std_logic"
-o 16
+o 11
 suid 502,0
 )
 )
@@ -684,19 +684,19 @@ value "/home/ravi7/ece411/mp3/hds/Cache_Datapath"
 )
 (vvPair
 variable "date"
-value "03/28/14"
+value "03/29/14"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Sat"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Saturday"
 )
 (vvPair
 variable "dd"
-value "28"
+value "29"
 )
 (vvPair
 variable "entity_name"
@@ -724,7 +724,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "linux-a1.ews.illinois.edu"
+value "linux-a3.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -816,7 +816,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "01:22:16"
+value "14:18:36"
 )
 (vvPair
 variable "unit"
@@ -890,7 +890,7 @@ thePort (LogicalPort
 decl (Decl
 n "ADDRESS"
 t "LC3b_word"
-o 2
+o 1
 suid 486,0
 )
 )
@@ -936,7 +936,7 @@ lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 1
+o 9
 suid 487,0
 )
 )
@@ -984,7 +984,7 @@ m 1
 decl (Decl
 n "DataIn"
 t "LC3b_word"
-o 8
+o 12
 suid 488,0
 )
 )
@@ -1030,7 +1030,7 @@ lang 11
 decl (Decl
 n "DataOut"
 t "LC3b_word"
-o 4
+o 2
 suid 489,0
 )
 )
@@ -1075,7 +1075,7 @@ thePort (LogicalPort
 decl (Decl
 n "MREAD_L"
 t "std_logic"
-o 5
+o 4
 suid 490,0
 )
 )
@@ -1122,7 +1122,7 @@ m 1
 decl (Decl
 n "mresp_h"
 t "STD_LOGIC"
-o 19
+o 17
 suid 491,0
 )
 )
@@ -1167,7 +1167,7 @@ thePort (LogicalPort
 decl (Decl
 n "MWRITEH_L"
 t "std_logic"
-o 3
+o 5
 suid 492,0
 )
 )
@@ -1212,7 +1212,7 @@ thePort (LogicalPort
 decl (Decl
 n "mwritel_l"
 t "std_logic"
-o 6
+o 10
 suid 493,0
 )
 )
@@ -1260,7 +1260,7 @@ m 1
 decl (Decl
 n "PMADDRESS"
 t "LC3B_WORD"
-o 9
+o 15
 suid 494,0
 )
 )
@@ -1307,7 +1307,7 @@ lang 11
 decl (Decl
 n "PMDATAIN"
 t "lc3b_oword"
-o 11
+o 6
 suid 495,0
 )
 )
@@ -1354,7 +1354,7 @@ m 1
 decl (Decl
 n "PMDATAOUT"
 t "LC3b_oword"
-o 10
+o 16
 suid 496,0
 )
 )
@@ -1402,7 +1402,7 @@ lang 11
 decl (Decl
 n "PMRESP_H"
 t "STD_LOGIC"
-o 14
+o 7
 suid 497,0
 )
 )
@@ -1447,7 +1447,7 @@ thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 7
+o 8
 suid 498,0
 )
 )
@@ -1494,7 +1494,7 @@ m 1
 decl (Decl
 n "IsItDirty"
 t "STD_LOGIC"
-o 18
+o 13
 suid 499,0
 )
 )
@@ -1539,7 +1539,7 @@ thePort (LogicalPort
 decl (Decl
 n "LdOn"
 t "std_logic"
-o 17
+o 3
 suid 500,0
 )
 )
@@ -1586,7 +1586,7 @@ m 1
 decl (Decl
 n "Miss"
 t "std_logic"
-o 15
+o 14
 suid 501,0
 )
 )
@@ -1631,7 +1631,7 @@ thePort (LogicalPort
 decl (Decl
 n "start_hit"
 t "std_logic"
-o 16
+o 11
 suid 502,0
 )
 )
@@ -2347,6 +2347,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 11878,0
+lastUid 11901,0
 activeModelName "Symbol:CDM"
 )

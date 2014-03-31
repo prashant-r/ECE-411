@@ -67,7 +67,7 @@ tm "EolColHdrMgr"
 *14 (LogPort
 port (LogicalPort
 decl (Decl
-n "reset_l"
+n "RESET_L"
 t "std_logic"
 o 1
 suid 9,0
@@ -398,19 +398,19 @@ value "/home/ravi7/ece411/mp3/hds/mp3_cpu"
 )
 (vvPair
 variable "date"
-value "03/28/14"
+value "03/30/14"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Sun"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Sunday"
 )
 (vvPair
 variable "dd"
-value "28"
+value "30"
 )
 (vvPair
 variable "entity_name"
@@ -438,7 +438,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "linux-a1.ews.illinois.edu"
+value "linux-a2.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -530,7 +530,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "01:13:39"
+value "17:25:18"
 )
 (vvPair
 variable "unit"
@@ -586,7 +586,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "15000,6550,18500,7450"
-st "reset_l"
+st "RESET_L"
 blo "15000,7250"
 tm "CptPortNameMgr"
 )
@@ -597,12 +597,11 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,58000,2700"
-st "reset_l : IN     std_logic 
-"
+st "RESET_L : IN     std_logic "
 )
 thePort (LogicalPort
 decl (Decl
-n "reset_l"
+n "RESET_L"
 t "std_logic"
 o 1
 suid 9,0
@@ -1046,8 +1045,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "253,53,1268,718"
-viewArea "-1000,-5700,39850,16746"
+windowSize "244,38,1259,703"
+viewArea "-1000,-960,37000,19920"
 cachedDiagramExtent "-1000,0,69000,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,0"
@@ -1319,7 +1318,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 902,0
+lastUid 971,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

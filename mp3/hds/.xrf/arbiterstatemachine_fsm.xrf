@@ -6,19 +6,19 @@ VIEW interface
 GRAPHIC 50,0 8 0 
 DESIGN @arbiter@state@machine
 VIEW interface
-GRAPHIC 51,0 17 0 
+GRAPHIC 505,0 17 0 
 DESIGN @arbiter@state@machine
 VIEW interface
-GRAPHIC 56,0 18 0 
+GRAPHIC 510,0 18 0 
 DESIGN @arbiter@state@machine
 VIEW interface
-GRAPHIC 71,0 19 0 
+GRAPHIC 515,0 19 0 
 DESIGN @arbiter@state@machine
 VIEW interface
-GRAPHIC 61,0 20 0 
+GRAPHIC 525,0 20 0 
 DESIGN @arbiter@state@machine
 VIEW interface
-GRAPHIC 66,0 21 0 
+GRAPHIC 520,0 21 0 
 DESIGN @arbiter@state@machine
 VIEW interface
 GRAPHIC 1,0 24 0 
@@ -188,32 +188,40 @@ NO_GRAPHIC 108
 LIBRARY ece411
 DESIGN @arbiter@state@machine
 VIEW fsm.sm
-GRAPHIC 2,0 114 0
+GRAPHIC 32,0 113 0
 LIBRARY ece411
 DESIGN @arbiter@state@machine
 VIEW fsm.sm
-GRAPHIC 168,0 115 0
+NO_GRAPHIC 114
 LIBRARY ece411
 DESIGN @arbiter@state@machine
 VIEW fsm.sm
-GRAPHIC 183,0 116 0
+GRAPHIC 2,0 116 0
 LIBRARY ece411
 DESIGN @arbiter@state@machine
 VIEW fsm.sm
-GRAPHIC 185,0 117 0
+GRAPHIC 168,0 117 0
 LIBRARY ece411
 DESIGN @arbiter@state@machine
 VIEW fsm.sm
-GRAPHIC 200,0 118 0
+GRAPHIC 183,0 118 0
 LIBRARY ece411
 DESIGN @arbiter@state@machine
 VIEW fsm.sm
-NO_GRAPHIC 119
+GRAPHIC 185,0 119 0
 LIBRARY ece411
 DESIGN @arbiter@state@machine
 VIEW fsm.sm
-GRAPHIC 2,0 121 0
+GRAPHIC 200,0 120 0
 LIBRARY ece411
 DESIGN @arbiter@state@machine
 VIEW fsm.sm
-NO_GRAPHIC 123
+NO_GRAPHIC 121
+LIBRARY ece411
+DESIGN @arbiter@state@machine
+VIEW fsm.sm
+GRAPHIC 2,0 123 0
+LIBRARY ece411
+DESIGN @arbiter@state@machine
+VIEW fsm.sm
+NO_GRAPHIC 125

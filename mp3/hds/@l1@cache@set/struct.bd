@@ -88,19 +88,19 @@ value "/home/ravi7/ece411/mp3/hds/L1CacheSet"
 )
 (vvPair
 variable "date"
-value "03/28/14"
+value "03/29/14"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Sat"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Saturday"
 )
 (vvPair
 variable "dd"
-value "28"
+value "29"
 )
 (vvPair
 variable "entity_name"
@@ -128,7 +128,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "linux-a1.ews.illinois.edu"
+value "linux-a3.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -220,7 +220,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "01:22:17"
+value "17:15:28"
 )
 (vvPair
 variable "unit"
@@ -264,9 +264,8 @@ uid 22,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,2700,43000,3600"
-st "ADDRESS   : LC3b_word
-"
+xt "63000,2900,74000,3800"
+st "ADDRESS   : LC3b_word"
 )
 )
 *2 (Net
@@ -283,9 +282,8 @@ uid 36,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,4500,43000,5400"
-st "DataOut   : LC3b_word
-"
+xt "63000,4700,74000,5600"
+st "DataOut   : LC3b_word"
 )
 )
 *3 (Net
@@ -301,9 +299,8 @@ uid 50,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,5400,43000,6300"
-st "MREAD_L   : std_logic
-"
+xt "63000,5600,74000,6500"
+st "MREAD_L   : std_logic"
 )
 )
 *4 (Net
@@ -319,9 +316,8 @@ uid 64,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,3600,43000,4500"
-st "MWRITEH_L : std_logic
-"
+xt "63000,3800,74000,4700"
+st "MWRITEH_L : std_logic"
 )
 )
 *5 (Net
@@ -337,9 +333,8 @@ uid 78,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,6300,43000,7200"
-st "mwritel_l : std_logic
-"
+xt "63000,6500,74000,7400"
+st "mwritel_l : std_logic"
 )
 )
 *6 (PortIoIn
@@ -355,16 +350,16 @@ optionalChildren [
 uid 123,0
 sl 0
 ro 270
-xt "4000,10625,5500,11375"
+xt "4000,8625,5500,9375"
 )
 (Line
 uid 124,0
 sl 0
 ro 270
-xt "5500,11000,6000,11000"
+xt "5500,9000,6000,9000"
 pts [
-"5500,11000"
-"6000,11000"
+"5500,9000"
+"6000,9000"
 ]
 )
 ]
@@ -380,10 +375,10 @@ uid 126,0
 va (VaSet
 font "courier,8,0"
 )
-xt "1500,10550,3000,11450"
+xt "1500,8550,3000,9450"
 st "clk"
 ju 2
-blo "3000,11250"
+blo "3000,9250"
 tm "WireNameMgr"
 )
 )
@@ -732,7 +727,7 @@ fg "39936,56832,65280"
 lineColor "0,0,32768"
 lineWidth 2
 )
-xt "23000,14000,35000,25000"
+xt "23000,8000,35000,19000"
 )
 oxt "0,0,8000,10000"
 ttg (MlTextGroup
@@ -745,9 +740,9 @@ uid 296,0
 va (VaSet
 font "courier,8,1"
 )
-xt "25250,18650,28250,19550"
+xt "25250,12650,28250,13550"
 st "ece411"
-blo "25250,19350"
+blo "25250,13350"
 tm "BdLibraryNameMgr"
 )
 *20 (Text
@@ -755,9 +750,9 @@ uid 297,0
 va (VaSet
 font "courier,8,1"
 )
-xt "25250,19550,33750,20450"
+xt "25250,13550,33750,14450"
 st "Cache_Controller"
-blo "25250,20250"
+blo "25250,14250"
 tm "BlkNameMgr"
 )
 *21 (Text
@@ -765,9 +760,9 @@ uid 298,0
 va (VaSet
 font "courier,8,1"
 )
-xt "25250,20450,30750,21350"
+xt "25250,14450,30750,15350"
 st "Cache_Cont"
-blo "25250,21150"
+blo "25250,15150"
 tm "InstanceNameMgr"
 )
 ]
@@ -782,7 +777,7 @@ uid 301,0
 va (VaSet
 font "courier,8,0"
 )
-xt "25250,28650,25250,28650"
+xt "25250,22650,25250,22650"
 )
 header ""
 )
@@ -796,7 +791,7 @@ va (VaSet
 vasetType 1
 fg "49152,49152,49152"
 )
-xt "23250,23250,24750,24750"
+xt "23250,17250,24750,18750"
 iconName "StateMachineViewIcon.png"
 iconMaskName "StateMachineViewIcon.msk"
 ftype 3
@@ -813,7 +808,7 @@ fg "39936,56832,65280"
 lineColor "0,0,32768"
 lineWidth 2
 )
-xt "24000,33000,35000,46000"
+xt "23000,33000,35000,46000"
 )
 oxt "0,0,8000,10000"
 ttg (MlTextGroup
@@ -877,7 +872,7 @@ va (VaSet
 vasetType 1
 fg "49152,49152,49152"
 )
-xt "24250,44250,25750,45750"
+xt "23250,44250,24750,45750"
 iconName "BlockDiagram.png"
 iconMaskName "BlockDiagram.msk"
 ftype 1
@@ -939,9 +934,8 @@ uid 940,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,16200,46500,17100"
-st "SIGNAL Miss      : std_logic
-"
+xt "63000,16400,77500,17300"
+st "SIGNAL Miss      : std_logic"
 )
 )
 )
@@ -996,9 +990,8 @@ uid 1712,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,18900,46500,19800"
-st "SIGNAL IsItDirty : STD_LOGIC
-"
+xt "63000,19100,77500,20000"
+st "SIGNAL IsItDirty : STD_LOGIC"
 )
 )
 )
@@ -1059,9 +1052,8 @@ uid 1037,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,17100,46500,18000"
-st "SIGNAL start_hit : std_logic
-"
+xt "63000,17300,77500,18200"
+st "SIGNAL start_hit : std_logic"
 )
 )
 )
@@ -1116,9 +1108,8 @@ uid 1055,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,18000,46500,18900"
-st "SIGNAL LdOn      : std_logic
-"
+xt "63000,18200,77500,19100"
+st "SIGNAL LdOn      : std_logic"
 )
 )
 )
@@ -1138,9 +1129,8 @@ uid 538,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,13500,43000,14400"
-st "PMRESP_H  : STD_LOGIC
-"
+xt "63000,13700,74000,14600"
+st "PMRESP_H  : STD_LOGIC"
 )
 )
 *37 (Net
@@ -1157,9 +1147,8 @@ uid 540,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,12600,43000,13500"
-st "PMREAD_L  : STD_LOGIC
-"
+xt "63000,12800,74000,13700"
+st "PMREAD_L  : STD_LOGIC"
 )
 )
 *38 (Net
@@ -1176,9 +1165,8 @@ uid 542,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,11700,43000,12600"
-st "PMWRITE_L : STD_LOGIC
-"
+xt "63000,11900,74000,12800"
+st "PMWRITE_L : STD_LOGIC"
 )
 )
 *39 (Net
@@ -1195,9 +1183,8 @@ uid 564,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,1800,43000,2700"
-st "clk       : std_logic
-"
+xt "63000,2000,74000,2900"
+st "clk       : std_logic"
 )
 )
 *40 (Net
@@ -1213,9 +1200,8 @@ uid 574,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,7200,43000,8100"
-st "RESET_L   : std_logic
-"
+xt "63000,7400,74000,8300"
+st "RESET_L   : std_logic"
 )
 )
 *41 (Net
@@ -1232,9 +1218,8 @@ uid 586,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,10800,43500,11700"
-st "PMDATAIN  : lc3b_oword
-"
+xt "63000,11000,74500,11900"
+st "PMDATAIN  : lc3b_oword"
 )
 )
 *42 (Net
@@ -1251,9 +1236,8 @@ uid 590,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,9000,43000,9900"
-st "PMADDRESS : LC3B_WORD
-"
+xt "63000,9200,74000,10100"
+st "PMADDRESS : LC3B_WORD"
 )
 )
 *43 (Net
@@ -1269,9 +1253,8 @@ uid 592,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,9900,43500,10800"
-st "PMDATAOUT : LC3b_oword
-"
+xt "63000,10100,74500,11000"
+st "PMDATAOUT : LC3b_oword"
 )
 )
 &28
@@ -1291,9 +1274,8 @@ uid 1445,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,8100,43000,9000"
-st "DataIn    : LC3b_word
-"
+xt "63000,8300,74000,9200"
+st "DataIn    : LC3b_word"
 )
 )
 &30
@@ -1310,16 +1292,16 @@ optionalChildren [
 uid 2843,0
 sl 0
 ro 270
-xt "41500,20625,43000,21375"
+xt "41500,14625,43000,15375"
 )
 (Line
 uid 2844,0
 sl 0
 ro 270
-xt "41000,21000,41500,21000"
+xt "41000,15000,41500,15000"
 pts [
-"41000,21000"
-"41500,21000"
+"41000,15000"
+"41500,15000"
 ]
 )
 ]
@@ -1335,9 +1317,9 @@ uid 2846,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,20500,48000,21400"
+xt "44000,14500,48000,15400"
 st "PMREAD_L"
-blo "44000,21200"
+blo "44000,15200"
 tm "WireNameMgr"
 )
 )
@@ -1355,16 +1337,16 @@ optionalChildren [
 uid 2849,0
 sl 0
 ro 270
-xt "41500,21625,43000,22375"
+xt "41500,15625,43000,16375"
 )
 (Line
 uid 2850,0
 sl 0
 ro 270
-xt "41000,22000,41500,22000"
+xt "41000,16000,41500,16000"
 pts [
-"41000,22000"
-"41500,22000"
+"41000,16000"
+"41500,16000"
 ]
 )
 ]
@@ -1380,9 +1362,9 @@ uid 2852,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,21500,48500,22400"
+xt "44000,15500,48500,16400"
 st "PMWRITE_L"
-blo "44000,22200"
+blo "44000,16200"
 tm "WireNameMgr"
 )
 )
@@ -1400,16 +1382,16 @@ optionalChildren [
 uid 2871,0
 sl 0
 ro 90
-xt "48500,18625,50000,19375"
+xt "48500,12625,50000,13375"
 )
 (Line
 uid 2872,0
 sl 0
 ro 90
-xt "48000,19000,48500,19000"
+xt "48000,13000,48500,13000"
 pts [
-"48500,19000"
-"48000,19000"
+"48500,13000"
+"48000,13000"
 ]
 )
 ]
@@ -1425,9 +1407,9 @@ uid 2874,0
 va (VaSet
 font "courier,8,0"
 )
-xt "51000,18550,55000,19450"
+xt "51000,12550,55000,13450"
 st "PMRESP_H"
-blo "51000,19250"
+blo "51000,13250"
 tm "WireNameMgr"
 )
 )
@@ -1444,17 +1426,17 @@ optionalChildren [
 (Pentagon
 uid 2877,0
 sl 0
-ro 180
-xt "41625,33000,42375,34500"
+ro 270
+xt "46500,39625,48000,40375"
 )
 (Line
 uid 2878,0
 sl 0
-ro 180
-xt "42000,34500,42000,35000"
+ro 270
+xt "46000,40000,46500,40000"
 pts [
-"42000,35000"
-"42000,34500"
+"46000,40000"
+"46500,40000"
 ]
 )
 ]
@@ -1467,14 +1449,12 @@ ps "PortIoTextPlaceStrategy"
 stg "STSignalDisplayStrategy"
 f (Text
 uid 2880,0
-ro 90
 va (VaSet
 font "courier,8,0"
 )
-xt "41550,27500,42450,32000"
+xt "49000,39550,53500,40450"
 st "PMADDRESS"
-ju 2
-blo "41750,32000"
+blo "49000,40250"
 tm "WireNameMgr"
 )
 )
@@ -1491,17 +1471,17 @@ optionalChildren [
 (Pentagon
 uid 2883,0
 sl 0
-ro 180
-xt "42625,33000,43375,34500"
+ro 270
+xt "46500,40625,48000,41375"
 )
 (Line
 uid 2884,0
 sl 0
-ro 180
-xt "43000,34500,43000,35000"
+ro 270
+xt "46000,41000,46500,41000"
 pts [
-"43000,35000"
-"43000,34500"
+"46000,41000"
+"46500,41000"
 ]
 )
 ]
@@ -1514,14 +1494,12 @@ ps "PortIoTextPlaceStrategy"
 stg "STSignalDisplayStrategy"
 f (Text
 uid 2886,0
-ro 90
 va (VaSet
 font "courier,8,0"
 )
-xt "42550,27500,43450,32000"
+xt "49000,40550,53500,41450"
 st "PMDATAOUT"
-ju 2
-blo "42750,32000"
+blo "49000,41250"
 tm "WireNameMgr"
 )
 )
@@ -1538,15 +1516,17 @@ optionalChildren [
 (Pentagon
 uid 2889,0
 sl 0
-xt "44625,33000,45375,34500"
+ro 90
+xt "46500,41625,48000,42375"
 )
 (Line
 uid 2890,0
 sl 0
-xt "45000,34500,45000,35000"
+ro 90
+xt "46000,42000,46500,42000"
 pts [
-"45000,34500"
-"45000,35000"
+"46500,42000"
+"46000,42000"
 ]
 )
 ]
@@ -1559,14 +1539,12 @@ ps "PortIoTextPlaceStrategy"
 stg "STSignalDisplayStrategy"
 f (Text
 uid 2892,0
-ro 90
 va (VaSet
 font "courier,8,0"
 )
-xt "44550,28000,45450,32000"
+xt "49000,41550,53000,42450"
 st "PMDATAIN"
-ju 2
-blo "44750,32000"
+blo "49000,42250"
 tm "WireNameMgr"
 )
 )
@@ -1584,16 +1562,16 @@ optionalChildren [
 uid 2901,0
 sl 0
 ro 270
-xt "44500,43625,46000,44375"
+xt "46500,43625,48000,44375"
 )
 (Line
 uid 2902,0
 sl 0
 ro 270
-xt "44000,44000,44500,44000"
+xt "46000,44000,46500,44000"
 pts [
-"44000,44000"
-"44500,44000"
+"46000,44000"
+"46500,44000"
 ]
 )
 ]
@@ -1609,9 +1587,9 @@ uid 2904,0
 va (VaSet
 font "courier,8,0"
 )
-xt "47000,43550,50000,44450"
+xt "49000,43550,52000,44450"
 st "DataIn"
-blo "47000,44250"
+blo "49000,44250"
 tm "WireNameMgr"
 )
 )
@@ -1859,16 +1837,16 @@ optionalChildren [
 uid 2943,0
 sl 0
 ro 270
-xt "4000,11625,5500,12375"
+xt "5000,11625,6500,12375"
 )
 (Line
 uid 2944,0
 sl 0
 ro 270
-xt "5500,12000,6000,12000"
+xt "6500,12000,7000,12000"
 pts [
-"5500,12000"
-"6000,12000"
+"6500,12000"
+"7000,12000"
 ]
 )
 ]
@@ -1884,10 +1862,10 @@ uid 2946,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-500,11550,3000,12450"
+xt "500,11550,4000,12450"
 st "RESET_L"
 ju 2
-blo "3000,12250"
+blo "4000,12250"
 tm "WireNameMgr"
 )
 )
@@ -1905,9 +1883,8 @@ uid 3043,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,14400,43000,15300"
-st "mresp_h   : STD_LOGIC
-"
+xt "63000,14600,74000,15500"
+st "mresp_h   : STD_LOGIC"
 )
 )
 *59 (PortIoOut
@@ -1962,10 +1939,11 @@ uid 16,0
 va (VaSet
 vasetType 3
 )
-xt "10000,42000,24000,42000"
+xt "10000,42000,23000,42000"
 pts [
 "10000,42000"
-"24000,42000"
+"17000,42000"
+"23000,42000"
 ]
 )
 start &54
@@ -2001,10 +1979,11 @@ uid 30,0
 va (VaSet
 vasetType 3
 )
-xt "10000,43000,24000,43000"
+xt "10000,43000,23000,43000"
 pts [
 "10000,43000"
-"24000,43000"
+"17000,43000"
+"23000,43000"
 ]
 )
 start &56
@@ -2040,10 +2019,11 @@ uid 44,0
 va (VaSet
 vasetType 3
 )
-xt "10000,39000,24000,39000"
+xt "10000,39000,23000,39000"
 pts [
 "10000,39000"
-"24000,39000"
+"17000,39000"
+"23000,39000"
 ]
 )
 start &52
@@ -2079,10 +2059,11 @@ uid 58,0
 va (VaSet
 vasetType 3
 )
-xt "10000,40000,24000,40000"
+xt "10000,40000,23000,40000"
 pts [
 "10000,40000"
-"24000,40000"
+"17000,40000"
+"23000,40000"
 ]
 )
 start &53
@@ -2118,10 +2099,11 @@ uid 72,0
 va (VaSet
 vasetType 3
 )
-xt "10000,41000,24000,41000"
+xt "10000,41000,23000,41000"
 pts [
 "10000,41000"
-"24000,41000"
+"17000,41000"
+"23000,41000"
 ]
 )
 start &55
@@ -2157,11 +2139,10 @@ uid 336,0
 va (VaSet
 vasetType 3
 )
-xt "35000,35000,42000,40000"
+xt "35000,40000,46000,40000"
 pts [
 "35000,40000"
-"42000,40000"
-"42000,35000"
+"46000,40000"
 ]
 )
 start &22
@@ -2180,9 +2161,9 @@ uid 342,0
 va (VaSet
 font "courier,8,0"
 )
-xt "37000,35100,41500,36000"
+xt "41000,40100,45500,41000"
 st "PMADDRESS"
-blo "37000,35800"
+blo "41000,40800"
 tm "WireNameMgr"
 )
 )
@@ -2195,11 +2176,10 @@ uid 346,0
 va (VaSet
 vasetType 3
 )
-xt "35000,35000,43000,41000"
+xt "35000,41000,46000,41000"
 pts [
 "35000,41000"
-"43000,41000"
-"43000,35000"
+"46000,41000"
 ]
 )
 start &22
@@ -2233,10 +2213,9 @@ uid 356,0
 va (VaSet
 vasetType 3
 )
-xt "35000,35000,45000,42000"
+xt "35000,42000,46000,42000"
 pts [
-"45000,35000"
-"45000,42000"
+"46000,42000"
 "35000,42000"
 ]
 )
@@ -2275,7 +2254,7 @@ uid 452,0
 va (VaSet
 vasetType 1
 )
-xt "18600,17600,19400,18400"
+xt "18600,11600,19400,12400"
 radius 400
 )
 )
@@ -2285,16 +2264,15 @@ uid 440,0
 va (VaSet
 vasetType 3
 )
-xt "6000,12000,23000,18000"
+xt "7000,12000,23000,12000"
 pts [
-"6000,12000"
-"9000,12000"
-"9000,18000"
-"23000,18000"
+"7000,12000"
+"23000,12000"
 ]
 )
 start &57
 end &18
+ss 0
 sat 32
 eat 1
 stc 0
@@ -2311,9 +2289,9 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "8000,11100,11500,12000"
+xt "9000,11100,12500,12000"
 st "RESET_L"
-blo "8000,11800"
+blo "9000,11800"
 tm "WireNameMgr"
 )
 )
@@ -2326,11 +2304,11 @@ uid 446,0
 va (VaSet
 vasetType 3
 )
-xt "19000,18000,24000,36000"
+xt "19000,12000,23000,36000"
 pts [
-"19000,18000"
+"19000,12000"
 "19000,36000"
-"24000,36000"
+"23000,36000"
 ]
 )
 start &69
@@ -2350,9 +2328,9 @@ uid 450,0
 va (VaSet
 font "courier,8,0"
 )
-xt "21000,35100,24500,36000"
+xt "20000,35100,23500,36000"
 st "RESET_L"
-blo "21000,35800"
+blo "20000,35800"
 tm "WireNameMgr"
 )
 )
@@ -2367,10 +2345,10 @@ vasetType 3
 lineColor "32768,0,0"
 lineWidth 2
 )
-xt "30000,25000,30000,33000"
+xt "30000,19000,30000,33000"
 pts [
 "30000,33000"
-"30000,25000"
+"30000,19000"
 ]
 )
 start &22
@@ -2387,9 +2365,9 @@ ro 270
 va (VaSet
 font "courier,8,0"
 )
-xt "28100,26500,29000,38000"
+xt "28100,19500,29000,31000"
 st "cache_control_feedback"
-blo "28800,38000"
+blo "28800,31000"
 tm "BundleNameMgr"
 )
 second (MLText
@@ -2398,7 +2376,7 @@ ro 270
 va (VaSet
 font "courier,8,0"
 )
-xt "29000,29500,29900,38000"
+xt "29000,22500,29900,31000"
 st "(IsItDirty,Miss)"
 tm "BundleContentsMgr"
 )
@@ -2414,9 +2392,9 @@ vasetType 3
 lineColor "32768,0,0"
 lineWidth 2
 )
-xt "24000,25000,24000,33000"
+xt "24000,19000,24000,33000"
 pts [
-"24000,25000"
+"24000,19000"
 "24000,33000"
 ]
 )
@@ -2434,9 +2412,9 @@ ro 270
 va (VaSet
 font "courier,8,0"
 )
-xt "25100,28000,26000,37000"
+xt "25100,21000,26000,30000"
 st "cache_control_out"
-blo "25800,37000"
+blo "25800,30000"
 tm "BundleNameMgr"
 )
 second (MLText
@@ -2445,7 +2423,7 @@ ro 270
 va (VaSet
 font "courier,8,0"
 )
-xt "26000,28500,26900,37000"
+xt "26000,21500,26900,30000"
 st "(LdOn,start_hit)"
 tm "BundleContentsMgr"
 )
@@ -2459,11 +2437,10 @@ uid 488,0
 va (VaSet
 vasetType 3
 )
-xt "35000,22000,41000,22000"
+xt "35000,16000,41000,16000"
 pts [
-"35000,22000"
-"38000,22000"
-"41000,22000"
+"35000,16000"
+"41000,16000"
 ]
 )
 start &18
@@ -2483,9 +2460,9 @@ uid 494,0
 va (VaSet
 font "courier,8,0"
 )
-xt "37000,21100,41500,22000"
+xt "37000,15100,41500,16000"
 st "PMWRITE_L"
-blo "37000,21800"
+blo "37000,15800"
 tm "WireNameMgr"
 )
 )
@@ -2498,11 +2475,10 @@ uid 498,0
 va (VaSet
 vasetType 3
 )
-xt "35000,21000,41000,21000"
+xt "35000,15000,41000,15000"
 pts [
-"35000,21000"
-"38000,21000"
-"41000,21000"
+"35000,15000"
+"41000,15000"
 ]
 )
 start &18
@@ -2522,9 +2498,9 @@ uid 504,0
 va (VaSet
 font "courier,8,0"
 )
-xt "37000,20100,41000,21000"
+xt "37000,14100,41000,15000"
 st "PMREAD_L"
-blo "37000,20800"
+blo "37000,14800"
 tm "WireNameMgr"
 )
 )
@@ -2541,7 +2517,7 @@ uid 2964,0
 va (VaSet
 vasetType 1
 )
-xt "38600,18600,39400,19400"
+xt "38600,12600,39400,13400"
 radius 400
 )
 )
@@ -2551,11 +2527,10 @@ uid 508,0
 va (VaSet
 vasetType 3
 )
-xt "35000,19000,48000,19000"
+xt "35000,13000,48000,13000"
 pts [
-"48000,19000"
-"42000,19000"
-"35000,19000"
+"48000,13000"
+"35000,13000"
 ]
 )
 start &47
@@ -2573,11 +2548,12 @@ f (Text
 uid 514,0
 ro 270
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
-xt "47100,14000,48000,18000"
+xt "47100,8000,48000,12000"
 st "PMRESP_H"
-blo "47800,18000"
+blo "47800,12000"
 tm "WireNameMgr"
 )
 )
@@ -2594,7 +2570,7 @@ uid 2868,0
 va (VaSet
 vasetType 1
 )
-xt "14600,14600,15400,15400"
+xt "14600,8600,15400,9400"
 radius 400
 )
 )
@@ -2604,12 +2580,10 @@ uid 556,0
 va (VaSet
 vasetType 3
 )
-xt "6000,11000,23000,15000"
+xt "6000,9000,23000,9000"
 pts [
-"6000,11000"
-"15000,11000"
-"15000,15000"
-"23000,15000"
+"6000,9000"
+"23000,9000"
 ]
 )
 start &6
@@ -2631,9 +2605,9 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "7100,9500,8000,11000"
+xt "7100,7500,8000,9000"
 st "clk"
-blo "7800,11000"
+blo "7800,9000"
 tm "WireNameMgr"
 )
 )
@@ -2646,11 +2620,11 @@ uid 566,0
 va (VaSet
 vasetType 3
 )
-xt "15000,15000,24000,38000"
+xt "15000,9000,23000,38000"
 pts [
-"15000,15000"
+"15000,9000"
 "15000,38000"
-"24000,38000"
+"23000,38000"
 ]
 )
 start &78
@@ -2670,9 +2644,9 @@ uid 570,0
 va (VaSet
 font "courier,8,0"
 )
-xt "20000,1100,21500,2000"
+xt "20000,-4900,21500,-4000"
 st "clk"
-blo "20000,1800"
+blo "20000,-4200"
 tm "WireNameMgr"
 )
 )
@@ -2685,11 +2659,10 @@ uid 1437,0
 va (VaSet
 vasetType 3
 )
-xt "35000,44000,44000,44000"
+xt "35000,44000,46000,44000"
 pts [
 "35000,44000"
-"40000,44000"
-"44000,44000"
+"46000,44000"
 ]
 )
 start &22
@@ -2727,9 +2700,9 @@ uid 2474,0
 va (VaSet
 vasetType 3
 )
-xt "34000,19000,39000,33000"
+xt "34000,13000,39000,33000"
 pts [
-"39000,19000"
+"39000,13000"
 "39000,26000"
 "34000,26000"
 "34000,33000"
@@ -2751,9 +2724,9 @@ uid 2480,0
 va (VaSet
 font "courier,8,0"
 )
-xt "41000,18100,45000,19000"
+xt "41000,12100,45000,13000"
 st "PMRESP_H"
-blo "41000,18800"
+blo "41000,12800"
 tm "WireNameMgr"
 )
 )
@@ -2913,12 +2886,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-3,44,1212,723"
-viewArea "-13100,16432,65100,51112"
-cachedDiagramExtent "-500,0,61000,54000"
+windowSize "-3,21,1917,1056"
+viewArea "-13100,2800,105620,58096"
+cachedDiagramExtent "0,-4900,77500,54000"
 hasePageBreakOrigin 1
-pageBreakOrigin "-8000,0"
-lastUid 3051,0
+pageBreakOrigin "-8000,-51000"
+lastUid 3319,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3913,18 +3886,18 @@ uid 2,0
 va (VaSet
 font "courier,8,1"
 )
-xt "30000,0,36500,900"
+xt "61000,200,67500,1100"
 st "Declarations"
-blo "30000,700"
+blo "61000,900"
 )
 portLabel (Text
 uid 3,0
 va (VaSet
 font "courier,8,1"
 )
-xt "30000,900,33000,1800"
+xt "61000,1100,64000,2000"
 st "Ports:"
-blo "30000,1600"
+blo "61000,1800"
 )
 preUserLabel (Text
 uid 4,0
@@ -3932,9 +3905,9 @@ va (VaSet
 isHidden 1
 font "courier,8,1"
 )
-xt "30000,0,34500,900"
+xt "61000,200,65500,1100"
 st "Pre User:"
-blo "30000,700"
+blo "61000,900"
 )
 preUserText (MLText
 uid 5,0
@@ -3942,7 +3915,7 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "30000,0,30000,0"
+xt "61000,200,61000,200"
 tm "BdDeclarativeTextMgr"
 )
 diagSignalLabel (Text
@@ -3950,9 +3923,9 @@ uid 6,0
 va (VaSet
 font "courier,8,1"
 )
-xt "30000,15300,38500,16200"
+xt "61000,15500,69500,16400"
 st "Diagram Signals:"
-blo "30000,16000"
+blo "61000,16200"
 )
 postUserLabel (Text
 uid 7,0
@@ -3960,9 +3933,9 @@ va (VaSet
 isHidden 1
 font "courier,8,1"
 )
-xt "30000,0,35500,900"
+xt "61000,200,66500,1100"
 st "Post User:"
-blo "30000,700"
+blo "61000,900"
 )
 postUserText (MLText
 uid 8,0
@@ -3970,7 +3943,7 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "30000,0,30000,0"
+xt "61000,200,61000,200"
 tm "BdDeclarativeTextMgr"
 )
 )

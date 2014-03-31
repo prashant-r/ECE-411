@@ -49,3 +49,75 @@ Trace back: grab failed: window not viewable
     (command bound to event)
   <2: ::tkerror {grab failed: window not viewable}
   <1: ::bgerror {grab failed: window not viewable}
+Sat Mar 29 14:10:44 CDT 2014
+Trace back: can't unset "::wait_for_it": no such variable
+    while executing
+"unset ::wait_for_it"
+    (object "::.main_pane.source.interior.cs.body.editor" method "::vsimwidgets::Srcedit::ExecBusyCmd" body line 16)
+    invoked from within
+"$_srcedit ExecBusyCmd 1500 "<< [_name]s Results""
+    (object "::.main_pane.source.interior.cs.body.editor.cs.panedWindow.f1.frame.paned.f0.frame.sw.tf.extra.drivers" method "::vsimwidgets::Srcedit::ResultsWidget::_update" body line 57)
+    invoked from within
+"::.main_pane.source.interior.cs.body.editor.cs.panedWindow.f1.frame.paned.f0.frame.sw.tf.extra.drivers _update -data {{sim:/mp3_cpu/TheDatapath/REGD/U..."
+    ("eval" body line 1)
+    invoked from within
+"eval $o _update $args"
+    (procedure "::vsimwidgets::Srcedit::ResultsWidget::Update" body line 10)
+    invoked from within
+"vsimwidgets::Srcedit::ResultsWidget::Update  -data $DriverList -signal $sig -from $drivers_or_readers"
+    (procedure "::vsimwidgets::Srcedit::HandleDrivers" body line 60)
+    invoked from within
+"vsimwidgets::Srcedit::HandleDrivers [lindex $sigList 0] $d_or_r"
+    (procedure "_showDFReadersDrivers" line 39)
+    invoked from within
+"_showDFReadersDrivers drivers .main_pane.wave.interior.cs.body.pw.wf 1"
+    ("eval" body line 1)
+    invoked from within
+"eval _showDFReadersDrivers "drivers" $winname $classic $args"
+    (procedure "Wave::ShowDFDrivers" line 2)
+    invoked from within
+"Wave::ShowDFDrivers $top 1"
+    ("dataflow" arm line 2)
+    invoked from within
+"switch $m {
+               "dataflow" {
+                  Wave::ShowDFDrivers $top 1
+               }
+               "schematic" {
+                  W..."
+    (procedure "Wave::1Up" line 25)
+    invoked from within
+"Wave::1Up $widget $x $y"
+    (procedure "Wave::SelectUp" line 4)
+    invoked from within
+"Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data -278 495 0 676 "
+    (command bound to event)
+  <2: ::tkerror {can't unset "::wait_for_it": no such variable}
+  <1: ::bgerror {can't unset "::wait_for_it": no such variable}
+Sun Mar 30 13:06:44 CDT 2014
+Trace back: bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.tmpcolsep2"
+    while executing
+"place $grid.tmpcolsep$num -x $xpos -y 0"
+    (procedure "mtigrid_colsep_motion" line 27)
+    invoked from within
+"mtigrid_colsep_motion  .main_pane.wave.interior.cs.body.pw.wf.grid 3 .main_pane.wave.interior.cs.body.pw.wf.grid.colsep3 1 322"
+    (command bound to event)
+  <2: ::tkerror {bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.tmpcolsep2"}
+  <1: ::bgerror {bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.tmpcolsep2"}
+Sun Mar 30 13:07:14 CDT 2014
+Trace back: bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.tmpcolsep2"
+    while executing
+"place $grid.tmpcolsep$num -x $xpos -y 0"
+    (procedure "mtigrid_colsep_motion" line 27)
+    invoked from within
+"mtigrid_colsep_motion  .main_pane.wave.interior.cs.body.pw.wf.grid 3 .main_pane.wave.interior.cs.body.pw.wf.grid.colsep3 2 322"
+    (command bound to event)
+  <2: ::tkerror {bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.tmpcolsep2"}
+  <1: ::bgerror {bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.tmpcolsep2"}
+Sun Mar 30 13:28:25 CDT 2014
+Trace back: wrong # args: should be "mti_popupinternal menu w"
+    while executing
+"mti_popupinternal .main_pane.wave.interior.cs.body.pw.wf.wavewaveareapopup_popup "
+    ("after" script)
+  <2: ::tkerror {wrong # args: should be "mti_popupinternal menu w"}
+  <1: ::bgerror {wrong # args: should be "mti_popupinternal menu w"}

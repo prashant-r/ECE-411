@@ -70,7 +70,7 @@ lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 1
+o 5
 suid 84,0
 )
 )
@@ -83,7 +83,7 @@ m 1
 decl (Decl
 n "PMREAD_L"
 t "STD_LOGIC"
-o 14
+o 7
 suid 85,0
 )
 )
@@ -95,7 +95,7 @@ lang 11
 decl (Decl
 n "PMRESP_H"
 t "STD_LOGIC"
-o 15
+o 3
 suid 86,0
 )
 )
@@ -108,7 +108,7 @@ m 1
 decl (Decl
 n "PMWRITE_L"
 t "STD_LOGIC"
-o 13
+o 8
 suid 87,0
 )
 )
@@ -119,7 +119,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 8
+o 4
 suid 88,0
 )
 )
@@ -130,7 +130,7 @@ port (LogicalPort
 decl (Decl
 n "IsItDirty"
 t "STD_LOGIC"
-o 19
+o 1
 suid 89,0
 )
 )
@@ -142,7 +142,7 @@ m 1
 decl (Decl
 n "LdOn"
 t "std_logic"
-o 18
+o 6
 suid 90,0
 )
 )
@@ -153,7 +153,7 @@ port (LogicalPort
 decl (Decl
 n "Miss"
 t "std_logic"
-o 16
+o 2
 suid 91,0
 )
 )
@@ -165,7 +165,7 @@ m 1
 decl (Decl
 n "start_hit"
 t "std_logic"
-o 17
+o 9
 suid 92,0
 )
 )
@@ -544,19 +544,19 @@ value "/home/ravi7/ece411/mp3/hds/Cache_Controller"
 )
 (vvPair
 variable "date"
-value "03/14/14"
+value "03/29/14"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Sat"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Saturday"
 )
 (vvPair
 variable "dd"
-value "14"
+value "29"
 )
 (vvPair
 variable "entity_name"
@@ -584,7 +584,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "linux-a2.ews.illinois.edu"
+value "linux-a3.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -676,7 +676,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "15:51:12"
+value "14:15:55"
 )
 (vvPair
 variable "unit"
@@ -751,7 +751,7 @@ lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 1
+o 5
 suid 84,0
 )
 )
@@ -799,7 +799,7 @@ m 1
 decl (Decl
 n "PMREAD_L"
 t "STD_LOGIC"
-o 14
+o 7
 suid 85,0
 )
 )
@@ -846,7 +846,7 @@ lang 11
 decl (Decl
 n "PMRESP_H"
 t "STD_LOGIC"
-o 15
+o 3
 suid 86,0
 )
 )
@@ -894,7 +894,7 @@ m 1
 decl (Decl
 n "PMWRITE_L"
 t "STD_LOGIC"
-o 13
+o 8
 suid 87,0
 )
 )
@@ -939,7 +939,7 @@ thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 8
+o 4
 suid 88,0
 )
 )
@@ -984,7 +984,7 @@ thePort (LogicalPort
 decl (Decl
 n "IsItDirty"
 t "STD_LOGIC"
-o 19
+o 1
 suid 89,0
 )
 )
@@ -1031,7 +1031,7 @@ m 1
 decl (Decl
 n "LdOn"
 t "std_logic"
-o 18
+o 6
 suid 90,0
 )
 )
@@ -1076,7 +1076,7 @@ thePort (LogicalPort
 decl (Decl
 n "Miss"
 t "std_logic"
-o 16
+o 2
 suid 91,0
 )
 )
@@ -1123,7 +1123,7 @@ m 1
 decl (Decl
 n "start_hit"
 t "std_logic"
-o 17
+o 9
 suid 92,0
 )
 )
@@ -1839,6 +1839,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1234,0
+lastUid 1257,0
 activeModelName "Symbol:CDM"
 )

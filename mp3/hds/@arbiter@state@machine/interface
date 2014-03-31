@@ -25,7 +25,7 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 5,0
+suid 19,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -70,10 +70,10 @@ decl (Decl
 n "D_request"
 t "STD_LOGIC"
 o 1
-suid 1,0
+suid 15,0
 )
 )
-uid 76,0
+uid 530,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -81,21 +81,21 @@ decl (Decl
 n "I_request"
 t "STD_LOGIC"
 o 2
-suid 2,0
+suid 16,0
 )
 )
-uid 78,0
+uid 532,0
 )
 *16 (LogPort
 port (LogicalPort
 decl (Decl
-n "reset_l"
+n "RESET_L"
 t "std_logic"
-o 4
-suid 3,0
+o 3
+suid 17,0
 )
 )
-uid 80,0
+uid 534,0
 )
 *17 (LogPort
 port (LogicalPort
@@ -105,21 +105,22 @@ decl (Decl
 n "Sel"
 t "std_logic"
 o 5
-suid 4,0
+suid 18,0
 )
 )
-uid 82,0
+uid 536,0
 )
 *18 (LogPort
 port (LogicalPort
+lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 3
-suid 5,0
+o 4
+suid 19,0
 )
 )
-uid 84,0
+uid 538,0
 )
 ]
 )
@@ -175,31 +176,31 @@ uid 106,0
 litem &14
 pos 0
 dimension 20
-uid 77,0
+uid 531,0
 )
 *25 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 79,0
+uid 533,0
 )
 *26 (MRCItem
 litem &16
-pos 3
+pos 2
 dimension 20
-uid 81,0
+uid 535,0
 )
 *27 (MRCItem
 litem &17
-pos 4
+pos 3
 dimension 20
-uid 83,0
+uid 537,0
 )
 *28 (MRCItem
 litem &18
-pos 2
+pos 4
 dimension 20
-uid 85,0
+uid 539,0
 )
 ]
 )
@@ -470,19 +471,19 @@ value "/home/ravi7/ece411/mp3/hds/ArbiterStateMachine"
 )
 (vvPair
 variable "date"
-value "03/28/14"
+value "03/30/14"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Sun"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Sunday"
 )
 (vvPair
 variable "dd"
-value "28"
+value "30"
 )
 (vvPair
 variable "entity_name"
@@ -510,7 +511,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "linux-a1.ews.illinois.edu"
+value "linux-a3.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -602,7 +603,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "00:30:02"
+value "13:36:33"
 )
 (vvPair
 variable "unit"
@@ -637,10 +638,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *62 (CptPort
-uid 51,0
+uid 505,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 52,0
+uid 506,0
 ro 90
 va (VaSet
 vasetType 1
@@ -649,11 +650,11 @@ fg "0,65535,0"
 xt "14250,7625,15000,8375"
 )
 tg (CPTG
-uid 53,0
+uid 507,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 54,0
+uid 508,0
 va (VaSet
 font "courier,8,0"
 )
@@ -664,27 +665,28 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 55,0
+uid 509,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,60000,2700"
-st "D_request : IN     STD_LOGIC  ;"
+st "D_request : IN     STD_LOGIC  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "D_request"
 t "STD_LOGIC"
 o 1
-suid 1,0
+suid 15,0
 )
 )
 )
 *63 (CptPort
-uid 56,0
+uid 510,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 57,0
+uid 511,0
 ro 90
 va (VaSet
 vasetType 1
@@ -693,11 +695,11 @@ fg "0,65535,0"
 xt "14250,13625,15000,14375"
 )
 tg (CPTG
-uid 58,0
+uid 512,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 59,0
+uid 513,0
 va (VaSet
 font "courier,8,0"
 )
@@ -708,103 +710,106 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 60,0
+uid 514,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,60000,3600"
-st "I_request : IN     STD_LOGIC  ;"
+st "I_request : IN     STD_LOGIC  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "I_request"
 t "STD_LOGIC"
 o 2
-suid 2,0
+suid 16,0
 )
 )
 )
 *64 (CptPort
-uid 61,0
+uid 515,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 62,0
+uid 516,0
 ro 180
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "18625,5250,19375,6000"
+xt "21625,5250,22375,6000"
 )
 tg (CPTG
-uid 63,0
+uid 517,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 64,0
+uid 518,0
 ro 270
 va (VaSet
 font "courier,8,0"
 )
-xt "18550,7000,19450,10500"
-st "reset_l"
+xt "21550,7000,22450,10500"
+st "RESET_L"
 ju 2
-blo "19250,7000"
+blo "22250,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 65,0
+uid 519,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,4500,60000,5400"
-st "reset_l   : IN     std_logic  ;"
+xt "44000,3600,60000,4500"
+st "RESET_L   : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
-n "reset_l"
+n "RESET_L"
 t "std_logic"
-o 4
-suid 3,0
+o 3
+suid 17,0
 )
 )
 )
 *65 (CptPort
-uid 66,0
+uid 520,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 67,0
+uid 521,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "23000,6625,23750,7375"
+xt "26000,9625,26750,10375"
 )
 tg (CPTG
-uid 68,0
+uid 522,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 69,0
+uid 523,0
 va (VaSet
 font "courier,8,0"
 )
-xt "20500,6550,22000,7450"
+xt "23500,9550,25000,10450"
 st "Sel"
 ju 2
-blo "22000,7250"
+blo "25000,10250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 70,0
+uid 524,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,5400,59000,6300"
-st "Sel       : OUT    std_logic "
+st "Sel       : OUT    std_logic 
+"
 )
 thePort (LogicalPort
 lang 11
@@ -813,15 +818,15 @@ decl (Decl
 n "Sel"
 t "std_logic"
 o 5
-suid 4,0
+suid 18,0
 )
 )
 )
 *66 (CptPort
-uid 71,0
+uid 525,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 72,0
+uid 526,0
 ro 90
 va (VaSet
 vasetType 1
@@ -830,11 +835,11 @@ fg "0,65535,0"
 xt "14250,14625,15000,15375"
 )
 tg (CPTG
-uid 73,0
+uid 527,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 74,0
+uid 528,0
 va (VaSet
 font "courier,8,0"
 )
@@ -845,19 +850,21 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 75,0
+uid 529,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,3600,60000,4500"
-st "clk       : IN     std_logic  ;"
+xt "44000,4500,60000,5400"
+st "clk       : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 3
-suid 5,0
+o 4
+suid 19,0
 )
 )
 )
@@ -870,8 +877,9 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,23000,16000"
+xt "15000,6000,26000,16000"
 )
+oxt "15000,6000,23000,16000"
 biTextGroup (BiTextGroup
 uid 10,0
 ps "CenterOffsetStrategy"
@@ -881,18 +889,18 @@ uid 11,0
 va (VaSet
 font "courier,8,1"
 )
-xt "14000,10100,17000,11000"
+xt "15500,10100,18500,11000"
 st "ece411"
-blo "14000,10800"
+blo "15500,10800"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "courier,8,1"
 )
-xt "14000,11000,24000,11900"
+xt "15500,11000,25500,11900"
 st "ArbiterStateMachine"
-blo "14000,11700"
+blo "15500,11700"
 )
 )
 gi *67 (GenericInterface
@@ -905,7 +913,7 @@ uid 15,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-8000,7000,2500,7900"
+xt "-6500,7000,4000,7900"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -1571,6 +1579,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 326,0
+lastUid 562,0
 activeModelName "Symbol:CDM"
 )

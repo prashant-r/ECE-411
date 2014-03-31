@@ -1,5 +1,5 @@
 SEGMENT CodeSegment :
-
+NOP
 LDR R2, R0,ONE
 NOP
 NOP

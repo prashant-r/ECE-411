@@ -112,19 +112,19 @@ value "/home/ravi7/ece411/mp3/hds/InstFetch"
 )
 (vvPair
 variable "date"
-value "03/27/14"
+value "03/29/14"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Sat"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Saturday"
 )
 (vvPair
 variable "dd"
-value "27"
+value "29"
 )
 (vvPair
 variable "entity_name"
@@ -152,7 +152,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "linux-a2.ews.illinois.edu"
+value "linux-a3.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -244,7 +244,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:45:14"
+value "16:02:59"
 )
 (vvPair
 variable "unit"
@@ -1710,7 +1710,7 @@ font "courier,8,0"
 xt "35200,38200,54200,43600"
 st "
 -- eb3 3 
-ifetch_mread_l <= NOT(CLK);
+ifetch_mread_l <= CLK;
 ifetch_ready <= ifetch_mresp_h;
 ifetch_out <= ifetch_datain;
 ifetch_address <= PCout;                                     
@@ -3399,11 +3399,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-3,21,1178,728"
-viewArea "-27600,14060,39360,44660"
+viewArea "-2643,14100,63201,44190"
 cachedDiagramExtent "-22500,0,59500,55300"
 hasePageBreakOrigin 1
 pageBreakOrigin "-80000,0"
-lastUid 6426,0
+lastUid 6475,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
