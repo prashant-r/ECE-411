@@ -27,31 +27,36 @@ The points that should add to 120+ total:
 ==========================================
 0)  All under Basic Design Options! (65 points) -- Prashant (Basic Datapath CP1, Stalling Unit), Tony(All other instruction)
 
-1)  Cache line eviction buffer (8 points) -- Tony Aikara, Prashant
+0)  Cache line write buffer ( 10 points) -- Prashant
+  
+1)  Cache line eviction buffer (8 points) -- Prashant
 
-2)  Branch Target Buffer (10 points) -- Thomas
+2)  Bonus fo 8-way set associative L2 cache–(10 points) -- Prashant
 
-3)  Branch prediction under BTB - ( 5 points) --Thomas
+3)  Bonus for 8-way true LRU replacement policy–(8 points)-- Prashant
 
-4)  LC3-X Support ( 10 points) -- Tony
+4)  L1I,L1D,L2 cache miss rate –1 point each (3 points total) --Prashant
 
-5)  Support for TRAP, JSSR, and JMP in BTB (5 points) --Tony
+5)  Superscalar Memory leapfrogging/ Tomasulo's Algorithm ( 30 points) -- Prashant
 
-6)  Support for unconditional branch and jsr in BTB (5 points) --Tony
+6)  Branch Target Buffer (10 points) -- Thomas
 
-7)  Separate branch history table ( 10 points) --Thomas
+7)  Branch prediction under BTB - ( 5 points) --Thomas
 
-8)  2- way set associative BTB with 16 sets (3 points)- Thomas
+8)  LC3-X Support ( 10 points) -- Tony
 
-9)  Bonus fo 8-way set associative L2 cache–(10 points) -- Prashant
+9)  Support for TRAP, JSSR, and JMP in BTB (5 points) --Tony
 
-10) Bonus for 8-way truereplacement policy–(8 points)-- Prashant
+10)  Support for unconditional branch and jsr in BTB (5 points) --Tony, Thomas
 
-11) L1I,L1D,L2 cache miss rate –1 point each (3 points total) --Prashant
+11) Separate branch history table ( 10 points) --Thomas
 
-12) 1point for branch mispredict rate – (1point) --Thomas
+12) 2- way set associative BTB with 16 sets (3 points)- Thomas
 
-13) 1point for bubble insert on rate– (1 point) --Thomas
+
+
+12) 1point for branch mispredict rate , bubble rate– (2 points) --Thomas
+
 
 Detailed breakdown b/w members
 =============================================
