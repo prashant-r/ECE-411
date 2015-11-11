@@ -13,7 +13,7 @@ Datapath Design: Branch, Target Buffer, Branch prediction under BTB , Support fo
 
 Compiler/hardware co-design: LC3-X Support
 
-What work we plan to do?
+What work we plan to do.
 ===========================
 The plan is to design a basic pipeline within our datapath that would run all our testcode from mp1 just as accurately, for the first checkpoint.In this checkpoint, of course we will be using the provided code for main memory so, the cache implementation will be scrapped for now.
 
